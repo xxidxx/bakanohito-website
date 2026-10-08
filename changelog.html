@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bakanohito Changelog — Product updates, releases, and engineering notes for Local AI Gateway, Prompt Orchestrator, and Eval Platform.">
+  <title>Changelog — Bakanohito</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-bg: #ffffff;
+      --color-text: #171717;
+      --color-text-secondary: #4d4d4d;
+      --color-text-muted: #666666;
+      --color-border: rgba(0, 0, 0, 0.08);
+      --color-border-strong: #ebebeb;
+      --color-accent: #0a72ef;
+      --color-accent-hover: #0058c7;
+      --color-surface: #fafafa;
+      --shadow-border: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      --shadow-card: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px, rgba(0, 0, 0, 0.04) 0px 8px 8px -8px, #fafafa 0px 0px 0px 1px;
+      --shadow-hover: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.06) 0px 4px 8px, rgba(0, 0, 0, 0.06) 0px 16px 16px -16px, #fafafa 0px 0px 0px 1px;
+      --focus-ring: hsla(212, 100%, 48%, 1);
+      --radius-sm: 4px;
+      --radius-md: 6px;
+      --radius-lg: 8px;
+      --radius-xl: 12px;
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 24px;
+      --space-6: 32px;
+      --space-7: 48px;
+      --space-8: 64px;
+      --space-9: 96px;
+      --container-max: 1200px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-bg: #08090a;
+        --color-text: #f7f8f8;
+        --color-text-secondary: #d0d6e0;
+        --color-text-muted: #8a8f98;
+        --color-border: rgba(255, 255, 255, 0.08);
+        --color-border-strong: #23252a;
+        --color-accent: #7170ff;
+        --color-accent-hover: #828fff;
+        --color-surface: #0f1011;
+        --shadow-border: rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+        --shadow-card: rgba(0, 0, 0, 0.4) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+        --shadow-hover: rgba(0, 0, 0, 0.4) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 4px 12px, rgba(0, 0, 0, 0.3) 0px 16px 24px -16px;
+        --focus-ring: hsla(212, 100%, 48%, 1);
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Geist', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-feature-settings: "liga" 1;
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    a { color: var(--color-accent); text-decoration: none; font-weight: 500; transition: color 0.15s ease; }
+    a:hover { color: var(--color-accent-hover); text-decoration: underline; }
+    .container { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--space-4); }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); font-family: inherit; font-size: 14px; font-weight: 500; line-height: 1.43; padding: 8px 16px; border-radius: var(--radius-md); border: none; cursor: pointer; transition: all 0.15s ease; text-decoration: none; }
+    .btn:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+    .btn-primary { background-color: var(--color-text); color: var(--color-bg); }
+    .btn-primary:hover { background-color: #000; text-decoration: none; }
+    .btn-secondary { background-color: var(--color-bg); color: var(--color-text); box-shadow: var(--shadow-border); }
+    .btn-secondary:hover { background-color: var(--color-surface); text-decoration: none; }
+    .badge { display: inline-flex; align-items: center; padding: 0 10px; height: 24px; border-radius: 9999px; font-size: 12px; font-weight: 500; line-height: 1; background-color: #ebf5ff; color: #0068d6; }
+    @media (prefers-color-scheme: dark) { .badge { background-color: rgba(113, 112, 255, 0.15); color: #a5a4ff; } }
+    header { position: sticky; top: 0; z-index: 100; background-color: var(--color-bg); border-bottom: 1px solid var(--color-border-strong); }
+    .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { display: flex; align-items: center; gap: var(--space-2); font-size: 20px; font-weight: 600; letter-spacing: -0.4px; color: var(--color-text); text-decoration: none; }
+    .logo:hover { text-decoration: none; }
+    .logo svg { width: 32px; height: 32px; }
+    .nav-links { display: flex; align-items: center; gap: var(--space-6); }
+    .nav-links a { font-size: 14px; font-weight: 500; color: var(--color-text-secondary); text-decoration: none; }
+    .nav-links a:hover { color: var(--color-text); text-decoration: none; }
+    .nav-links a.active { color: var(--color-text); font-weight: 600; }
+    .page-hero { padding: var(--space-9) 0 var(--space-8); text-align: center; }
+    .page-hero .badge { margin-bottom: var(--space-4); }
+    .page-hero h1 { font-size: 48px; font-weight: 600; line-height: 1.0; letter-spacing: -2.4px; color: var(--color-text); margin-bottom: var(--space-4); max-width: 800px; margin-left: auto; margin-right: auto; }
+    .page-hero p { font-size: 20px; font-weight: 400; line-height: 1.8; color: var(--color-text-secondary); max-width: 640px; margin: 0 auto; }
+    .section { padding: var(--space-9) 0; border-top: 1px solid var(--color-border-strong); }
+    .section:first-of-type { border-top: none; }
+    .release { background: var(--color-bg); border: 1px solid var(--color-border-strong); border-radius: var(--radius-lg); padding: var(--space-6); margin-bottom: var(--space-5); transition: box-shadow 0.2s ease; }
+    .release:hover { box-shadow: var(--shadow-hover); }
+    .release-header { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-4); margin-bottom: var(--space-4); flex-wrap: wrap; }
+    .release-title-row { display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap; }
+    .release-version { font-family: 'Geist Mono', monospace; font-size: 14px; font-weight: 600; color: var(--color-accent); }
+    .release-date { font-size: 14px; color: var(--color-text-muted); }
+    .release-tags { display: flex; gap: var(--space-2); flex-wrap: wrap; }
+    .release-tag { padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+    .release-tag.major { background: #fee2e2; color: #dc2626; }
+    .release-tag.minor { background: #dbeafe; color: #2563eb; }
+    .release-tag.patch { background: #dcfce7; color: #16a34a; }
+    .release-tag.beta { background: #fef3c7; color: #f59e0b; }
+    @media (prefers-color-scheme: dark) {
+      .release-tag.major { background: #7f1d1d; color: #fca5a5; }
+      .release-tag.minor { background: #1e3a5f; color: #93c5fd; }
+      .release-tag.patch { background: #14532d; color: #86efac; }
+      .release-tag.beta { background: #713f12; color: #fde047; }
+    }
+    .release h3 { font-size: 20px; font-weight: 600; line-height: 1.3; letter-spacing: -0.8px; color: var(--color-text); margin-bottom: var(--space-3); }
+    .release-body { color: var(--color-text-secondary); line-height: 1.7; }
+    .release-body ul { margin-left: var(--space-5); margin-top: var(--space-3); }
+    .release-body li { margin-bottom: var(--space-2); }
+    .release-body code { font-family: 'Geist Mono', monospace; font-size: 13px; background: var(--color-surface); padding: 2px 6px; border-radius: var(--radius-sm); border: 1px solid var(--color-border-strong); }
+    .release-footer { display: flex; align-items: center; gap: var(--space-3); margin-top: var(--space-4); padding-top: var(--space-4); border-top: 1px solid var(--color-border-strong); font-size: 13px; color: var(--color-text-muted); }
+    .release-author { display: flex; align-items: center; gap: var(--space-2); }
+    .release-author img { width: 24px; height: 24px; border-radius: 50%; background: linear-gradient(135deg, var(--color-accent), #5e6ad2); }
+    .changelog-sidebar { position: sticky; top: 80px; }
+    .sidebar-section { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-lg); padding: var(--space-5); margin-bottom: var(--space-5); }
+    .sidebar-section h4 { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--color-text-muted); margin-bottom: var(--space-3); }
+    .sidebar-links { list-style: none; }
+    .sidebar-links li { margin-bottom: var(--space-2); }
+    .sidebar-links a { font-size: 14px; color: var(--color-text-secondary); }
+    .sidebar-links a:hover { color: var(--color-text); }
+    .sidebar-links a.active { color: var(--color-accent); font-weight: 500; }
+    .grid-2-col { display: grid; grid-template-columns: 1fr 280px; gap: var(--space-7); }
+    @media (max-width: 1024px) { .grid-2-col { grid-template-columns: 1fr; } .changelog-sidebar { position: static; } }
+    @media (max-width: 768px) { .page-hero h1 { font-size: 36px; letter-spacing: -1.8px; } .page-hero p { font-size: 18px; } .release-header { flex-direction: column; align-items: flex-start; } }
+    footer { padding: var(--space-8) 0; border-top: 1px solid var(--color-border-strong); background-color: var(--color-surface); }
+    .footer-content { display: flex; flex-direction: column; align-items: center; gap: var(--space-4); text-align: center; }
+    .footer-links { display: flex; gap: var(--space-6); }
+    .footer-links a { font-size: 14px; color: var(--color-text-muted); }
+    .footer-links a:hover { color: var(--color-text); }
+    .copyright { font-size: 14px; color: var(--color-text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#171717"/><circle cx="32" cy="32" r="28" stroke="#0a72ef" stroke-width="2" fill="none" opacity="0.3"/><g transform="translate(16, 16)"><circle cx="8" cy="8" r="3" fill="#0a72ef" opacity="0.9"/><circle cx="24" cy="8" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="20" r="3" fill="#0a72ef" opacity="0.8"/><circle cx="8" cy="32" r="3" fill="#0a72ef" opacity="0.6"/><circle cx="24" cy="32" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="44" r="3" fill="#0a72ef" opacity="0.9"/></g></svg>
+        Bakanohito
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="changelog.html" class="active">Changelog</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="index.html#contact" class="btn btn-primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge">Product Updates</span>
+        <h1>Changelog</h1>
+        <p>Every release, fix, and improvement across our products. Subscribe to RSS or follow <a href="https://github.com/bakanohito" target="_blank" rel="noopener">GitHub releases</a> for real-time updates.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-2-col">
+          <div class="changelog-main">
+            <!-- Gateway Releases -->
+            <article class="release">
+              <div class="release-header">
+                <div class="release-title-row">
+                  <span class="release-version">gateway v2.3.0</span>
+                  <span class="release-date">January 15, 2025</span>
+                  <div class="release-tags">
+                    <span class="release-tag minor">Minor</span>
+                    <span class="release-tag">Gateway</span>
+                  </div>
+                </div>
+              </div>
+              <h3>Model Router + OpenTelemetry Metrics</h3>
+              <div class="release-body">
+                <p>Major feature release adding intelligent model routing and production-grade observability.</p>
+                <ul>
+                  <li><strong>Model Router:</strong> Automatic model selection by task type (coding → Llama-3.1-70B, reasoning → GPT-4o, fast → Llama-3.1-8B). Configurable fallback chains with health checks.</li>
+                  <li><strong>OpenTelemetry:</strong> Full OTel integration — traces, metrics, logs exported to Jaeger, Datadog, or your collector. <code>OTEL_EXPORTER_OTLP_ENDPOINT</code> configuration.</li>
+                  <li><strong>API Keys v2:</strong> Scoped keys (read-only, admin, model-specific), expiration, rotation API, usage analytics per key.</li>
+                  <li><strong>Performance:</strong> 40% faster cold starts via model pre-warming, connection pooling for vLLM/TGI backends.</li>
+                </ul>
+              </div>
+              <div class="release-footer">
+                <div class="release-author">
+                  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M8 14s1.5 2 4 2 4-2 4-2'/%3E%3Cpath d='M9 11h6'/%3E%3C/svg%3E" alt="AR">
+                  <span>Aditya R.</span>
+                </div>
+                <a href="https://github.com/bakanohito/gateway/releases/tag/v2.3.0" target="_blank" rel="noopener">View on GitHub →</a>
+              </div>
+            </article>
+
+            <article class="release">
+              <div class="release-header">
+                <div class="release-title-row">
+                  <span class="release-version">orchestrator v1.4.0</span>
+                  <span class="release-date">December 3, 2024</span>
+                  <div class="release-tags">
+                    <span class="release-tag minor">Minor</span>
+                    <span class="release-tag">Orchestrator</span>
+                  </div>
+                </div>
+              </div>
+              <h3>MCP Server Support + Workflow Templates</h3>
+              <div class="release-body">
+                <p>Model Context Protocol integration and a new template marketplace for common AI workflows.</p>
+                <ul>
+                  <li><strong>MCP Servers:</strong> Connect to filesystem, GitHub, PostgreSQL, Redis, and custom MCP servers directly from workflow nodes. Zero-config for stdio/SSE transports.</li>
+                  <li><strong>Template Library:</strong> 12 built-in templates (RAG pipeline, code review, data extraction, SQL generation, summarization). One-click deploy to your workspace.</li>
+                  <li><strong>Parallel Execution:</strong> <code>parallel</code> block type for fan-out/fan-in patterns. Automatic concurrency control with <code>maxParallel</code>.</li>
+                  <li><strong>Secret Management:</strong> Encrypted secrets store with environment-specific values. Reference via <code>{{ secrets.API_KEY }}</code> in any node.</li>
+                </ul>
+              </div>
+              <div class="release-footer">
+                <div class="release-author">
+                  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M8 14s1.5 2 4 2 4-2 4-2'/%3E%3Cpath d='M9 11h6'/%3E%3C/svg%3E" alt="SW">
+                  <span>Sarah W.</span>
+                </div>
+                <a href="https://github.com/bakanohito/orchestrator/releases/tag/v1.4.0" target="_blank" rel="noopener">View on GitHub →</a>
+              </div>
+            </article>
+
+            <article class="release">
+              <div class="release-header">
+                <div class="release-title-row">
+                  <span class="release-version">eval v0.9.0</span>
+                  <span class="release-date">November 12, 2024</span>
+                  <div class="release-tags">
+                    <span class="release-tag beta">Beta</span>
+                    <span class="release-tag">Eval</span>
+                  </div>
+                </div>
+              </div>
+              <h3>Regression Detection + Golden Datasets</h3>
+              <div class="release-body">
+                <p>Statistical regression testing and versioned golden datasets for continuous quality assurance.</p>
+                <ul>
+                  <li><strong>Regression Detection:</strong> Welch's t-test + Bonferroni correction on pass-rate, latency, cost metrics. Configurable sensitivity (p < 0.05 default). Slack/PagerDuty alerts.</li>
+                  <li><strong>Golden Datasets:</strong> Versioned test sets with <code>bakanohito eval dataset push</code>. Diff viewer for dataset changes. Human annotation UI with inter-annotator agreement (Cohen's κ).</li>
+                  <li><strong>Custom Evaluators:</strong> Register Python/TypeScript evaluators via plugin system. Built-ins: factuality, faithfulness, toxicity, JSON schema, regex, semantic similarity.</li>
+                  <li><strong>CI/CD:</strong> <code>bakanohito eval run --gate</code> exits non-zero on regression. GitHub Actions, GitLab CI, CircleCI examples in docs.</li>
+                </ul>
+              </div>
+              <div class="release-footer">
+                <div class="release-author">
+                  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M8 14s1.5 2 4 2 4-2 4-2'/%3E%3Cpath d='M9 11h6'/%3E%3C/svg%3E" alt="ID">
+                  <span>Id Arifandi</span>
+                </div>
+                <a href="https://github.com/bakanohito/eval/releases/tag/v0.9.0" target="_blank" rel="noopener">View on GitHub →</a>
+              </div>
+            </article>
+
+            <article class="release">
+              <div class="release-header">
+                <div class="release-title-row">
+                  <span class="release-version">gateway v2.2.1</span>
+                  <span class="release-date">October 28, 2024</span>
+                  <div class="release-tags">
+                    <span class="release-tag patch">Patch</span>
+                    <span class="release-tag">Gateway</span>
+                  </div>
+                </div>
+              </div>
+              <h3>Hotfix: llama.cpp 0.3.0 Compatibility</h3>
+              <div class="release-body">
+                <p>Fixed breaking changes in llama.cpp 0.3.0 API. Updated GGUF loading, context handling, and tokenization endpoints.</p>
+                <ul>
+                  <li>Fixed <code>/v1/models</code> endpoint returning empty list for llama.cpp backends</li>
+                  <li>Resolved context window truncation bug with long conversations (>32k tokens)</li>
+                  <li>Updated tokenization to match new <code>llama_tokenize</code> signature</li>
+                  <li>Added integration test matrix for llama.cpp 0.2.x → 0.3.x</li>
+                </ul>
+              </div>
+              <div class="release-footer">
+                <a href="https://github.com/bakanohito/gateway/releases/tag/v2.2.1" target="_blank" rel="noopener">View on GitHub →</a>
+              </div>
+            </article>
+
+            <article class="release">
+              <div class="release-header">
+                <div class="release-title-row">
+                  <span class="release-version">orchestrator v1.3.0</span>
+                  <span class="release-date">September 18, 2024</span>
+                  <div class="release-tags">
+                    <span class="release-tag minor">Minor</span>
+                    <span class="release-tag">Orchestrator</span>
+                  </div>
+                </div>
+              </div>
+              <h3>TypeScript SDK + Visual Debugger</h3>
+              <div class="release-body">
+                <p>First-class TypeScript SDK and in-browser workflow debugger with time-travel inspection.</p>
+                <ul>
+                  <li><strong>TypeScript SDK:</strong> <code>npm install @bakanohito/orchestrator</code>. Full type inference for workflow definitions, node configs, and runtime values.</li>
+                  <li><strong>Visual Debugger:</strong> Step-through execution, inspect node inputs/outputs at each step, time-travel to previous states, breakpoint support.</li>
+                  <li><strong>Conditional Nodes:</strong> <code>if/else</code> and <code>switch</code> nodes with expression language (JMESPath).</li>
+                  <li><strong>Workflow Sharing:</strong> Export/import workflow bundles (<code>.bako</code> files) with dependencies. Share via URL or file.</li>
+                </ul>
+              </div>
+              <div class="release-footer">
+                <a href="https://github.com/bakanohito/orchestrator/releases/tag/v1.3.0" target="_blank" rel="noopener">View on GitHub →</a>
+              </div>
+            </article>
+
+            <article class="release">
+              <div class="release-header">
+                <div class="release-title-row">
+                  <span class="release-version">gateway v2.1.0</span>
+                  <span class="release-date">August 5, 2024</span>
+                  <div class="release-tags">
+                    <span class="release-tag minor">Minor</span>
+                    <span class="release-tag">Gateway</span>
+                  </div>
+                </div>
+              </div>
+              <h3>vLLM + TGI Backend Support</h3>
+              <div class="release-body">
+                <p>Added support for vLLM and Text Generation Inference as high-throughput backends alongside Ollama and llama.cpp.</p>
+                <ul>
+                  <li><strong>vLLM:</strong> PagedAttention, continuous batching, tensor parallelism. <code>--backend vllm --tensor-parallel-size 4</code></li>
+                  <li><strong>TGI:</strong> Optimized for Hugging Face models. Safetensors loading, quantized weights (GPTQ, AWQ, bitsandbytes).</li>
+                  <li><strong>Backend Health:</strong> Automatic health checks, circuit breaker, graceful degradation. <code>GET /health/backends</code></li>
+                  <li><strong>Benchmarks:</strong> vLLM 3.2x throughput vs llama.cpp on H100 for Llama-3.1-70B. Docs: <a href="https://docs.bakanohito.my.id/gateway/benchmarks" target="_blank" rel="noopener">benchmarks</a>.</li>
+                </ul>
+              </div>
+              <div class="release-footer">
+                <a href="https://github.com/bakanohito/gateway/releases/tag/v2.1.0" target="_blank" rel="noopener">View on GitHub →</a>
+              </div>
+            </article>
+
+            <article class="release">
+              <div class="release-header">
+                <div class="release-title-row">
+                  <span class="release-version">orchestrator v1.2.0</span>
+                  <span class="release-date">June 24, 2024</span>
+                  <div class="release-tags">
+                    <span class="release-tag minor">Minor</span>
+                    <span class="release-tag">Orchestrator</span>
+                  </div>
+                </div>
+              </div>
+              <h3>GitOps Workflow Deployment</h3>
+              <div class="release-body">
+                <p>Deploy workflows directly from Git. ArgoCD/Flux compatible manifests. Preview environments for PRs.</p>
+                <ul>
+                  <li><strong>GitOps:</strong> <code>bakanohito orchestrator deploy --gitops</code> generates Kustomize/Helm manifests. ArgoCD ApplicationSet examples included.</li>
+                  <li><strong>Preview Environments:</strong> Auto-deploy PR workflows to <code>preview-<pr-number>.bakanohito.yourdomain.com</code>. Cleanup on merge/close.</li>
+                  <li><strong>Rollback:</strong> One-click rollback to previous workflow version. <code>bakanohito orchestrator rollback <version></code></li>
+                  <li><strong>RBAC:</strong> Role-based access for workflow deploy (admin, developer, viewer). SSO group mapping.</li>
+                </ul>
+              </div>
+              <div class="release-footer">
+                <a href="https://github.com/bakanohito/orchestrator/releases/tag/v1.2.0" target="_blank" rel="noopener">View on GitHub →</a>
+              </div>
+            </article>
+
+            <article class="release">
+              <div class="release-header">
+                <div class="release-title-row">
+                  <span class="release-version">gateway v2.0.0</span>
+                  <span class="release-date">March 12, 2024</span>
+                  <div class="release-tags">
+                    <span class="release-tag major">Major</span>
+                    <span class="release-tag">Gateway</span>
+                  </div>
+                </div>
+              </div>
+              <h3>Rust Rewrite + OpenAI API Parity</h3>
+              <div class="release-body">
+                <p>Complete rewrite in Rust for performance, memory safety, and concurrency. Full OpenAI API compatibility.</p>
+                <ul>
+                  <li><strong>Rust Core:</strong> 10x throughput, 90% memory reduction vs Node.js v1.x. tokio + axum + tower.</li>
+                  <li><strong>OpenAI Parity:</strong> <code>/v1/chat/completions</code>, <code>/v1/completions</code>, <code>/v1/embeddings</code>, <code>/v1/models</code>, <code>/v1/tokenize</code>. Streaming, function calling, logprobs.</li>
+                  <li><strong>Plugin System:</strong> Dynamic WASM plugins for custom routing, auth, transformation. SDK in Rust/Go/TypeScript.</li>
+                  <li><strong>Breaking Changes:</strong> Config format v2 (YAML → TOML). Migration guide: <a href="https://docs.bakanohito.my.id/gateway/migration-v2" target="_blank" rel="noopener">docs</a>.</li>
+                </ul>
+              </div>
+              <div class="release-footer">
+                <a href="https://github.com/bakanohito/gateway/releases/tag/v2.0.0" target="_blank" rel="noopener">View on GitHub →</a>
+              </div>
+            </article>
+
+            <article class="release">
+              <div class="release-header">
+                <div class="release-title-row">
+                  <span class="release-version">orchestrator v1.0.0</span>
+                  <span class="release-date">January 8, 2024</span>
+                  <div class="release-tags">
+                    <span class="release-tag major">Major</span>
+                    <span class="release-tag">Orchestrator</span>
+                  </div>
+                </div>
+              </div>
+              <h3>Initial Public Release</h3>
+              <div class="release-body">
+                <p>First stable release of Prompt Orchestrator. Visual builder, Git-native workflows, local execution.</p>
+                <ul>
+                  <li>Visual canvas with nodes: LLM call, tool call, condition, loop, transform, output</li>
+                  <li>Workflows as TypeScript/YAML — version control, code review, CI/CD ready</li>
+                  <li>Local runtime (<code>bakanohito orchestrator run</code>) and server mode</li>
+                  <li>Built-in test runner with snapshot testing</li>
+                  <li>VS Code extension for workflow authoring (syntax highlight, intellisense, run/debug)</li>
+                </ul>
+              </div>
+              <div class="release-footer">
+                <a href="https://github.com/bakanohito/orchestrator/releases/tag/v1.0.0" target="_blank" rel="noopener">View on GitHub →</a>
+              </div>
+            </article>
+
+            <article class="release">
+              <div class="release-header">
+                <div class="release-title-row">
+                  <span class="release-version">gateway v1.0.0</span>
+                  <span class="release-date">September 15, 2023</span>
+                  <div class="release-tags">
+                    <span class="release-tag major">Major</span>
+                    <span class="release-tag">Gateway</span>
+                  </div>
+                </div>
+              </div>
+              <h3>Initial Release — Local AI Gateway</h3>
+              <div class="release-body">
+                <p>First production release. Unified API for local LLMs. Deployed at Pertamina Technology Innovation division.</p>
+                <ul>
+                  <li>Ollama + llama.cpp backends with OpenAI-compatible <code>/v1/chat/completions</code></li>
+                  <li>Model management: pull, list, remove, info via API</li>
+                  <li>Request logging, basic auth, rate limiting</li>
+                  <li>Docker image (<code>ghcr.io/bakanohito/gateway:v1.0.0</code>) and static binaries</li>
+                  <li>Systemd service, health endpoint, Prometheus metrics</li>
+                </ul>
+              </div>
+              <div class="release-footer">
+                <a href="https://github.com/bakanohito/gateway/releases/tag/v1.0.0" target="_blank" rel="noopener">View on GitHub →</a>
+              </div>
+            </article>
+          </div>
+
+          <aside class="changelog-sidebar">
+            <div class="sidebar-section">
+              <h4>Filter by Product</h4>
+              <ul class="sidebar-links">
+                <li><a href="#" class="active">All Products</a></li>
+                <li><a href="#">Gateway</a></li>
+                <li><a href="#">Orchestrator</a></li>
+                <li><a href="#">Eval</a></li>
+              </ul>
+            </div>
+            <div class="sidebar-section">
+              <h4>Filter by Type</h4>
+              <ul class="sidebar-links">
+                <li><a href="#">All Releases</a></li>
+                <li><a href="#">Major</a></li>
+                <li><a href="#">Minor</a></li>
+                <li><a href="#">Patch</a></li>
+                <li><a href="#">Beta</a></li>
+              </ul>
+            </div>
+            <div class="sidebar-section">
+              <h4>Subscribe</h4>
+              <p style="font-size: 14px; color: var(--color-text-secondary); margin-bottom: var(--space-3);">Get releases in your inbox or feed reader.</p>
+              <div style="display: flex; flex-direction: column; gap: var(--space-2);">
+                <a href="https://github.com/bakanohito/gateway/releases.atom" target="_blank" rel="noopener" style="font-size: 14px;">📡 Gateway RSS</a>
+                <a href="https://github.com/bakanohito/orchestrator/releases.atom" target="_blank" rel="noopener" style="font-size: 14px;">📡 Orchestrator RSS</a>
+                <a href="https://github.com/bakanohito/eval/releases.atom" target="_blank" rel="noopener" style="font-size: 14px;">📡 Eval RSS</a>
+                <a href="index.html#contact" class="btn btn-secondary" style="text-align; center; font-size: 13px;">Email Updates</a>
+              </div>
+            </div>
+            <div class="sidebar-section">
+              <h4>Recent</h4>
+              <ul class="sidebar-links">
+                <li><a href="#">gateway v2.3.0 — Jan 15, 2025</a></li>
+                <li><a href="#">orchestrator v1.4.0 — Dec 3, 2024</a></li>
+                <li><a href="#">eval v0.9.0 — Nov 12, 2024</a></li>
+                <li><a href="#">gateway v2.2.1 — Oct 28, 2024</a></li>
+                <li><a href="#">orchestrator v1.3.0 — Sep 18, 2024</a></li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--color-surface); text-align: center; max-width: 640px; margin: 0 auto;">
+      <h2 style="font-size: 40px; font-weight: 600; line-height: 1.2; letter-spacing: -2.4px; margin-bottom: var(--space-3);">Stay Updated</h2>
+      <p style="font-size: 18px; color: var(--color-text-secondary); margin-bottom: var(--space-6);">Subscribe to release notifications — no spam, only product updates.</p>
+      <a href="index.html#contact" class="btn btn-primary">Subscribe</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#171717"/><circle cx="32" cy="32" r="28" stroke="#0a72ef" stroke-width="2" fill="none" opacity="0.3"/><g transform="translate(16, 16)"><circle cx="8" cy="8" r="3" fill="#0a72ef" opacity="0.9"/><circle cx="24" cy="8" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="20" r="3" fill="#0a72ef" opacity="0.8"/><circle cx="8" cy="32" r="3" fill="#0a72ef" opacity="0.6"/><circle cx="24" cy="32" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="44" r="3" fill="#0a72ef" opacity="0.9"/></g></svg>
+        Bakanohito
+      </a>
+      <nav class="footer-links">
+        <a href="https://github.com/bakanohito" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://twitter.com/bakanohito" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://linkedin.com/company/bakanohito" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hello@bakanohito.my.id">Email</a>
+      </nav>
+      <p class="copyright">© 2025 Bakanohito Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

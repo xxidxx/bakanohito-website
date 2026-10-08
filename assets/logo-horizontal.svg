@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="60" viewBox="0 0 280 60">
+  <!-- Small mark on left -->
+  <!-- Connections for small mark -->
+  <line x1="20" y1="20" x2="8" y2="40" stroke="#0a72ef" stroke-width="2" stroke-linecap="round" stroke-dasharray="6,3"/>
+  <line x1="8" y1="40" x2="32" y2="40" stroke="#0a72ef" stroke-width="2" stroke-linecap="round" stroke-dasharray="6,3"/>
+  <line x1="32" y1="40" x2="20" y2="20" stroke="#0a72ef" stroke-width="2" stroke-linecap="round" stroke-dasharray="6,3"/>
+  
+  <!-- Small nodes -->
+  <circle cx="20" cy="20" r="7" fill="#0a72ef"/>
+  <circle cx="20" cy="20" r="3" fill="#ffffff"/>
+  <circle cx="8" cy="40" r="7" fill="#0a72ef"/>
+  <circle cx="8" cy="40" r="3" fill="#ffffff"/>
+  <circle cx="32" cy="40" r="7" fill="#0a72ef"/>
+  <circle cx="32" cy="40" r="3" fill="#ffffff"/>
+  
+  <!-- Spark in center of mark -->
+  <polygon points="20,26 21,30 25,30 21.5,32 22.5,35 20,33.5 17.5,35 18.5,32 15,30 19,30" fill="#ff5b4f"/>
+  
+  <!-- Wordmark -->
+  <text x="70" y="38" font-family="Geist, system-ui, sans-serif" font-size="24" font-weight="600" fill="#171717" letter-spacing="-0.96px">Bakanohito</text>
+  
+  <!-- Tagline -->
+  <text x="70" y="54" font-family="Geist, system-ui, sans-serif" font-size="11" font-weight="400" fill="#666666" letter-spacing="0.5px" text-transform="uppercase">AI Developer Infrastructure</text>
+</svg>

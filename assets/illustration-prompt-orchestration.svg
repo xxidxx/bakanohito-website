@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+  <!-- Prompt Orchestration illustration -->
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#de1d8d;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#ff5b4f;stop-opacity:0.15"/>
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8a8f98"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="240" fill="url(#grad2)" rx="12"/>
+  <rect width="400" height="240" fill="none" stroke="#de1d8d" stroke-width="1" stroke-opacity="0.2" rx="12"/>
+  
+  <!-- Canvas grid lines -->
+  <g stroke="#30363d" stroke-width="1" stroke-opacity="0.3">
+    <line x1="40" y1="40" x2="360" y2="40"/>
+    <line x1="40" y1="80" x2="360" y2="80"/>
+    <line x1="40" y1="120" x2="360" y2="120"/>
+    <line x1="40" y1="160" x2="360" y2="160"/>
+    <line x1="40" y1="200" x2="360" y2="200"/>
+    <line x1="40" y1="40" x2="40" y2="200"/>
+    <line x1="120" y1="40" x2="120" y2="200"/>
+    <line x1="200" y1="40" x2="200" y2="200"/>
+    <line x1="280" y1="40" x2="280" y2="200"/>
+    <line x1="360" y1="40" x2="360" y2="200"/>
+  </g>
+  
+  <!-- Nodes in the flow -->
+  <!-- Input node -->
+  <rect x="60" y="80" width="100" height="60" rx="8" fill="#161b22" stroke="#de1d8d" stroke-width="2"/>
+  <text x="110" y="110" font-family="Geist, sans-serif" font-size="12" font-weight="600" fill="#f7f8f8" text-anchor="middle">User Input</text>
+  <text x="110" y="128" font-family="Geist Mono, monospace" font-size="10" fill="#8a8f98" text-anchor="middle">"Analyze this code"</text>
+  
+  <!-- Prompt template node -->
+  <rect x="180" y="60" width="120" height="50" rx="8" fill="#161b22" stroke="#ff5b4f" stroke-width="2"/>
+  <text x="240" y="85" font-family="Geist, sans-serif" font-size="12" font-weight="600" fill="#f7f8f8" text-anchor="middle">Prompt Template</text>
+  <text x="240" y="102" font-family="Geist Mono, monospace" font-size="10" fill="#8a8f98" text-anchor="middle">Code Review v2.1</text>
+  
+  <!-- Model node -->
+  <rect x="180" y="130" width="120" height="50" rx="8" fill="#161b22" stroke="#7170ff" stroke-width="2"/>
+  <text x="240" y="155" font-family="Geist, sans-serif" font-size="12" font-weight="600" fill="#f7f8f8" text-anchor="middle">Claude 3.5 Sonnet</text>
+  <text x="240" y="172" font-family="Geist Mono, monospace" font-size="10" fill="#8a8f98" text-anchor="middle">Temperature: 0.1</text>
+  
+  <!-- Tool node -->
+  <rect x="300" y="95" width="80" height="50" rx="8" fill="#161b22" stroke="#27ca4f" stroke-width="2"/>
+  <text x="340" y="120" font-family="Geist, sans-serif" font-size="12" font-weight="600" fill="#f7f8f8" text-anchor="middle">Lint Tool</text>
+  <text x="340" y="137" font-family="Geist Mono, monospace" font-size="10" fill="#8a8f98" text-anchor="middle">ESLint + TypeScript</text>
+  
+  <!-- Output node -->
+  <rect x="60" y="160" width="100" height="60" rx="8" fill="#161b22" stroke="#7ee787" stroke-width="2"/>
+  <text x="110" y="190" font-family="Geist, sans-serif" font-size="12" font-weight="600" fill="#f7f8f8" text-anchor="middle">Structured Output</text>
+  <text x="110" y="208" font-family="Geist Mono, monospace" font-size="10" fill="#8a8f98" text-anchor="middle">JSON + Markdown</text>
+  
+  <!-- Connections with arrows -->
+  <line x1="160" y1="110" x2="180" y2="85" stroke="#8a8f98" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="240" y1="110" x2="240" y2="130" stroke="#8a8f98" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="240" y1="155" x2="300" y2="120" stroke="#8a8f98" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="300" y1="120" x2="160" y2="190" stroke="#8a8f98" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Version badge -->
+  <rect x="20" y="20" width="100" height="28" rx="14" fill="#de1d8d" fill-opacity="0.2" stroke="#de1d8d" stroke-width="1"/>
+  <text x="70" y="39" font-family="Geist, sans-serif" font-size="11" font-weight="500" fill="#de1d8d" text-anchor="middle">v2.1 • Live</text>
+</svg>

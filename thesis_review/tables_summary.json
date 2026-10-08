@@ -1,0 +1,623 @@
+[
+ {
+  "table": 0,
+  "rows": 9,
+  "first": [
+   "作者姓名：",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "table": 1,
+  "rows": 10,
+  "first": [
+   "Indicator",
+   "2024 Value",
+   "Year-on-Year Change",
+   "Source"
+  ]
+ },
+ {
+  "table": 2,
+  "rows": 6,
+  "first": [
+   "Author(s) & Year",
+   "Research Focus",
+   "Methodology",
+   "Key Finding",
+   "Gap Addressed"
+  ]
+ },
+ {
+  "table": 3,
+  "rows": 10,
+  "first": [
+   "Author(s) & Year",
+   "Research Focus",
+   "Methodology",
+   "Key Finding",
+   "Applicability"
+  ]
+ },
+ {
+  "table": 4,
+  "rows": 4,
+  "first": [
+   "STP Component",
+   "Definition",
+   "Key Criteria"
+  ]
+ },
+ {
+  "table": 5,
+  "rows": 8,
+  "first": [
+   "Element",
+   "Strategic Focus",
+   "Key Decisions"
+  ]
+ },
+ {
+  "table": 6,
+  "rows": 7,
+  "first": [
+   "Dimension",
+   "Focus Area",
+   "Key Variables"
+  ]
+ },
+ {
+  "table": 7,
+  "rows": 6,
+  "first": [
+   "Competitive Force",
+   "Intensity Driver",
+   "Assessment Factors"
+  ]
+ },
+ {
+  "table": 8,
+  "rows": 5,
+  "first": [
+   "Dimension",
+   "Nature",
+   "Strategic Focus"
+  ]
+ },
+ {
+  "table": 9,
+  "rows": 7,
+  "first": [
+   "Indicator",
+   "2023",
+   "2024",
+   "Strategic Relevance for Pertamax Green 95"
+  ]
+ },
+ {
+  "table": 10,
+  "rows": 9,
+  "first": [
+   "Attribute",
+   "Pertamax (RON 92)",
+   "Pertamax Green 95 \n(RON 95 E5)",
+   "Pertamax Turbo \n(RON 98)"
+  ]
+ },
+ {
+  "table": 11,
+  "rows": 10,
+  "first": [
+   "Period",
+   "Cumulative gas station",
+   "Monthly Sales (KL)",
+   "Cumulative Sales (KL)",
+   "Daily/Outlet (L)"
+  ]
+ },
+ {
+  "table": 12,
+  "rows": 12,
+  "first": [
+   "No",
+   "Sales Area",
+   "Target 2025",
+   "Realized Nov 2025",
+   "Achievement Rate",
+   "Status"
+  ]
+ },
+ {
+  "table": 13,
+  "rows": 8,
+  "first": [
+   "7P Dimension",
+   "Current Status",
+   "Key Metrics",
+   "Assessment"
+  ]
+ },
+ {
+  "table": 14,
+  "rows": 11,
+  "first": [
+   "Section",
+   "Content",
+   "Questions",
+   "7Ps Dimension",
+   "Purpose"
+  ]
+ },
+ {
+  "table": 15,
+  "rows": 9,
+  "first": [
+   "Dimension",
+   "Mean",
+   "Std Dev",
+   "Min",
+   "Max",
+   "Rank",
+   "Category"
+  ]
+ },
+ {
+  "table": 16,
+  "rows": 5,
+  "first": [
+   "Measure",
+   "Score / Distribution"
+  ]
+ },
+ {
+  "table": 17,
+  "rows": 33,
+  "first": [
+   "Demographic Variable",
+   "Category",
+   "Frequency",
+   "%"
+  ]
+ },
+ {
+  "table": 18,
+  "rows": 6,
+  "first": [
+   "",
+   "Problem",
+   "Root Cause",
+   "Priority",
+   "Key Evidence"
+  ]
+ },
+ {
+  "table": 19,
+  "rows": 7,
+  "first": [
+   "Factor",
+   "Key Trends",
+   "Impact on Pertamax Green 95"
+  ]
+ },
+ {
+  "table": 20,
+  "rows": 6,
+  "first": [
+   "Force",
+   "Intensity",
+   "Key Evidence"
+  ]
+ },
+ {
+  "table": 21,
+  "rows": 7,
+  "first": [
+   "Capability",
+   "Assessment",
+   "Strategic Gap"
+  ]
+ },
+ {
+  "table": 22,
+  "rows": 7,
+  "first": [
+   "Strengths (S)",
+   "Weaknesses (W)"
+  ]
+ },
+ {
+  "table": 23,
+  "rows": 7,
+  "first": [
+   "Opportunities (O)",
+   "Threats (T)"
+  ]
+ },
+ {
+  "table": 24,
+  "rows": 3,
+  "first": [
+   "Strategy",
+   "Description",
+   "Strategy",
+   "Description"
+  ]
+ },
+ {
+  "table": 25,
+  "rows": 4,
+  "first": [
+   "Segment",
+   "Age Range",
+   "n",
+   "%",
+   "Characteristics"
+  ]
+ },
+ {
+  "table": 26,
+  "rows": 6,
+  "first": [
+   "Segment",
+   "Monthly Income",
+   "n",
+   "%",
+   "Price Sensitivity"
+  ]
+ },
+ {
+  "table": 27,
+  "rows": 6,
+  "first": [
+   "Segment",
+   "Description",
+   "n",
+   "%",
+   "Strategic Role"
+  ]
+ },
+ {
+  "table": 28,
+  "rows": 5,
+  "first": [
+   "Segment",
+   "Concern Level",
+   "n",
+   "%",
+   "Pertamax Green 95 Usage Rate"
+  ]
+ },
+ {
+  "table": 29,
+  "rows": 5,
+  "first": [
+   "Segment",
+   "Market Potential",
+   "Purchasing Power",
+   "Behavioral Fit",
+   "Strategic Compatibility",
+   "Overall"
+  ]
+ },
+ {
+  "table": 30,
+  "rows": 5,
+  "first": [
+   "Sub-Segment",
+   "Priority",
+   "Size",
+   "Approach",
+   "Key Tactic"
+  ]
+ },
+ {
+  "table": 31,
+  "rows": 10,
+  "first": [
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "table": 32,
+  "rows": 5,
+  "first": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "table": 33,
+  "rows": 5,
+  "first": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "table": 34,
+  "rows": 6,
+  "first": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "table": 35,
+  "rows": 6,
+  "first": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "table": 36,
+  "rows": 5,
+  "first": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "table": 37,
+  "rows": 5,
+  "first": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "table": 38,
+  "rows": 4,
+  "first": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "table": 39,
+  "rows": 8,
+  "first": [
+   "7P",
+   "Current \nScore",
+   "Priority",
+   "Key Problem",
+   "TOWS Link",
+   "Core Strategy",
+   "12-Month Projection",
+   "Key Expected Outcome"
+  ]
+ },
+ {
+  "table": 40,
+  "rows": 11,
+  "first": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "table": 41,
+  "rows": 5,
+  "first": [
+   "Guarantee Dimension",
+   "Key Measure",
+   "Targeted 7P Strategy",
+   "Primary KPI",
+   "12-Month Target"
+  ]
+ },
+ {
+  "table": 42,
+  "rows": 7,
+  "first": [
+   "Statement",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "table": 43,
+  "rows": 7,
+  "first": [
+   "Statement",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "table": 44,
+  "rows": 7,
+  "first": [
+   "Statement",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "table": 45,
+  "rows": 7,
+  "first": [
+   "Statement",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "table": 46,
+  "rows": 6,
+  "first": [
+   "Statement",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "table": 47,
+  "rows": 6,
+  "first": [
+   "Statement",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "table": 48,
+  "rows": 6,
+  "first": [
+   "Statement",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "table": 49,
+  "rows": 3,
+  "first": [
+   "0",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "table": 50,
+  "rows": 3,
+  "first": [
+   ""
+  ]
+ },
+ {
+  "table": 51,
+  "rows": 3,
+  "first": [
+   ""
+  ]
+ },
+ {
+  "table": 52,
+  "rows": 3,
+  "first": [
+   ""
+  ]
+ },
+ {
+  "table": 53,
+  "rows": 5,
+  "first": [
+   "☐",
+   "18-24 years"
+  ]
+ },
+ {
+  "table": 54,
+  "rows": 5,
+  "first": [
+   "☐",
+   "Below 5 million"
+  ]
+ },
+ {
+  "table": 55,
+  "rows": 5,
+  "first": [
+   "☐",
+   "Motorcycle (below 150cc)"
+  ]
+ },
+ {
+  "table": 56,
+  "rows": 5,
+  "first": [
+   "☐",
+   "Daily"
+  ]
+ },
+ {
+  "table": 57,
+  "rows": 5,
+  "first": [
+   "☐",
+   "Pertalite (RON 90)"
+  ]
+ },
+ {
+  "table": 58,
+  "rows": 4,
+  "first": [
+   "☐",
+   "Yes, I currently use it"
+  ]
+ },
+ {
+  "table": 59,
+  "rows": 5,
+  "first": [
+   "☐",
+   "Very high -- I actively seek environmentally friendly products"
+  ]
+ },
+ {
+  "table": 60,
+  "rows": 5,
+  "first": [
+   "☐",
+   "Jakarta"
+  ]
+ }
+]

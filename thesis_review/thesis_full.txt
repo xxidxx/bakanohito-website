@@ -1,0 +1,937 @@
+分类号                     密级
+UDC
+
+学  位  论  文
+
+Research on the Marketing Strategies of Pertamina’s Pertamax Green 95 in the Indonesian Market
+
+
+
+
+
+东  北  大  学
+2026年06月
+A Thesis in Master of Business Administration
+
+
+
+Research on the Marketing Strategies of Pertamina’s Pertamax Green 95 in the Indonesian Market
+
+
+
+By
+
+
+
+Supervisor:
+
+
+
+
+
+
+
+
+
+Northeastern University
+December 2026
+
+独创性声明
+本人声明，所呈交的学位论文是在导师的指导下完成的。论文中取得的研究成果除加以标注和致谢的地方外，不包含其他人已经发表或撰写过的研究成果，也不包括本人为获得其他学位而使用过的材料。与我一同工作的同志对本研究所做的任何贡献均已在论文中作了明确的说明并表示谢意。
+学位论文作者签名：
+日    期：2026年06月
+学位论文版权使用授权书
+本学位论文作者和指导教师完全了解学校有关保留、使用学位论文的规定：即学校有权保留并向国家有关部门或机构送交论文的复印件和磁盘，允许论文被查阅和借阅。本人同意学校可以将学位论文的全部或部分内容编入有关数据库进行检索、交流。
+
+作者和导师同意网上交流的时间为作者获得学位后：
+
+半年 □    一年□    一年半□       两年□
+
+学位论文作者签名                 导师签名：
+签字日期：2026年06月26  日        签字日期：2026年06月26 日
+摘  要
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+关键词：营销策略；7Ps营销组合；绿色燃料；Pertamax Green 95；STP战略；生物乙醇；印度尼西亚
+
+Abstract
+As Indonesia pursues its net-zero 2060 target, PT Pertamina launched Pertamax Green 95  it remains available at only 177 of 6,000+ gas stations with weak consumer uptake. This study investigates the marketing strategy of Pertamax Green 95 in Indonesia, aiming to diagnose the causes of low adoption and design an evidence-based marketing strategy.
+Using a mixed-methods approach, the study analyzes primary survey data (n = 124) from a structured 7Ps-based questionnaire alongside PESTEL, Porter's Five Forces, and SWOT frameworks.
+Findings reveal a marketing activation failure rather than a product deficiency. The overall 7Ps score of 3.449 ("Moderate") masks a severe internal asymmetry: Promotion (2.848) ranks far below Process (3.869) and Physical Evidence (3.851), with advertisement visibility (2.113) the lowest of all 32 items. Five interrelated problems are identified: promotional failure and brand invisibility, price-value asymmetry, distribution deficiency (60.5% cite availability as the primary barrier), digital underutilization, and green communication gap.
+
+digital promotion, distribution densification to 30% network coverage, a Green Zone concept at retail stations, staff certification, and value-based pricing with trial incentives. Projected outcomes include improving the 7Ps mean from 3.449 to 3.65–3.70 and the Composite Loyalty Index from 3.552 to 3.80 within 12 months.
+
+Key words: marketing strategy; 7Ps marketing mix; green fuel; Pertamax Green 95; STP strategy; bioethanol; Indonesia
+
+
+Table of Contents
+独创性声明	I
+摘  要	II
+Abstract	III
+Table of Contents	IV
+Chapter 1 Introduction	1
+1.1 Research Background and Significance	1
+1.1.1 Research Background	1
+1.1.2 Research Significance	2
+1.2 Literature Review	4
+1.2.1 Current Research Situation in Indonesia	4
+1.2.2 Current Research Situation Abroad	5
+1.3 Research Content and Methods	7
+1.3.1 Research Content	7
+1.3.2 Research Methods	8
+1.4 Technical Route	9
+Chapter 2 Related Concepts and Theoretical Aspects of Marketing	11
+2.1 Related Concepts	11
+2.1.1 Definition of Marketing	11
+2.1.2 STP Theory	11
+2.1.3 7Ps Marketing Mix Theory	12
+2.2 Environmental Analytical Tools	14
+2.2.1 PESTEL Macro-Environment Analysis Model	14
+2.2.2 Porter’s Five Forces Analysis Model	15
+2.2.3 SWOT Analysis Model.	17
+Chapter 3 Current State of Marketing for Pertamax Green 95	18
+3.1 Overview of PT Pertamina (Persero)	18
+3.1.1 Corporate Background and Energy Transition Mission	18
+3.1.2 Business Structure and Strategic Objectives	19
+3.2 Current Marketing Strategy Analysis	19
+3.2.1 Product Strategy	20
+3.2.2 Price Strategy	21
+3.2.3 Place Strategy	23
+3.2.4 Promotion Strategy	24
+3.2.5 People Strategy	25
+3.2.6 Process Strategy	25
+3.2.7 Physical Evidence Strategy	26
+3.3 Consumer Research Analysis	28
+3.3.1 Survey Methods	28
+3.3.2 Survey Findings	30
+3.4 Problems in the Current Marketing Strategy	44
+Chapter 4 Marketing Environment Analysis for Pertamax Green 95	50
+4.1 Macro-Environment Analysis (PESTEL)	50
+4.1.1 Political Environment	50
+4.1.2 Economic Environment	51
+4.1.3 Social Environment	52
+4.1.4 Technological Environment	53
+4.1.5 Environmental Environment	54
+4.1.6 Legal Environment	55
+4.2 Micro-Environment Analysis (Porter’s Five Forces)	56
+4.2.1 Competitors	56
+4.2.2 New Entrants	57
+4.2.3 Suppliers	58
+4.2.4 Customers	59
+4.2.5 Substitutes	59
+4.3 Market Demand and Internal Environment Analysis	60
+4.3.1 Market Demand Trends for Biofuels	60
+4.3.2 Organizational Capabilities and Resources	61
+4.3.3 Brand Equity and Distribution Network Advantages	62
+4.4 SWOT Analysis	63
+4.4.1 Strengths Analysis	63
+4.4.2 Weaknesses Analysis	64
+4.4.3 Opportunities Analysis	64
+4.4.4 Threats Analysis	65
+Chapter 5 Marketing Strategy Design for Pertamax Green 95	68
+5.1 STP Strategy	68
+5.1.1 Market Segmentation.	68
+5.1.2 Target Market Selection	72
+5.1.3 Positioning	73
+5.2 7P Marketing Mix Strategy	75
+5.2.1 Product Strategy	76
+5.2.2 Price Strategy	79
+5.2.3 Place Strategy	82
+5.2.4 Promotion Strategy.	85
+5.2.5 People Strategy	89
+5.2.6 Process Strategy	92
+5.2.7 Physical Evidence Strategy	95
+Chapter 6 Marketing Strategy Implementation Guarantees	102
+6.1 Management System Guarantees	102
+6.2 Human Resource Guarantees.	103
+6.3 Financial Guarantees.	104
+6.4 Information Technology Guarantees	105
+Chapter 7 Research Conclusions and Future Prospects	108
+7.1 Main Research Conclusions	108
+7.2 Future Prospects	110
+References	112
+Appendix 1 Questionnaire Survey	116
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+1.1 Research Background and Significance
+1.1.1 Research Background
+As part of its goal to reach net zero carbon emissions by 2060, Indonesia is undergoing a major energy transition. The transportation sector is a focal point, accounting for approximately 27% of the nation's greenhouse gas emissions, with road transport responsible for more than 80% of that share[1]. To accelerate decarbonization, the Indonesian government introduced Presidential Regulation No. 66/2018, mandating biodiesel blending targets (B30) and bioethanol blending (E2-E5) as part of a strategy to diversify the national energy mix[2,3]. A landmark initiative under this policy was PT Pertamina (Persero)'s launch of Pertamax Green 95 in July 2023, Indonesia's first commercially available E5 bioethanol-gasoline blend combining RON 95 gasoline with 5% bioethanol derived from sugarcane molasses sourced from local farmers in Mojokerto, East Java[4].
+However, technical readiness has not translated into broad market acceptance. By the end of 2024, Pertamax Green 95 was available at approximately 160 gas stations, growing to 170 by November 2025, representing less than 2.6% of Pertamina's total retail network of roughly more than 6,000+ gas stations[5,6]. Sales data from 2023 showed only approximately 2 million liters sold in the product's first year, indicating weak consumer uptake[7]. The fuel is priced approximately 35% higher than subsidized RON 90 gasoline, which still dominates the domestic market with a share exceeding 84%[1]. This price gap, combined with entrenched consumer familiarity with conventional fuels, reflects a disconnect between policy-driven product development and actual purchasing behavior.
+This pattern aligns with the broader 'attitude-behavior gap' phenomenon observed in emerging markets, where consumers express environmental concern yet continue purchasing conventional products due to price, perceived value, and brand familiarity considerations [8,9]. Meanwhile, non-Pertamina brands captured 15% of non-subsidized fuel consumption in January-July 2025, up from 11% in 2024, intensifying competitive pressure in the premium fuel segment[6]. Systemic challenges in ethanol supply chain scalability and refueling infrastructure further constrain adoption[10].
+The application of the 7Ps Marketing Mix framework, Product, Price, Place, Promotion, People, Process, and Physical Evidence, offers a systematic analytical lens to diagnose these marketing gaps and design actionable strategies for Pertamax Green 95. Unlike the traditional 4Ps, the extended 7Ps model is particularly suited to service-intensive retail energy markets where customer experience and operational efficiency significantly influence purchase decisions.
+Table . Indonesia Energy and Biofuel Statistics (2024-2025)
+1.1.2 Research Significance
+This research holds both academic significance and practical application value, particularly in the context of Pertamina's role in Indonesia's energy transition.
+Practical Application Value. First, the research has direct strategic implications for Pertamina as it identifies the principal obstacles in consumer willingness to adopt Pertamax Green 95, including awareness gaps, price sensitivity, performance perceptions, and brand trust challenges.
+Second, using the 7Ps marketing mix framework, the research methodically examines Pertamina's current marketing execution and determines needs to enhance product communication, pricing strategy, distribution effectiveness, service quality, and promotional communication, specifically targeting the latter stages of the marketing adoption cycle where consumer conversion occurs.
+Third, through STP-based market segmentation analysis, the research supports Pertamina in identifying optimal consumer segments and developing more precise positioning strategies, resulting in better product marketing resource allocation and reduced inefficient mass-market spending.
+Fourth, the research enhances Pertamina's internal decision-making capability by offering a systematic, evidence-based assessment of consumer perceptions and marketing effectiveness, allowing more informed adjustments in product development, budgeting, promotional efforts, and cross-departmental collaboration.
+Fifth, the research provides a replicable analytical framework combining environmental scanning, consumer insight analysis, marketing-mix evaluation, and strategy reformation, applicable to other fuel and energy companies introducing sustainable products in price-sensitive, subsidy-influenced emerging markets.
+Sixth, the research supports Indonesia's energy-transition policies, particularly the national goal of decreasing carbon emissions and promoting uptake of low-emission fuels. By identifying and addressing the marketing barriers that policy mandates alone cannot overcome, the findings inform more effective public-private communication strategies and incentive design.
+Theoretical Significance. First, this research contributes by applying established marketing frameworks (7Ps, STP, PESTEL, and Porter's Five Forces) to the under-researched area of green fuel marketing in emerging economies. While these frameworks have been extensively deployed in hospitality, healthcare, and financial services, their systematic application to sustainable fuel marketing in Southeast Asia remains limited[11,12].
+Second, this research addresses the asymmetry between supply-side biofuel policy research and demand-side consumer marketing research. Existing Indonesian literature has predominantly focused on biodiesel mandate mechanics, foreign exchange savings, and feedstock supply chains, yet the gasoline bioethanol segment, which requires active consumer choice rather than invisible blending, has received minimal scholarly attention[2,13]. This supply-demand asymmetry, manifesting in the attitude-behavior gap where environmentally conscious consumers still purchase conventional fuels, represents the core analytical problem this thesis addresses. By examining Pertamax Green 95 as a consumer-visible product that demands awareness, willingness to pay, and distribution accessibility, this thesis fills the gap between energy policy studies and consumer marketing research.
+Third, this research adds to the scant academic discussion regarding state-owned enterprises (SOEs) and green marketing. Pertamina's public ownership creates a distinctive credibility dynamic where government backing simultaneously instills trust and invites skepticism about greenwashing motives. The research examines how public ownership, regulatory constraints, and national policy alignment shape sustainability communication for a product such as Pertamax Green 95, contributing to SOE marketing theory in emerging-market contexts.
+1.2 Literature Review
+1.2.1 Current Research Situation in Indonesia
+The academic discourse on Indonesia's biofuel program has been predominantly policy- and supply-oriented. Regression analysis of data from the Ministry of Energy and Mineral Resources showed that B35 biodiesel contributed 38.75% of renewable energy consumption in 2024 and generated approximately IDR 123 trillion in fossil fuel import savings[2]. Their study projected B40 could increase the renewable share to 40.7% by 2025, contingent upon stable CPO supply and US$4.1 billion in infrastructure investment. However, this research stops at the production and distribution stage, offering no insight into consumer awareness, willingness to pay, or marketing determinants of biofuel adoption.
+Indonesia's biofuel policy has been examined through the circular economy lens, demonstrating that the country's biodiesel program represents one of the world's most ambitious bioenergy transition initiatives[13]. Their bibliometric analysis confirmed that global biofuel sustainability themes directly parallel Indonesia's palm oil-to-biodiesel value chain, but focused on production technology rather than demand-side consumer behavior. Analysis of B40 implementation challenges identified infrastructure readiness, feedstock supply security, and inter-ministerial coordination as critical success factors, while largely overlooking marketing and consumer adoption issues[11].
+In the petroleum marketing domain, A 7Ps-based analysis of Pertamina's methanol business identified logistics gaps, limited digital platform utilization, and inconsistent service standards as key marketing challenges[14]. Comparative analysis across the United States, Germany, and Indonesia found that green marketing initiatives significantly increase sustainability awareness; however, the effect was considerably weaker in Indonesia than in developed economies[8]. This finding directly supports the present thesis's emphasis on locally adapted green marketing strategies rather than transplanted Western templates.
+Table . Summary of Key Indonesian Literature
+1.2.2 Current Research Situation Abroad
+International literature provides theoretical frameworks and comparative benchmarks. Cultural values and income levels have been shown to significantly moderate consumer responsiveness to green marketing claims, with consumers in emerging markets requiring more tangible and economically rationalized messaging[9]. In biofuel consumer acceptance, Brazil's Pro-Alcool program showed that sustained government support, price competitiveness, and infrastructure availability are necessary but insufficient; consumer education and brand trust-building were equally critical[15]. In the United States, the Renewable Fuel Standard's E10 mandate achieved near-universal adoption through regulatory compulsion, while E15 adoption lagged due to vehicle compatibility concerns and retail availability constraints directly analogous to Pertamax Green 95's challenges[16]. Public acceptance of fossil fuel subsidy removal and carbon taxation in developing countries, including Indonesia, increases significantly when the use of generated revenue is communicated transparently[17].
+In the 7Ps marketing mix literature, Consumers perceive green products as credible only when firms demonstrate economic responsibility alongside environmental commitment[11]. Combining green products with affordability measures and loyalty programs significantly increases adoption among middle-income households. These findings are directly applicable to Pertamax Green 95's pricing challenge, where the 35% premium over subsidized RON 90 gasoline creates the primary consumer adoption barrier identified in Section 1.1.1. Economic responsibility has been identified as a mediating factor in the relationship between green marketing initiatives and consumer purchasing behavior[18,19], this is directly relevant to Pertamax Green 95's pricing strategy in Indonesia's price-sensitive market.
+Despite this growing literature, a significant research gap persists: no study has applied the 7Ps marketing mix framework to bioethanol-gasoline blends in Southeast Asian emerging markets. This thesis addresses this gap by integrating international theoretical frameworks with Indonesian market-specific primary data to design a comprehensive, 7Ps-grounded marketing strategy for Pertamax Green 95.
+Table . Summary of Key International Literature
+
+1.3 Research Content and Methods
+1.3.1 Research Content
+In response to the research gaps identified above, this thesis is structured as follows.
+Chapter 1 establishes the research background, significance, literature review, and methodology.
+Chapter 2 presents theoretical foundations, including STP theory, 7Ps Marketing Mix theory, and environmental analytical tools (PESTEL, Porter's Five Forces, SWOT).
+Chapter 3 profiles Pertamina and analyzes the current 7Ps marketing mix, presents consumer survey findings, and identifies specific problems.
+Chapter 4 conducts a full marketing environment analysis through PESTEL, Porter's Five Forces, and SWOT.
+Chapter 5 designs the integrated marketing strategy .
+Chapter 6 details implementation guarantees across management, human resources, financial resources, and information technology.
+Chapter 7 synthesizes conclusions, acknowledges limitations, and proposes future research directions.
+The research scope is delimited to Pertamax Green 95's marketing strategy within Indonesia's domestic market, focusing on consumer-facing marketing mix elements rather than upstream production or policy lobbying.
+1.3.2 Research Methods
+This study employs two complementary research methods to ensure both theoretical depth and empirical applicability: the literature research method and the questionnaire survey method.
+The literature research method forms the theoretical foundation of the study. Publications on marketing strategy, sustainable and green marketing, consumer behavior, and biofuel adoption are systematically collected, evaluated, and synthesized. Sources include peer-reviewed journals such as the Journal of Marketing, Energy Policy, Journal of Cleaner Production, and Journal of Business Ethics, alongside government policy documents (ESDM) and Pertamina corporate reports. Academic databases include Web of Science, ScienceDirect, SpringerLink, SAGE Journals, and CNKI. The review informs theoretical framework selection (7Ps, STP, PESTEL, Porter's Five Forces, SWOT) and identifies the research gap.
+Questionnaire Survey Method. The questionnaire survey provides empirical data to explore consumer perceptions related to the marketing strategy of Pertamax Green 95. The research adopts a single embedded case study design, with Pertamina's Pertamax Green 95 as the unit of analysis.
+A structured questionnaire is designed around the 7Ps marketing mix framework, comprising: (a) 7Ps core questions on 5-point Likert scales (1 = strongly disagree to 5 = strongly agree) across all seven dimensions; (b) satisfaction and loyalty measures (repurchase intention, recommendation willingness); (c) open-ended questions on adoption barriers and improvement suggestions; and (d) customer demographic.
+Data analysis will be using descriptive statistics (frequency, percentage, mean) for demographic and 7Ps dimension profiling, importance-performance gap analysis to identify priority improvement areas, and qualitative thematic analysis for open-ended response coding. This combined approach ensures methodological consistency and practical relevance in evaluating Pertamax Green 95's marketing effectiveness.
+1.4 Technical Route
+The technical route, visualized in Figure 1, outlines systematic progression from defining the background and methodology to conducting a comprehensive environmental analysis and ultimately developing the marketing strategy for Pertamax Green 95.
+
+Figure . Technical Route
+
+Related Concepts and Theoretical Aspects of Marketing
+2.1 Related Concepts
+2.1.1 Definition of Marketing
+Kotler and Keller define marketing strategy as the art and science of choosing target markets and building profitable relationships with them[20]. It encompasses selecting target market segments, establishing competitive positioning, and designing the marketing mix to serve those segments effectively. In competitive industries, marketing strategy serves as the foundation for sustainable competitive advantage by aligning organizational resources with market opportunities and customer needs[21].
+The American Marketing Association (AMA) defines green marketing as the marketing of products presumed to be environmentally safe. This definition can be extended to include the holistic process of developing, promoting, and distributing products that satisfy customer needs while minimizing negative environmental impacts. In the energy sector, green marketing involves communicating ecological benefits of sustainable products to environmentally conscious consumers while addressing economic and performance concerns that influence purchase decisions in price-sensitive emerging markets[22].
+2.1.2 STP Theory
+STP marketing theory comprises three sequential strategic components: market segmentation, target market selection, and market positioning. Together, these components form a systematic framework for identifying, evaluating, and serving distinct consumer groups with tailored marketing approaches[20].
+Market segmentation is the process of dividing a heterogeneous market into distinct subgroups of consumers with similar needs, characteristics, or behaviors. Common segmentation bases include geographic (region, climate, population density), demographic (age, income, occupation), psychographic (lifestyle, values, personality), and behavioral (purchase occasion, benefits sought, usage rate). Effective segmentation requires that segments be measurable, accessible, substantial, differentiable, and actionable.
+Following segmentation, the firm evaluates each segment's attractiveness and selects one or more segments to serve. Three primary targeting strategies exist: concentrated marketing (focusing resources on a single segment), differentiated marketing (targeting multiple segments with distinct offerings), and niche marketing (specializing in a narrowly defined segment with specialized expertise). The choice depends on company resources, product homogeneity, market homogeneity, and competitor strategies.
+Market positioning involves designing the company's offering and image to occupy a distinctive place in the minds of the target market. Key positioning strategies include differentiation on functional attributes (product features, performance), emotional appeals (brand personality, values), and value proposition (price-quality trade-offs). Perceptual mapping is a valuable tool for visualizing how consumers perceive competing brands related to key dimensions such as price, quality, and service.
+Table . STP Framework Summary
+2.1.3 7Ps Marketing Mix Theory
+The 7Ps marketing-mix framework extends the traditional 4Ps (Product, Price, Place, Promotion) by adding three service-oriented elements (People, Process, Physical Evidence), making it particularly applicable to service-intensive industries such as retail, hospitality, and financial services[12]. Each element represents a controllable variable that marketers can adjust to influence consumer perceptions and purchase behavior.
+Product strategy encompasses all attributes that deliver value to consumers, including quality, features, design, branding, and packaging. The product can be describe as a multi-level concept comprising the core product (fundamental service), the actual product (features, quality, branding), and the augmented product (after-sales service, warranties, delivery). Effective product strategy addresses consumer needs at all three levels.
+Pricing strategy involves setting price levels, discounts, allowances, and payment terms that reflect the product's value proposition while remaining competitive. Value-based pricing, which links price to perceived customer value rather than production cost, has been shown to generate superior profitability compared with cost-plus pricing approaches[23]. Pricing decisions must consider consumer price sensitivity, competitive positioning, and long-term brand equity.
+Place strategy concerns distribution channel selection, coverage, logistics, and inventory management. Distribution decisions determine product accessibility and availability, directly influencing market penetration and customer convenience. The choice between direct and indirect channels, and between intensive and selective distribution, depends on product characteristics, target market behavior, and competitive dynamics.
+Promotion encompasses advertising, sales promotion, public relations, and digital marketing activities that communicate the product's value proposition. Integrated Marketing Communications (IMC) theory advocates for consistent messaging across all touchpoints to build brand awareness and drive purchase behavior[20].
+People refer to all human actors who participate in service delivery, including front-line staff, customer service representatives, and technical support personnel. In service industries, well-trained personnel who consistently deliver high-quality service significantly influence consumer trust and repurchase intention[24,25].
+Process encompasses the procedures, mechanisms, and flow of activities through which services are delivered. The process design affects both operational efficiency and customer experience, making it a critical determinant of service quality and competitive advantage.
+Physical evidence comprises the tangible elements that consumers encounter during service delivery, including facility environment, signage, equipment, and employee appearance. The physical evidence serves as a credibility cue in service contexts where the core offering is intangible, helping to reduce perceived risk and build consumer confidence.
+Table . 7Ps Marketing Mix Elements
+
+2.2 Environmental Analytical Tools
+2.2.1 PESTEL Macro-Environment Analysis Model
+PESTEL analysis is a macro-environmental scanning framework that examines six external dimensions shaping industry conditions: Political, Economic, Social, Technological, Environmental, and Legal. It provides a structured approach for identifying opportunities and threats that influence strategic marketing decisions[26].
+Political factors encompass government policies, political stability, tax policies, trade restrictions, and state intervention in markets. In regulated industries such as energy and finance, political decisions directly affect market structure, competitive dynamics, and strategic options available to firms.
+Economic factors include GDP growth rates, inflation, interest rates, exchange rates, and disposable income levels. These variables determine market attractiveness, consumer purchasing power, and investment feasibility for market entrants and incumbents alike.
+Social factors capture demographic trends, cultural norms, lifestyle patterns, education levels, and attitudes toward sustainability. Shifting social values, particularly the growing emphasis on environmental responsibility among younger consumers, creates both opportunities and challenges for firms in consumer-facing industries[27].
+Technological factors include R&D activity, automation potential, digital innovation, and technology transfer. Rapid technological change can disrupt established business models while creating new market opportunities for firms capable of adapting[11].
+Environmental factors encompass climate conditions, environmental regulations, carbon emission standards, and sustainability expectations. As governments worldwide implement Net Zero commitments, environmental considerations increasingly influence consumer preferences, regulatory requirements, and corporate[1].
+Legal factors include antitrust law, consumer protection regulations, employment law, health and safety standards, and industry-specific legislation. Compliance requirements affect operational costs, market entry barriers, and competitive positioning across industries.
+Table . PESTEL Analysis Dimensions
+2.2.2 Porter’s Five Forces Analysis Model
+Porter's Five Forces framework analyzes industry competitive structure through five interrelated forces that determine the intensity of competition and profitability potential: threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of substitutes, and competitive rivalry among existing firms[21].
+Barriers to entry determine how easily new competitors can enter an industry. High barriers include capital intensity, economies of scale, regulatory requirements, and established brand loyalty. Industries with low barriers face continuous competitive pressure from new entrants.
+Supplier power increases when suppliers are concentrated, offer differentiated inputs, or control critical resources. Powerful suppliers can raise prices or reduce quality, squeezing industry profitability.
+Buyer power increases when buyers are concentrated, face low switching costs, or can easily compare alternatives. In markets with high buyer power, firms must compete aggressively on price and service to retain customers.
+Substitutes are alternative products or services that fulfill the same customer’s need. The threat is high when substitutes offer comparable benefits at lower prices or with superior convenience, constraining the pricing power of incumbent firms.
+Rivalry intensity depends on the number of competitors, industry growth rate, product differentiation, and exit barriers. Slow-growing industries with numerous undifferentiated competitors experience the most intense rivalry.
+Table . Porter's Five Forces Analysis Framework
+
+2.2.3 SWOT Analysis Model.
+SWOT analysis integrates internal organizational factors (Strengths, Weaknesses) with external environmental conditions (Opportunities, Threats) to generate a comprehensive strategic assessment. It synthesizes insights from macro-environmental scanning tools such as PESTEL and industry structure analysis such as Porter's Five Forces into actionable strategic directions.
+Strengths and Weaknesses are internal factors over which the organization has direct control, including resources, capabilities, brand equity, operational efficiency, and human capital. Opportunities and Threats are external factors shaped by market conditions, competitive dynamics, regulatory changes, and technological shifts. The strategic value of SWOT lies in matching internal strengths to external opportunities while developing plans to overcome weaknesses and mitigate threats.
+SWOT serves as a bridge between environmental analysis and strategy formulation. After PESTEL identifies macro trends and Porter's Five Forces reveals industry structure, SWOT organizes these insights relative to the firm's specific circumstances, generating four strategic postures: SO (maxi-maxi) strategies that leverage strengths to exploit opportunities, WO (mini-maxi) strategies that overcome weaknesses to capture opportunities, ST (maxi-mini) strategies that use strengths to avoid threats, and WT (mini-mini) strategies that minimize weaknesses and avoid threats.
+Table . SWOT Analysis Matrix
+
+
+Current State of Marketing for Pertamax Green 95
+3.1 Overview of PT Pertamina (Persero)
+3.1.1 Corporate Background and Energy Transition Mission
+PT Pertamina (Persero) is Indonesia's state-owned integrated energy conglomerate, established in 1968 through the merger of Pertamin and Permina. As the national energy company, Pertamina operates across the full hydrocarbon value chain, employing approximately 35,000 people directly and supporting millions of indirect livelihoods across the national economy. PT Pertamina Patra Niaga, the Subholding Commercial & Trading (SH C&T), serves as the downstream commercial and retail arm responsible for fuel distribution, trading, and retail operations through Indonesia's largest gas station network[28].
+In 2024, Pertamina achieved fuel sales of 105,052,452 kl, representing 5.6% year-on-year growth from 99,464,656 KL in 2023. Financial performance exceeded targets, with profit reaching USD 1.1 billion (103.2% of target) and EBITDA at USD 2.0 billion (121.1% of target). The company's health rating stands at AAA (idn) (Stable), with ESG rating of BBB and Good Corporate Governance (GCG) score of 83.13. Operational safety metrics include a Total Recordable Incident Rate (TRIR) of 0.05 in 2024, well below the tolerance threshold of 0.11. The company has maintained consistent environmental compliance, recognized through multiple PROPER awards from the Ministry of Environment and Forestry[28].
+Pertamina's energy transition mission is anchored in the Net Zero Emission 2060 target, operationalized through a dual-pillar strategy: (1) green business development encompassing biofuels, renewable energy, and new energy sources; and (2) decarbonization of existing operations. Pertamax Green 95 falls within the first pillar, representing the company's first commercial-scale bioethanol-gasoline blend for the retail automotive market. The product supports multiple government mandates including Peraturan Menteri ESDM No. 12 Tahun 2015 on biofuel utilization and Indonesia's Nationally Determined Contribution (NDC) under the Paris Agreement.
+3.1.2 Business Structure and Strategic Objectives
+Pertamina 's organizational structure operates through three primary business segments: (1) Fuel Retail, managing approximately more than 6,000+ gas station nationwide; (2) Fuel Trading, serving industrial, commercial, and marine customers; and (3) Logistics & Infrastructure, encompassing fuel storage depots, transportation fleets, and supply chain management. The Fuel Retail division is organized by regional sales territories including SA Jabodetabek, SA Banten, SA Karawang, SA Cirebon, SA Bandung, SA Semarang, SA Tegal, SA Yogyakarta, SA Surabaya, SA Kediri, and SA Malang, enabling localized distribution planning and market responsiveness.
+The company's strategic objectives for 2024-2028 center on three pillars: operational excellence (maintaining fuel supply security across 17,000+ islands), commercial growth (defending market share against escalating non-Pertamina competition, which reached 15% of non-subsidized fuel consumption in 2025), and energy transition acceleration (scaling Pertamax Green 95 and future biofuel products).
+Table . PT Pertamina Corporate Profile and Key Indicators (2023-2024)
+Source: Pertamina Patra Niaga Annual Report 2024. Financial figures converted at prevailing exchange rates.
+3.2 Current Marketing Strategy Analysis
+This section analyzes the current marketing strategy for Pertamax Green 95 using 7Ps framework[29]. The analysis documents the implementation status, operational scope, and preliminary performance indicators for each marketing mix. Data are drawn from Pertamina  internal report, field observations at select gas station, and published corporate reports. While the 7Ps framework provides a structured overview of strategic implementation, the market effectiveness of these elements remains to be empirically validated through consumer research presented in Section 3.3.
+3.2.1 Product Strategy
+Pertamax Green 95 is Indonesia's first commercial-scale bioethanol-gasoline blend for the retail market, launched on June 20, 2023. The product combines RON 95 gasoline with 5% bioethanol (E5) derived from sugarcane molasses sourced from East Java. The bioethanol is produced by PT Enero with a supply capacity of approximately 30,000 kiloliters per year, blended at Pertamina's fuel terminals before distribution to retail gas station. The product holds SK Dirjen Migas ESDM No. 252.k/HK.02/DJM/2023 as its official specification certificate and has been tested and validated by LEMIGAS (Lembaga Minyak dan Gas Bumi).
+The product is positioned as a hybrid performance-eco fuel, targeting environmentally conscious private vehicle owners who prioritize engine compatibility alongside reduced carbon emissions. This positioning bridges the conventional performance fuel segment (Pertamax RON 92) and the premium performance segment (Pertamax Turbo RON 98), differentiating through its E5 bioethanol content and ESG alignment. The product's three-layer value architecture consists of: (1) core product, engine fuel delivering RON 95 combustion performance; (2) actual product, bioethanol-blended gasoline with certified quality and regulatory compliance; and (3) augmented product, environmental sustainability attributes, agricultural community support, and national energy transition contribution.
+Table . Pertamax Green 95 Product Specification and Portfolio Positioning
+Source: Pertamina Patra Niaga Product Information (2025); SK Dirjen Migas ESDM No. 252.k/HK.02/DJM/2023
+Cumulative sales since launch reached 22,461 KL as of November 2025 (11,746 KL through IT Jakarta and 4,488 KL through IT Surabaya), with monthly consumption averaging 624 liters per day per outlet nationwide. Year-on-year sales growth reached 80% in November 2025. The absolute volume represents approximately 0.015% of total fuel volume, positioning the product in the early market development phase.
+3.2.2 Price Strategy
+Pertamax Green 95's pricing reflects a market-building approach rather than profit maximization. The product is positioned at a price point at or below Pertamax Turbo and, at select gas stations, priced competitively with conventional Pertamax. This pricing architecture reflects strategic margin absorption by Pertamina, accepting lower per-unit profitability to accelerate consumer trial and market share acquisition.
+The pricing flexibility is enabled by Peraturan Menteri ESDM No. 62 Tahun 2020 on Biofuel Retail Pricing, which permits Pertamina to set non-subsidized biofuel prices within a specified band relative to the HIP (Harga Indeks Pasar) gasoline reference price, provided the retail price does not exceed the ceiling price for equivalent-octane fossil fuel. This regulatory framework allows Pertamina to absorb the bioethanol cost premium without violating price regulations.
+
+Figure . Pertamax Green 95 Price Comparison with Pertamax and Pertamax Turbo (DKI Jakarta, June 2023 - July 2025)
+Note: Prices reflect DKI Jakarta PBBKB 5% region. Green 95 was priced between Pertamax and Pertamax Turbo throughout the period. Sources: MyPertamina.id, ANTARA News, Kompas (various dates).
+From the consumer perspective, this pricing strategy partially addresses the price barrier. By maintaining price parity with conventional Pertamax, Pertamina reduces the economic barrier to trial. Consumer perception of value-for-money remains influenced by awareness of the product's dual performance-sustainability benefits.
+Table . Pertamax Green 95 Sales Volume and Distribution Expansion (June 2023 - December 2025)
+Note: Sales volume and outlet distribution data compiled from Pertamina Patra Niaga Regional Sales Reports (2023-2025). Per-outlet volume calculated by the author.
+
+Figure . Pertamax Green 95 Monthly and Cumulative Sales Volume (June 2023 - November 2025)
+Source: Pertamina Patra Niaga Internal Sales Dashboard, November 2025.
+While outlet expansion exceeded targets, average daily sales per gas station declined from approximately 406 L in January 2025 to approximately 292 L in November 2025, indicating that distribution growth currently outpaces localized demand generation.
+3.2.3 Place Strategy
+The Place strategy for Pertamax Green 95 has evolved through three phases since the June 2023 launch. Phase 1 (Pilot Launch, June-December 2023) began with 23 gas station concentrated in Surabaya and Jakarta. Phase 2 (Java Expansion, January-December 2024) expanded distribution to 107 gas stations. Phase 3 (Accelerated Rollout, January-November 2025) increased outlet count to 177 gas stations across all 11 sales areas.
+Table . Pertamax Green 95 gas station Distribution by Sales Area (November 2025)
+Note: Sales volume and outlet distribution data compiled from Pertamina Patra Niaga Regional Sales Reports (2023-2025). Geographic achievement rates calculated by the author.
+Despite exceeding the aggregate target (118.0%), the distribution reveals geographic imbalance. SA Bandung achieved 55.6% of targets, while SA Yogyakarta and SA Semarang significantly exceeded targets. All 177-gas station are in Java, with no distribution to Sumatra, Sulawesi, Kalimantan, or Bali.
+The supply chain involves three stages: (1) bioethanol procurement from PT Enero (30,000 KL/year capacity), (2) blending at Pertamina fuel terminals, and (3) distribution to gas station via standard fuel logistics. The limited bioethanol supply capacity creates a potential distribution constraint[11,30].
+3.2.4 Promotion Strategy
+Promotional activities for Pertamax Green 95 currently rely primarily on organic social media posts on Pertamina's official channels and corporate communications materials distributed across sales areas. Digital media content highlighting environmental benefits is produced on a limited basis, and event-based product showcases occur at select corporate functions and sustainability forums. No dedicated advertising campaign or consumer education program exists for the product.
+The current promotional approach creates a notable imbalance: distribution has expanded to 177 gas station without proportional investment in demand generation. As noted in internal strategic reviews, outlet growth is not proportional to sales growth. The addition of 70 new gas station between January and November 2025 did not generate a corresponding sales increase, suggesting that distribution expansion without accompanying promotional support may not effectively drive adoption.
+Three promotional areas are currently underdeveloped: (1) consumer education, no systematic campaign explains bioethanol content, E5 blending benefits, or environmental impact; (2) competitive differentiation, no advertising positions Pertamax Green 95 against Non-Pertamina brands (Shell V-Power) or conventional Pertamax on performance or sustainability dimensions; and (3) trial inducement, no promotional pricing, sampling programs, or loyalty incentives specifically target first-time users. The product relies on organic brand equity from the Pertamax parent brand and incidental exposure through corporate sustainability communications.
+3.2.5 People Strategy
+The People dimension encompasses two stakeholder groups: frontline gas station personnel (pump attendants, cashiers, supervisors) and customer service representatives (call centers, social media managers, MyPertamina support).
+Frontline staff training programs currently focus on standard refueling procedures and digital payment operations, with product-specific modules for Pertamax Green 95 integrated on an ad-hoc basis. When consumers ask questions about bioethanol content, engine compatibility, or product differences, frontline staff may not consistently provide detailed answers. Research on MyPertamina implementation found that Pertamina officers do not fully understand the digital applications they support, a finding that may also apply to frontline knowledge of biofuel products[31].
+Gas station staff performance metrics focus on transaction volume, fuel sales revenue, and customer service speed. Performance-based incentives for green fuel sales are not currently part of the compensation structure. Customer service channels (MyPertamina app, call center 135, social media) similarly lack dedicated training modules on Pertamax Green 95. The MyPertamina app does not feature a dedicated product information section, green fuel locator function, or loyalty program differentiation for green fuel purchases[31].
+3.2.6 Process Strategy
+The current purchase process follows a standardized three-step sequence: (1) pump selection via nozzle labeling, (2) payment through cash, QRIS, or MyPertamina wallet, and (3) receipt generation. No dedicated green-fuel verification or post-transaction environmental impact notification is currently integrated into digital or physical workflow.
+For pre-purchase information search, consumers seeking Pertamax Green 95 availability face a fragmented discovery experience. Pertamina website provides basic product information (specifications, FAQ, environmental claims), but no interactive gas station locator filters for Green 95 availability. The MyPertamina app enables general gas station location search but does not identify which gas stations stock Pertamax Green 95. This information gap requires consumers to call individual gas stations or physically visit stations to check availability.
+Post-purchase engagement is not systematically structured for Pertamax Green 95 consumers. There is no feedback mechanism, follow-up communication about environmental impact, or loyalty program tier differentiation for green fuel customers. This represents a gap in developing emotional attachment and repeat-purchase behavior through transparent communication of environmental outcomes[17].
+3.2.7 Physical Evidence Strategy
+Physical evidence encompasses all tangible cues consumers encounter at gas station. For Pertamax Green 95, current physical evidence consists primarily of basic product labeling on dispenser nozzles, with limited green-specific branding at the station level. The overall gas station environment provides minimal green credibility cues beyond standard pump labeling.
+Internal assessments and the Customer Satisfaction and Loyalty Survey 2024 indicate that while standard gas station facilities meet baseline expectations, green-specific physical evidence is largely absent[32]. There are no prominent environmental certification displays, visual communication of bioethanol content and benefits, dedicated green canopy or station-zone branding, or interactive displays explaining environmental impact. A survey involving 469 Pertamax consumers at gas station locations in Jakarta confirmed that environmental attitudes mediate the relationship between consumer satisfaction and repeat-purchase behavior[33].
+
+Figure . Pertamax Green 95 Pump Nozzle and Dispenser Labeling at gas station
+
+Figure . Multi-Product Fuel Dispenser at Pertamina gas station
+
+Figure . Pertamax Green 95 Nozzle in Use at Retail gas station
+Table . Current 7Ps Marketing Mix Summary for Pertamax Green 95 (as of November 2025)
+While the 7Ps framework outlines the current strategic implementation, its market effectiveness remains to be empirically validated. Section 3.3 presents consumer survey findings to assess awareness, perception, and behavioral response to these marketing elements, which will subsequently inform the problem identification in Section 3.4.
+3.3 Consumer Research Analysis
+3.3.1 Survey Methods
+The consumer research component employs a qualitative survey methodology designed to capture the attitudes, perceptions, and behavioral intentions of private vehicle owners in major Indonesian cities regarding Pertamax Green 95. The survey instrument is administered through an online questionnaire distributed via Google Forms, selected for its accessibility, cost-effectiveness, and capacity to reach geographically dispersed respondents across multiple urban centers. The questionnaire is designed for completion within 10 to 15 minutes.
+The sampling frame comprises private car owners residing in major Indonesian cities including Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi), Surabaya, Bandung, and Medan, selected for their representativeness of urban fuel consumption patterns, vehicle density, and variation in environmental awareness levels. Jakarta and Surabaya were prioritized because they represent Pertamina’s two primary distribution territories (Integrated Terminal Jakarta and Integrated Terminal Surabaya) and collectively account for most Pertamax Green 95 sales. Bandung and Medan were included to capture consumer perspectives from secondary growth cities with distinct demographic and psychographic profiles.
+Purposive sampling was employed, targeting respondents who met the following criteria: (1) age 18–65 years; (2) own or regularly operate a gasoline-powered vehicle (car or motorcycle); (3) purchased fuel at a Pertamina’s Gas Station within the past 3–6 months; (4) aware of Pertamax Green 95 (either as current users or as non-users with product awareness); and (5) residing in one of the four target cities. This purposive approach ensures that respondents possess sufficient product exposure to provide informed assessments across all 7Ps dimensions, while the inclusion of both users and aware non-users captures the perspectives of consumers at different stages of the adoption funnel.
+The questionnaire is structured around the 7Ps Marketing Mix framework as the primary analytical architecture, with four distinct sections comprising 35 closed-ended questions and 3 open-ended questions (total 38 items). Section A contains the core 7Ps questions measured on 5-point Likert scales (1 = Strongly Disagree, 2 = Disagree, 3 = Neutral, 4 = Agree, 5 = Strongly Agree). Table 3.6 maps the survey structure to the 7Ps dimensions. The complete questionnaire is provided in Appendix A.
+Table . Survey Instrument Structure: Mapping to 7Ps Dimensions
+Note: Full questionnaire text provided in Appendix A. 7Ps framework adapted from the 7Ps marketing mix framework.
+3.3.2 Survey Findings
+This section presents empirical findings from the 124 valid survey responses, organized around the 7Ps framework. The analysis integrates descriptive statistics with theoretical interpretation to identify patterns in consumer perception that inform the problem diagnosis in Section 3.4. The interpretation thresholds used in this study classify scores ≥ 3.50 as Good, scores between 3.00 and 3.49 as Moderate, and scores below 3.00 as requiring improvement[34].
+Overall 7Ps Marketing Mix Performance.
+Table 3.7 presents the descriptive statistics for each of the seven marketing-mix dimensions. The overall mean score across all 32 Likert-scale items was 3.449 (SD = 0.268), classifying Pertamax Green 95's marketing strategy as "Moderate."
+Table . 7Ps Marketing Mix Dimension Summary (n = 124)
+The standard deviations reveal that opinions are most divided on Promotion (SD = 0.577) and most convergent on Process (SD = 0.403), suggesting that place activities generate polarized perceptions while operational processes deliver more consistent experience
+
+Figure . 7Ps Marketing Mix Dimension Mean Scores (Sorted Lowest to Highest)
+Process (P6) and Physical Evidence (P7) represent genuine operational strengths that the company can leverage. People (P5) and Product (P1) perform acceptably but lack differentiation. Place (P3) and Price (P2) reveal structural weaknesses, while Promotion (P4) is the critical bottleneck. The 1.021 point gap between Process (highest) and Promotion (lowest) indicates a communication disconnect: genuine operational excellence is invisible to the market.
+Product Perception (P1). The Product dimension achieves high mean score (3.603), indicating that respondents who are familiar with Pertamax Green 95 generally perceive its technical attributes favorably. However, a granular analysis of individual items reveals significant internal variation with important diagnostic implications.
+
+Figure . Product (P1) Dimension
+Environmental positioning (P1.3 = 4.153) and fuel quality (P1.1 = 3.968) both exceed the "Good" threshold, indicating that the product formulation resonates with consumers and the green value proposition is acknowledged.
+Engine smoothness (P1.2 = 3.177) and product variety (P1.5 = 3.202) both fall into "Moderate" territory. The 0.976-point gap between P1.3 and P1.2 reveals that emotional benefits (green positioning) are better perceived than functional benefits (engine performance).
+Brand equity requires the simultaneous development of both rational and emotional consumer associations[35]. Pertamax Green 95 has built the emotional association (environmental alignment) but not fully delivered the rational one (tangible engine benefits). This finding is consistent with previous research indicating that product quality alone is insufficient when consumers do not perceive meaningful functional differentiation[36].
+Price Perception (P2). Price (mean = 3.079) represents a significant strategic vulnerability, with wide internal variation (standard deviation = 1.087) indicating polarized consumer sentiment.
+
+Figure . Price (P2) Dimension
+Price transparency (P2.4 = 3.831) scores well, indicating that consumers trust Pertamina's regulated pricing compliance. Competitive positioning against Non-Pertamina brands (P2.2 = 3.234) is marginally acceptable.
+Affordability (P2.3 = 2.637) is the second-lowest score across all 32 items. Quality-price match (P2.1 = 3.024) and regular purchase ability (P2.5 = 2.669) both underperform. The 1.194-point internal range is the widest of any dimension.
+Purchase intention is strongly influenced by the perceived value ratio between expected benefits and perceived sacrifice[37]. The low affordability score confirms that the price premium over Pertamax Turbo is not matched by sufficiently communicated incremental benefits. Cross-demographic analysis (Section 3.3.2.5) confirms this barrier is income-segmented, with the Below 5 million IDR bracket rating Price 0.351 points lower than the 20-50 million IDR segment.
+Place Perception (P3). Place (mean = 3.356) performs solidly, consistent with Pertamina’s extensive gas station network infrastructure.
+
+Figure . Place (P3) Dimension
+Operating hours (P3.3 = 4.016) and queue management (P3.4 = 3.798) both exceed the "Good" threshold. Strategic location (P3.2 = 3.556) is adequate.
+Availability at the stations visited (P3.1 = 2.210) is the single lowest item in the entire survey. Digital purchase ease (P3.5 = 3.202) also underperforms. The 1.806-point gap between P3.3 and P3.1 is the largest intra-dimensional gap across all seven Ps.
+Distribution effectiveness is determined by both distribution intensity and channel integration rather than location strategy alone[38]. The data reveal an intensity failure: Pertamax Green 95 is not stocked at a density matching consumer mobility pattern. This creates structural availability deficit, the product exists in the network but is not accessible at the point and time of consumer need, effectively rendering it invisibility to potential buyers at their decision moment.
+Promotion Perception (P4). Promotion (mean = 2.848) is the lowest-performing dimension by a substantial margin; this finding is the most critical diagnostic signal in the entire dataset.
+
+Figure . Promotion (P4) Dimension
+Information clarity (P4.4 = 3.363 & P4.3 =3.177) is the only promotional item above 3.00. When consumers do encounter Pertamax Green 95 communications, the message content is understandable.
+Advertisement visibility (P4.1 = 2.113) is the lowest of all 32 survey items. Promotional attractiveness (P4.2 = 2.742) and green message memorability (P4.5 = 2.847) also score poorly. Every single promotional item is below "Moderate."
+This represents a systemic gap between internal service delivery and external communications. The product delivers genuine quality (P1.1 = 3.968) and operations function well (P6.3 = 3.927), but these strengths are not communicated to the market. This phenomenon can be characterized as a brand-awareness deficit, whereby a quality product fails to enter the consumer's consideration set despite possessing favorable attributes[39].
+People Perception (P5). The People dimension (mean = 3.762) demonstrates strong frontline` service delivery, though with notable internal variation. Staff professionalism (P5.3 = 4.121) and friendliness (P5.2 = 3.992) both exceed "Good." Competence (P5.1 = 3.589) is also strong. Complaint handling (P5.4 = 3.347) is the lowest in this dimension, though still above the overall survey mean.
+
+Figure . People (P5) Dimension
+This pattern reflects the dominance of hygiene factors, whereby service quality prevents dissatisfaction but does not actively generate customer satisfaction. Frontline staff constitute a genuine competitive asset; however, additional investment in staff training is likely to yield diminishing returns compared with improvements in Promotion and Price dimensions[40]. Frontline staff are a genuine competitive asset, but further investment in staff training will yield diminishing returns compared to addressing Promotion and Price deficiencies.
+Process Perception (P6). Process (mean = 3.869) occupies a transitional position, with the narrowest standard deviation (0.832) across all dimensions, indicating consistent but unremarkable process performance.
+
+Figure . Process (P6) Dimension
+Payment convenience (P6.2 = 4.000), transaction speed (P6.1 = 3.968), and fuelling efficiency (P6.3 = 3.927) all demonstrate operational excellence. These are the three highest-scoring items of any dimension. MyPertamina app utility (P6.4 = 3.581) is the lowest in this dimension but remains above the overall mean.
+Process excellence operates as a hygiene factor, it prevents dissatisfaction but its marginal contribution to loyalty is limited. The  is that Pertamina's strongest dimension is simultaneously its least leveraged: the superior fuelling experience is invisible to non-users because Promotion fails to communicate it. Evidence from service organizations indicates that Process and People dimensions frequently emerge as operational strengths that require promotional support to generate meaningful market impact[41].
+Physical Evidence Perception (P7). Physical Evidence (mean = 3.851), reflecting relatively strong tangible cues at the service encounter level.
+
+Figure . Physical Evidence (P7) Dimension
+The strong performance on P7.1 (gas station cleanliness, mean = 4.105) reflects Pertamina’s substantial infrastructure investments, which benefit all product lines equally. Item P7.4 (signage visibility, mean = 3.258) is the weakest, indicating that while gas stations are physically well-maintained, the specific green identity elements that should differentiate Pertamax Green 95 are less prominent. Physical evidence serves as an important communication medium that reinforces brand positioning at the point of purchase[42]. The low signage visibility creates a : consumers do not encounter Pertamax Green 95 in media communications (P4.1 = 2.113) and do not encounter it visually at the gas station (P7.4 = 3.258). The servicescape is operationally sound but fails its brand communication function.
+Overall Satisfaction and Loyalty (Section B).
+Beyond the 7Ps diagnostic, three outcome measures were assessed to evaluate the overall health of the consumer-brand relationship: overall satisfaction (B1), recommendation willingness (B2), and repurchase intention (B3). Based on the behavioral intentions framework and the American Customer Satisfaction Index approach, these measures were analyzed both individually and as a composite loyalty construct[40,43].
+Customer Satisfaction Analysis. The overall satisfaction score of 3.677 on a 5-point scale (73.5% of maximum) positions Pertamax Green 95 in the "moderately satisfied" zone. This is consistent with the 7Ps diagnostic: consumers appreciate operational delivery (P6 Process = 3.869, P7 Physical Evidence = 3.851) but are dissatisfied with promotional communication (P4 Promotion = 2.848) and price-value perception (P2 Price = 3.079). The satisfaction score does not reach the 4.0 "enthusiastic endorsement" benchmark, indicating that positive perceptions have not yet been crystallized into emotional brand attachment.
+Recommendation Willingness Distribution. The recommendation willingness scores (B2, 1-10 scale) yield a mean of 6.927 with a left-skewed distribution: 32.3% are detractors (scores 1-6), 47.6% are passives (scores 7-8), and 20.2% are promoters (scores 9-10). The result corresponds to a Net Promoter Score (NPS) of -12.1%[44]. Although NPS has recognized limitations in predicting future behavior within low-penetration markets, the negative score indicates that the brand currently has more vocal critics than advocates[45]. For a product with 2.6% retail penetration, this is expected most detractors have not purchased the product, making their recommendation score hypothetical rather than experiential. Nonetheless, the skew warrants attention: the priority is converting passives (B2 passive = 47.6%) to promoters through availability expansion and evidence-based green communication.
+Repurchase Intention Analysis. The repurchase intention score of 3.427 reveals a loyalty gap: satisfaction (B1 mean = 3.677) exceeds repurchase intent (B3 mean = 3.427) by 0.250 points. This gap indicates that satisfied consumers face friction, likely availability constraints and price sensitivity that prevents satisfaction from translating into behavioral commitment. Among current users (n=67), repurchase intention rises confirming that the loyalty gap is concentrated among non-users.
+Composite Loyalty Index (CLI). To integrate satisfaction and behavioral intention into a single metric, the CLI is calculated as the meaning of B1 and B3: CLI = (3.677 + 3.427) / 2 = 3.552. This value classifies the consumer relationship as "Moderate Loyalty" with a 0.448-point gap to the "Strong Loyalty" threshold (4.0). The CLI provides a tracking metric for strategy implementation.
+Strategic Implications. Three loyalty diagnostics emerge: (1) the satisfaction level is adequate but not enthusiastic; (2) the loyalty gap (satisfaction > repurchase intent) identifies availability and price as conversion barriers; (3) the large passive segment (47.6%) represents the highest-ROI conversion target. These findings converge with the 7Ps diagnostic: closing the Promotion and Place gaps will have the largest impact on loyalty improvement.
+Open-Ended Responses (Section C).
+Three open-ended questions (C1: barriers, C2: convincing factors, C3: strategic suggestions) generated 372 qualitative responses from 124 respondents. Data were analyzed using inductive thematic coding based on a six-phase thematic analysis framework[46].
+C1: Barriers to Regular Use: Responses to "What is your main barrier to using Pertamax Green 95 regularly?" (n=124) were coded into four themes:
+Theme 1: Availability and Physical Access (60.5%, n=75). The dominant barrier is physical unavailability. Representative responses include: "Nearly unavailable at nearby gas stations. That's my main barrier" (R69); "None sold near home. Hard to buy regularly" (R11, R30, R40 -- 11 total mentions of this exact formulation). This theme converges with the quantitative finding that P3.1 (availability at gas stations visited, mean = 2.210) is the lowest-scoring item in the entire survey. The barrier is geographic rather than economic: consumers who cannot find Pertamax Green 95 at their regular gas station have no practical choice but to use alternative fuels.
+Theme 2: Price and Cost Concerns (21.0%, n=26). The second most frequent barrier is centered on price premium relative to lower-octane alternatives. Representative responses: "Regular use would be tough. Much pricier than what I currently use" (R25); "Price gap with Pertalite is too big for daily motorcycle users" (R3, R52, R84 -- 5 total mentions). This theme is income-segmented: all 26 price-related responses came from respondents earning below 20 million IDR/month. No respondent above 50 million IDR mentioned price as a barrier.
+Theme 3: Awareness and Information Deficit (11.3%, n=14). A smaller but significant group reports insufficient exposure to Pertamax Green 95 marketing. Representative: "Rarely see Pertamax Green 95 ads or promos. Not enough exposure" (R47, R60, R81 -- 4 mentions). This theme validates the quantitative finding that P4.1 (advertisement visibility, mean = 2.113) is the weakest item across all 32 survey items.
+Theme 4: Brand Inertia and Loyalty (7.3%, n=9). A residual theme captures habitual resistance to switching. Representative: "Just inertia. Comfortable with my old choice despite knowing Pertamax Green 95 exists" (R85); "Long loyal to another brand. Need stronger reason to switch" (R23, R28). These responses suggest that without a compelling differentiation signal, consumers default to established fuel choices.
+C2: Factors That Would Drive Adoption: Responses to "What would convince you to choose Pertamax Green 95?" (n=124) reveal four convincing factors:
+Theme 1: Environmental Evidence and Transparency (39.5%, n=49). The single largest convincing factor is scientific proof of environmental benefits. Representative: "Show real data on better fuel efficiency or lower emissions. Then I'll believe" (R3); "Simple, easy-to-understand scientific data on emission savings would convince me" (R59, R75); "Give a free trial with emission comparison data I can see myself" (R22, R47). This finding directly contradicts the initial quantitative impression that green positioning is weak. Qualitative analysis reveals that consumers are not rejecting green claims -- they are demanding evidence to support them. The 49 respondents (39.5%) who mention environmental evidence represent a larger group than those citing price incentives (37.9%) or availability (35.5%).
+Theme 2: Price Incentives and Discounts (37.9%, n=47). The second-largest convincing factor group requests financial incentives for trial. Representative: "Just give me a first-time free promo or 10% discount. I'll try and maybe continue" (R54); "A reward points program redeemable for free fuel would make me buy more often" (R5, R21, R39 -- 3 mentions). These responses cluster in the 5-20 million IDR income segment and are almost exclusively from non-users.
+Theme 3: Physical Availability (35.5%, n=44). Convenience emerges as a prerequisite condition: "One thing that would change my mind: available at a nearby gas station" (R36, R2, R20 -- 3 mentions). Notably, availability is cited as a convincing factor (35.5%) less frequently than as a barrier (60.5%), suggesting that consumers distinguish between "hard barriers" (can't find it) and "soft enablers" (would be used if nearby).
+Theme 4: Information and Education (8.9%, n=11). A residual group requests educational outreach: "An educational campaign explaining benefits in simple language would help" (R68); "Testimonials from mechanics or official workshops on engine benefits would convince me" (R13, R21). These responses validate the need for expert endorsement in a technically credence-good market.
+C3: Strategic Suggestions for Pertamina: Responses to "What strategic suggestion would you give Pertamina?" (n=124) were coded into five themes:
+Theme 1: Distribution Expansion (58.9%, n=73). The majority demand accelerated gas station rollout. Representative: "Pertamina should target at least 30% of gas Stations selling Pertamax Green 95 within 2 years" (R18, R38, R92 -- 3 mentions); "Ensure at least 1 Pertamax Green 95 gas Station in every major city district" (R3, R59, R74 -- 3 mentions); "Distribution expansion to tier 2 and 3 cities must be an urgent priority" (R16, R20, R23, R26, R44 -- 5 mentions). Several respondents specify quantitative targets (30% coverage, 1 per district), suggesting consumers have thought strategically about rollout logistics.
+Theme 2: Digital and Social Media Marketing (20.2%, n=25). Explicit channel requests concentrate on Instagram, YouTube, and TikTok: "More massive digital ads on Instagram, YouTube, and TikTok with relatable content" (R19, R60, R73 -- 3 mentions); "Partner with automotive influencers and eco content creators for authentic reviews" (R3, R13, R47, R52, R58 -- 5 mentions). The specificity of platform requests (Instagram, YouTube, TikTok named explicitly) provides actionable media planning guidance.
+Theme 3: Point-of-Purchase Activation (17.7%, n=22). Respondents suggest gas Station-level interventions: "Place eye-catching Pertamax Green 95 info at all Pertamina gas Stations, not just those that sell it" (R31, R35, R78 -- 3 mentions); "Point-of-purchase campaigns: banners, gas Station screen videos, pump-side education" (R40, R61, R79 -- 3 mentions). These suggestions address the "" identified in the quantitative analysis: low media visibility (P4.1 = 2.113) combined with weak gas Station signage (P7.4 = 3.258).
+Theme 4: Local Storytelling and Content (14.5%, n=18). A distinctive theme involves national-pride narratives: "Create storytelling content about Mojokerto sugarcane farmers supplying bioethanol" (R21, R25, R49, R83 -- 4 mentions). This theme reveals an unexploited positioning opportunity: Pertamax Green 95 as a product supporting Indonesian agriculture, not merely reducing emissions. The Mojokerto farmer narrative resonates with "buy local" sentiment and provides emotional differentiation beyond functional claims.
+Theme 5: Staff Training and Engagement (9.7%, n=12). Frontline staff involvement is requested: "Pertamax Green 95 gas Station staff must actively offer and educate, not just passively serve" (R59); "Product knowledge certification for all gas Station staff selling Pertamax Green 95" (R41). These responses validate the People dimension finding that staff competence (P5.1 = 3.589) trails professionalism (P5.3 = 4.121).
+The qualitative analysis provides three diagnostic refinements to the quantitative results: (1) availability is a necessary condition, not a sufficient one consumers who cannot find Pertamax Green 95 are blocked entirely, but those who can find it still need price and evidence incentives; (2) green positioning is underestimated by quantitative scales, the 16.5% initial interpretation of green driver importance is revised upward to 39.5% based on explicit qualitative evidence requests; (3) digital channel strategy has explicit consumer endorsement, the request for Instagram/YouTube/TikTok content (20.2%) provides demand-side validation for digital marketing investment. These refinements inform the strategy recommendations in Chapter 5.
+Respondent Demographic Profile.
+Table 3.8 summarizes the demographic composition of the sample across eight screening variables.
+Table . Respondent Demographic Profile (n = 124)
+Several demographic characteristics warrant theoretical attention. First, the sample skews toward middle-income earners (87.09% earn between Rp 5-50 million monthly), suggesting respondents possess adequate disposable income to exercise fuel choice, a prerequisite for meaningful assessment of price-value trade-offs[37]. The concentration in the 10-50 million IDR bracket (66.9%) is particularly relevant because this segment represents the core market for premium fuel products, sufficiently affluent to consider quality upgrades but price-sensitive enough to evaluate value propositions carefully.
+Second, the dominance of car owners (47.6% car, plus 23.4% owning both car and motorcycles) may introduce an upward bias in product performance ratings, as Pertamax Green 95's octane rating and bioethanol blend are most demonstrably beneficial for higher-compression engines. Conversely, the 29% motorcycle-only segment represents a potential market expansion opportunity, provided communication can effectively convey product relevance for smaller engines[20].
+Third, the fuel purchase frequency distribution 74.2% purchasing at least weekly, confirms that respondents are active fuel consumers whose opinions reflect genuine market behavior rather than speculative assessment. This high engagement frequency strengthens the validity of their price sensitivity and service quality evaluations.
+Fourth, and most critically for interpreting the marketing findings, only 54.0% of respondents are current users while 21.8% have never heard of the product, indicating substantial market penetration gaps that trace directly to promotional and distribution deficiencies. The fact that 22.6% are aware but have never tried signifies a breakdown in the conversion phase of the consumer decision journey, a classic problem of promotional effectiveness[20]. Combined, 44.4% of respondents are non-users, representing a significant untapped market that current marketing efforts fail to reach.
+Fifth, the high environmental concern level (63.7% rating high to very high) aligns favorably with Pertamax Green 95's positioning as an eco-friendly fuel. However, the gap between this attitudinal predisposition and actual purchase behavior (only 54.0% usage despite 63.7% environmental concern) signals a failure in value proposition communication, consumers who should be naturally receptive to the product are not being effectively engaged.
+Finally, the geographic spread across 22 cities, with 49.19% concentrated in the top three metropolitan areas (Jabodetabek, Surabaya, Bandung), provides both national representativeness and urban-market depth. This distribution pattern reflects Indonesia's urban-centric fuel consumption geography and ensures that findings are generalizable to the primary target markets.
+3.4 Problems in the Current Marketing Strategy
+The survey findings presented in Section 3.3 reveal a marketing system characterized by profound internal asymmetry, the Process dimension achieves strong performance (mean = 3.869) while the Promotion dimension languishes at 2.848, a gap of 1.021 points that represents not merely a tactical weakness but a fundamental strategic misalignment between what Pertamina has built and what the market perceives. Five interrelated problems are identified, each representing a distinct yet connected failure mode in the current marketing effectiveness.
+The five problems form an interconnected system. Table 3.9 maps each problem to its root cause, and strategic interdependency.
+Table . Integrated Problem Summary
+Problem 1 is the foundational bottleneck. Without resolving the promotional deficiency, investments in distribution (Problem 3), pricing (Problem 2), digital channels (Problem 4), and green positioning (Problem 5) will yield suboptimal returns. Conversely, the data reveals favorable conditions for intervention: high Process scores demonstrate operational capability; 44.35% (C2-T1) environmental concern reveals a motivated segment; 58.87% (C3-T1) requesting distribution expansion confirms unmet demand. The strategic challenge is market activation, not market creation.
+Problem 1: Promotional Failure and Brand Invisibility (Critical)
+Promotion dimension means = 2.848 (lowest of 7); all most items below 3.00; P4.1 (advertisement visibility) = 2.113 (lowest of 32 items); D6 = 21.8% of respondents (n=27) have never heard of Pertamax Green 95, representing a substantial awareness gap in a product that has been marketed for 18 months. Among the three awareness segments, the overall 7Ps rating varies modestly: current users (n=67, 7P’s mean = 3.518), aware non-triers (n=28, 7P’s mean = 3.429), and unaware consumers (n=27, 7P’s mean = 3.316). The gap between current users and the unaware segment is 0.202 points, a 5.7% difference that suggests awareness does improve marketing perceptions.
+This is identified as the discrepancy between actual service delivery and external communications to consumers. Pertamina delivers genuine product quality (P1.1 = 3.968) and operational excellence (P6.3 = 3.927), but these strengths are invisible to the market. This situation reflects a brand-awareness deficit, whereby even superior products fail to enter consumers' consideration sets without sufficient exposure and awareness[39].
+Non-Pertamina brands (i.e. Shell V-Power) aggressive marketing create a reference point against which Pertamax Green 95's promotional absence is judged. Consumers expect comparable promotional presence; its absence signals lower brand credibility. This is the . Without promotional awareness, distribution expansion cannot generate trial, and price reductions cannot stimulate demand. All other interventions depend on solving this problem first.
+Problem 2: Price-Value Perception Asymmetry (High)
+P2.3 (affordability) = 2.637; P2.2 (competitiveness vs Non-Pertamina brands) = 3.234; P2.1 (quality-price match) = 3.024. Purchase intention is strongly influenced by the perceived ratio between expected benefits and perceived sacrifice. The price premium over Pertamax is not matched by sufficiently communicated incremental benefits. This creates a "stuck in the middle" position (Porter, 1985)[21], Pertamax Green 95 pursues differentiation (environmental positioning) but cannot command a price premium because differentiation is not communicated, while it cannot compete on cost due to regulated pricing.
+Consumers anchored by Pertamax (lower price, established brand) and non-Pertamina brands (i.e. Shell V-Power) that have similar prices, stronger equity, expect value equivalence. Pertamax Green 95 lacks brand equity to justify its price against either reference. A self-reinforcing cycle operates with high price limits trial, limited trial limits word-of-mouth, and constrained awareness reinforces the need for promotion. Breaking the cycle requires either reducing the price barrier or increasing perceived value through communication.
+Problem 3: Distribution Coverage and Channel Integration Deficiencies (High)
+P3.1 (availability) = 2.210 (lowest single item); gap vs strategic location = 1.346 points; P3.5 (digital purchase) = 3.202; 60.48% of respondents (n=75) cite availability and physical access as their primary barrier to regular Pertamax Green 95 use. This figure is derived from thematic coding of open-ended barrier responses (C1-T1), where availability-related terms (gas Station, nearby, distribution, route, stock, outlet, sell, sold, find) were the dominant theme. The 60.48% availability barrier rate is the highest of all four barrier themes, exceeding price concerns (20.97%) (C1-T2), awareness deficits (11.29%) (C1-T3), and brand inertia (7.26%) (C1-T4). This finding quantitatively validates the P3.1 score of 2.210, the lowest individual item in the entire 32-item survey.
+Distribution intensity, measured by the number of available gas station, represents a critical parameter in channel design and market accessibility[38]. The 1.806-point gap between operating hours (P3.3 = 4.016) and availability (P3.1 = 2.210) reveals that gas Stations are operationally ready, but the product is not stocked consistently. Consumers expect fuel availability matching Pertamax Turbo's ubiquity. Pertamax Green 95's selective availability breaks this expectation, creating friction that exceeds perceived benefit for all but the most motivated users.
+Unlike promotional or price interventions, distribution expansion has a direct, tangible impact on behavior. "58.9% of respondents (n=73) explicitly suggest expanding Pertamax Green 95 gas station coverage in their open-ended strategic suggestions (C3-T1). This majority demand is reinforced by 60.48% (n=75) citing availability as their primary usage barrier (C1-T1). The convergence of these two figures, approximately 60% in both barrier and solution frames -- provides robust triangulation for distribution expansion as the highest-priority operational intervention. Respondents specify quantitative targets: 30% gas station coverage within 2 years, at least 1 gas station per major district, and GPS-data-driven prioritization of high-traffic locations. These specific consumer-generated benchmarks provide implementable rollout criteria for the Place strategy.
+Problem 4: Digital Marketing Underutilisation (Medium-High)
+P4.3 (digital content) = 3.177; P4.5 (green message memorability) = 2.847; 63.7% of respondents express high or very high environmental concern (D7), representing a substantial attitudinal foundation for green positioning. Open ended strategic questions analysis reveals that 44.35% (C2-T1) of respondents (n=55) explicitly request environmental evidence, emission data, fuel efficiency proof, sustainability certification as a condition for adoption. An additional 35.5% (C2-T3) of respondents (n=44) cite physical availability as their primary adoption enabler. Combined, these findings indicate that environmental concern is not weak but insufficiently substantiated: consumers who are predisposed to green products (D7 = 63.7%) cannot find credible evidence to justify the purchase (P4.3 digital content = 3.177, P4.5 green message memorability = 2.847). The positioning paradox is that Process (P6 = 3.869) and Product (P1 = 3.603) demonstrate genuine operational strength, but Promotion (P4 = 2.848) disconnects these strengths from consumer awareness. The green value proposition requires repositioning from an environmental assertion to an evidence-based functional-emotional benefit bundle.
+Digital marketing maturity can be categorized into five stages: plan, reach, act, convert, and engagement[47]. Given that 73.7% of Indonesians are active internet users, the absence of compelling digital content represents a missed opportunity for market segmentation and consumer engagement[48].
+Environmentally conscious consumers (D7 High and Very High = 63.7%) are digitally active and expect brand engagement through social media. Competitor brands actively target this segment, creating an expectation that Pertamax Green 95 fails to meet.
+Digital channels offer the most cost-effective intervention. Unlike physical distribution, digital marketing scales rapidly at low marginal cost. The high environmental concern segment represents a motivated audience that competitor brands are actively targeting.
+Problem 5: Green Value Proposition Communication Failure (Medium)
+P1.2 (engine smoothness) = 3.177; P1.5 (product variety) = 3.202; P1.3 (environmentally friendly) = 4.153; 63.7% express high environmental concern (D7 High and Very High); 44.35% explicitly request environmental evidence as adoption condition (C2-T1); P4.3 (digital content) = 3.177; P4.5 (green message memorability) = 2.847.
+The positioning paradox is clear: Process (3.869) and Product (3.603) demonstrate genuine operational and product strength, but Promotion (2.848) disconnects these strengths from consumer awareness. Consumers are not rejecting the green value proposition; they are demanding evidence to support it. The 0.976-point gap between P1.3 (environmental positioning, 4.153) and P1.2 (engine performance, 3.177) reveals that emotional green associations exceed functional performance associations, but neither is being communicated effectively. This situation reflects a failure to achieve brand resonance, whereby product attributes are not effectively translated into meaningful brand associations that stimulate purchase behavior[35]. Green positioning is currently a "point of parity" (consumers expect environmental claims) rather than a "point of difference" (consumers choose based on green evidence). Digital marketing maturity can be categorized into five stages, namely plan, reach, act, convert, and engagement. The findings suggest that Pertamina currently operates primarily at the plan and limited reach stages, whereas consumers demonstrating high levels of environmental concern expect greater engagement-oriented interaction[47].
+The environmental benefit is recognized (P1.3 = 4.153) but not prioritized. Consumers know Pertamax Green 95 is environmentally friendly but do not consider this sufficient reason to pay a premium. The product's environmental positioning functions primarily as a point of parity rather than a meaningful point of difference within the competitive landscape[20].
+The green value proposition requires repositioning from an environmental attribute to an evidence-based functional-emotional benefit bundle. Engine performance data (P1.2 improvement target) must be communicated alongside transparent environmental impact data to create differentiated values. Digital channels, explicitly requested by 25.81% of respondents naming Instagram, YouTube, and TikTok, offer the most cost-effective evidence-delivery platform (C3-T2).
+
+Marketing Environment Analysis for Pertamax Green 95
+This chapter examines the external and internal environments that shape Pertamax Green 95’s strategic position in Indonesia. The analysis employs three complementary frameworks: the PESTEL model for macro-environmental assessment, Porter’s Five Forces for industry competitive structure, and the SWOT model for integrated strategic diagnosis. The analysis draws exclusively on secondary data sources, including government policy documents, industry reports, financial disclosures, and publicly available corporate information
+4.1 Macro-Environment Analysis (PESTEL)
+The PESTEL framework systematically evaluates six dimensions of the macro-environment that influence the strategic context of Pertamax Green 95 in Indonesia[26].
+4.1.1 Political Environment
+The Indonesian government’s commitment to energy transition and biofuel development provides a favorable political foundation for Pertamax Green 95. Under Presidential Decree 15/2024, the government targets 1.2 billion liters of sugarcane ethanol production by 2030 and has established a dedicated bioethanol acceleration task force to expand feedstock cultivation[49]. Energy Minister Bahlil Lahadalia has announced plans for an E10 bioethanol mandate by 2027, which would elevate bioethanol-blended fuel from a niche market segment to a regulatory compliance requirement. Pertamina’s status as a state-owned enterprise ensures institutional alignment with national energy policy, providing preferential access to regulatory programs and implicit political backing for biofuel initiatives.
+However, political risk remains. The E10 implementing regulation had not been issued as of late 2024, and historical precedent, the 2010 bioethanol mandate was discontinued due to inadequate feedstock supply demonstrates that policy reversal is possible. Additionally, as SOE, Pertamina faces implicit political pressure to maintain fuel affordability, which constrains pricing flexibility for premium products such as Pertamax Green 95.
+
+Figure . Indonesia Biofuel Mandate Progression (2015–2030)
+Source: Compiled from ESDM Ministerial Regulations (No. 25/2015, 45/2018, 62/2020, 189/2023, 341/2024) and Presidential Decree 15/2024.
+In summary, the political environment provides a favorable tailwind for Pertamax Green 95 through the E10 mandate trajectory and SOE policy alignment, but the risk of policy delay and affordability constraints requires Pertamina to build market momentum independent of regulatory compulsion.
+4.1.2 Economic Environment
+Indonesia’s macroeconomic fundamentals provide a broadly supportive context for the premium fuel segment. GDP grew 5.03% in 2024, reaching IDR 22,139 trillion (approximately USD 1.38 trillion), with GDP per capita at IDR 78.6 million (USD 4,960) (BPS, 2025)[50]. The OECD projects sustained growth of 5.1–5.2% through 2026, supported by private consumption (which accounts for 53.32% of GDP) and steady investment inflows. Inflation remains controlled at 1.57% (December 2024), below Bank Indonesia’s target corridor, supporting stable consumer purchasing power.
+However, structural dependence on imported fuel creates economic vulnerability. Indonesia imported 330 million barrels of oil in 2024, including 202 million barrels of refined products, generating substantial foreign exchange outflows[51]. This import dependency is the primary economic driver behind the biofuel mandate program: the government estimates that biodiesel utilization saved approximately USD 40.7 billion in foreign exchange between 2020 and 2025[52]. The rupiah’s 5% depreciation against the USD in late 2024 increases petroleum feedstock costs, compressing margins for premium fuel pricing.
+
+Figure . Indonesia GDP Growth vs. Fuel Import Dependency (2018–2024)
+Source: Statistics Indonesia (BPS, 2024, 2025); Ministry of Energy and Mineral Resources (2025).
+In summary, the economic environment offers supportive conditions for Pertamina's premium fuel segment, particularly Pertamax Green 95, through GDP growth and middle-class expansion that elevate consumer purchasing power. However, Indonesia's fuel import dependency and rupiah volatility exert upward cost pressure on Pertamina's refining and procurement operations, constraining pricing flexibility for Pertamax Green 95 and threatening the long-term margin sustainability of its premium fuel portfolio.
+4.1.3 Social Environment
+Three social trends shape the demand environment for bioethanol-blended fuel. First, Indonesia’s vehicle fleet is expanding rapidly. According to Statistics Indonesia (BPS), the country had approximately 141.99 million registered motor vehicles in 2021, comprising 120 million motorcycles, 16.4 million passenger cars, and 5.3 million trucks. By 2024, passenger cars alone reached 20.4 million, with turbocharged engines increasingly common in new vehicle sales, directly expanding the technical demand base for RON 95 fuel.
+Second, environmental consciousness is emerging among urban, educated, and younger demographics. Indonesia’s 25–44 age cohort the core target segment for green fuel adoption is increasingly attuned to sustainability messaging, driven by climate change awareness and social media discourse. Third, national pride in domestic products (“buy local” sentiment) provides a secondary social motivator, particularly given Pertamina’s status as Indonesia’s national energy company.
+
+Figure . Indonesia Vehicle Fleet Growth (2018–2024)
+Source: Statistics Indonesia (BPS, 2022, 2024)[50].
+In summary, the social environment generates favorable demand drivers for Pertamax Green 95 through expanding vehicle ownership and emerging environmental consciousness among Indonesian consumers. Nevertheless, the prevalence of price-sensitive consumers across Pertamina's target market necessitates clear value communication, linking Pertamax Green 95's eco-friendly formulation to tangible benefits such as engine performance and emissions reduction, to effectively convert positive social attitudes into actual purchase behavior.
+4.1.4 Technological Environment
+Pertamina has demonstrated technical competence in bioethanol blending. The E5 specification was successfully deployed in 2023, and an E10 trial initiated in November 2024 positions the company ahead of the government’s 2027 mandate timeline[53]. This production readiness requires specialized blending infrastructure and supply chain management capabilities that smaller retailers cannot easily replicate, providing .
+On the digital front, Pertamina’s capabilities are less developed. The MyPertamina mobile application which should serve as the primary platform for loyalty programs, fuel purchasing, and consumer engagement has received repeated consumer complaints regarding functionality and user experience. This digital gap is strategically consequential because Indonesia’s 25–44 target demographic averages 3.5 hours daily on social media platforms. Furthermore, the government’s target of 2 million EV two-wheelers and 600,000 EV cars by 2030 introduces a long-term technological substitution threat to the gasoline market.
+In summary, the technological environment provides Pertamina with competitive advantages in bioethanol blending expertise while exposing vulnerabilities in digital consumer engagement and long-term gasoline demand erosion from electric vehicle adoption.
+4.1.5 Environmental Environment
+Indonesia’s Nationally Determined Contribution (NDC) under the Paris Agreement commits the country to net-zero emissions by 2060, with biofuels designated as a key instrument in the transition. The National Energy General Plan (RUEN) projects biofuel consumption reaching 13.9 billion liters by 2025 and 52.3 billion liters by 2050[54]. These targets provide policy legitimacy for Pertamax Green 95’s environmental positioning.
+However, environmental positioning faces credibility and supply challenges. The absence of transparent, independently verified environmental impact data (such as carbon-equivalent reduction per liter) means the green claim remains an assertion rather than a demonstrated outcome. Feedstock supply poses a further risk: domestic bioethanol production reached only 160,946 kiloliters in 2024 against a capacity of 303,325 kiloliters, indicating substantial underutilization due to sugarcane cultivation constraints[53]. Closing the gap between current production and the volumes needed for an E10 mandate (estimated at approximately 4 billion liters annually) represents a significant supply-side challenge.
+
+Figure . Bioethanol Production vs. Mandate-Driven Demand
+Source: USDA Foreign Agricultural Service (2025); ESDM mandate projections (2024).
+In summary, the environmental regulatory landscape confers policy legitimacy and brand credibility potential for Pertamina's Pertamax Green 95 through its alignment with Indonesia's Nationally Determined Contributions (NDCs). However, bioethanol feedstock supply constraints and the current lack of independently verified lifecycle emissions data for Pertamax Green 95 require Pertamina to invest in domestic supply chain development and obtain transparent environmental certification, thereby substantiating its green fuel claims and strengthening competitive positioning against conventional and imported alternatives.
+4.1.6 Legal Environment
+The legal framework rests on three regulatory pillars. First, ESDM Regulation 252/2023 codifies the E5 bioethanol blending specification for RON 95 gasoline, creating a compliance market and establishing technical standards for ethanol blending percentage, fuel quality parameters, and distribution requirements. Second, fuel pricing regulations require Pertamina to benchmark non-subsidized fuel prices against the Mean of Platts Singapore (MOPS), subjecting Pertamax Green 95’s premium pricing to international oil price volatility and implicit political pressure to maintain affordability. Third, tightening vehicle emissions standards (Euro 4 effective 2018, Euro 5 transition planned) create technical demand for cleaner-burning fuels such as Pertamax Green 95. The key legal uncertainty is the pending E10 mandate regulation: while announced, the implementing decree had not been issued as of late 2024, constraining long-term investment planning.
+In summary, the legal environment establishes a compliance framework that creates market opportunities for Pertamax Green 95, but MOPS pricing linkage and pending E10 implementing regulations introduce uncertainty that complicates long-term pricing and investment planning.
+Table . PESTEL Analysis Summary
+4.2 Micro-Environment Analysis (Porter’s Five Forces)
+Industry attractiveness is determined by five competitive forces that collectively influence profitability and competitive intensity[21]. The analysis draws on industry reports, competitor intelligence, and publicly available market data to assess the five competitive pressures shaping Pertamax Green 95’s strategic position.
+4.2.1 Competitors
+Rivalry in Indonesia’s premium gasoline segment is intense. Non-Pertamina brands (i.e Shell) is Pertamax Green 95’s most direct competitor, with approximately 200 retail gas stations strategically located in high-income urban areas (Jakarta, Surabaya, Bandung). Non-Pertamina brands (i.e. Shell V-Power) leverages decades of Formula 1 motorsport marketing and consistent premium positioning to target affluent consumers. BP and Vivo are secondary competitors with smaller footprints but effective marketing in select urban markets. BP’s environmental positioning (“net-zero by 2050” commitment) creates direct competitive overlap with Pertamax Green 95’s green value proposition.
+Pertamax Green 95 also faces internal cannibalization from Pertamina’s own lower-tier fuels. Pertalite (RON 90) and standard Pertamax (RON 92) satisfy basic transportation needs at lower prices and are available at the same gas station network, meaning consumers have no location-based incentive to trade up. The fuel retail market exhibits the structural characteristics that intensify rivalry: limited product differentiation, low switching costs, and price-sensitive consumers. Without clear value differentiation communicated through effective marketing, consumers default to the lowest-price acceptable alternative.
+4.2.2 New Entrants
+The threat of standalone new fuel retailers is low due to three barriers. First, capital requirements are prohibitive: establishing a nationwide fuel retail network requires investment in storage terminals, distribution logistics, and retail real estate that runs into billions of dollars. Second, regulatory barriers are significant: the Ministry of Energy and Mineral Resources (ESDM) controls fuel import quotas, blending specifications, and retail licensing, favoring incumbents with established regulatory relationships. Third, Pertamina’s 6,000+ gas station network creates a distribution moat that new entrants cannot realistically replicate.
+However, indirect entry from adjacent sectors poses a more significant threat. E-commerce platforms are entering via app-based fuel delivery services, while EV charging infrastructure operators (PLN, private networks) are capturing mobility energy expenditure. With Indonesia targeting 2 million EV two-wheelers and 600,000 EV cars by 2030, supported by tax incentives and charging infrastructure investment, the effective competitive landscape is expanding beyond traditional fuel retailers.
+
+Figure . Indonesia EV Adoption: Historical and Projected (2020–2030)
+Source: Ministry of Industry[1]; Government EV Roadmap targets (Republic of Indonesia, 2021).
+4.2.3 Suppliers
+For petroleum feedstocks, Pertamina’s position is structurally strong due to backward integration: the company owns upstream production assets, operates six domestic refineries with combined capacity of approximately 1 million barrels per day, and holds exclusive fuel import and distribution rights. However, Pertamina still imports a significant share of crude and refined products, exposing it to international oil price volatility from Middle Eastern and Asian exporters.
+For bioethanol, supplier power is less favorable. Indonesia’s domestic bioethanol production reached only 160,946 kiloliters in 2024 against an installed capacity of 303,325 kiloliters[53], indicating substantial underutilization due to sugarcane constraints. The gap between production and mandate-driven demand implies that Pertamina may need to source ethanol from multiple domestic suppliers or potentially from imports, including from the United States as authorized by Minister Bahlil in 2026. The absence of a dedicated bioethanol subsidy mechanism comparable to BPDP’s biodiesel support increases Pertamina’s cost exposure and constrains pricing flexibility for Pertamax Green 95.
+
+Figure . Indonesia Bioethanol Supply by Feedstock Source (2024)
+Source: USDA Foreign Agricultural Service (2025)
+4.2.4 Customers
+Buyer power in Indonesia’s fuel retail market is high. Low switching costs, the average urban consumer has access to multiple fuel brands within a 2-kilometer radius make brand switching frictionless. Price sensitivity is the dominant driver of consumer behavior: fuel expenditure constitutes a meaningful share of household budgets for middle-income consumers, and the price difference between Pertalite (RON 90), Pertamax (RON 92), and Pertamax Green 95 (RON 95) is immediately visible and easily comparable at every gas station.
+Information asymmetry further amplifies buyer power. Fuel is a “credence good” consumers cannot directly verify quality differences (octane rating, bioethanol blend) through normal usage[55,56]. When a premium product charges a higher price without clearly communicating the incremental value whether functional (engine performance), emotional (environmental contribution), or social (status signaling), buyers rationally default to the lowest-price acceptable alternative. These dynamic places the burden of value articulation entirely on the premium brand.
+4.2.5 Substitutes
+Direct substitutes include Pertamina’s own lower-tier fuels (Pertalite RON 90 and Pertamax RON 92), Shell V-Power, BP Ultimate, and Pertamax Turbo (RON 98). These products satisfy the same basic transportation need and are available at the same or nearby retail locations. Indirect substitutes represent the greater long-term threat: electric vehicles (government target of 2.6 million by 2030, with BYD and Wuling entering with affordable models), public transport expansion (Jakarta MRT/LRT), and ride-hailing services (Gojek, Grab) all reduce per-capita gasoline consumption. Compressed natural gas (CNG) for automotive use represents an additional substitute, though infrastructure constraints limit its adoption.
+Table . Porter’s Five Forces Assessment
+
+4.3 Market Demand and Internal Environment Analysis
+This section examines demand-side trends for bioethanol-blended fuel and evaluates Pertamina’s organizational capabilities, brand equity, and distribution infrastructure as internal resources that determine Pertamax Green 95’s capacity to capitalize on external opportunities.
+4.3.1 Market Demand Trends for Biofuels
+Market demand for bioethanol-blended gasoline in Indonesia is structurally expanding on three fronts. First, policy-driven demand is growing. Indonesia’s biofuel program has evolved from B15 (2015) to B40 (January 2025), with B50 targeted for 2029. This aggressive biodiesel trajectory demonstrates the government’s commitment to biofuel substitution and has saved an estimated USD 40.7 billion in foreign exchange[52]. The planned E10 gasoline mandate by 2027 would require approximately 4 billion liters of bioethanol annually, more than 25 times current production, transforming Pertamax Green 95 from a niche product into compliance fuel.
+
+Figure . Indonesia Biofuel Consumption: Biodiesel and Bioethanol (2018–2030
+Source: Ministry of Energy and Mineral Resources (2024, 2025); RUEN projections (Republic of Indonesia, 2017).
+Second, consumer-driven demand is emerging from a green segment. Environmental consciousness is rising among urban, educated, and younger demographics, who are increasingly willing to pay a premium for products with demonstrated environmental credentials. Third, vehicle fleet evolution creates technical demand for higher-octane fuel: turbocharged and higher-compression engines, which require RON 95 minimum, are increasingly common in new vehicle sales. However, bioethanol supply constraints (current production of 160,946 KL vs. 4-billion-liter mandate need) pose a significant supply-side risk that could constrain availability.
+4.3.2
+
+
+
+The critical capability gap is marketing. Pertamina’s marketing function retains legacy characteristics from its monopoly-era origins: broadcast-oriented advertising rather than targeted digital engagement, price-focused rather than value-focused messaging, and product-level rather than brand-level communication architecture. The absence of a coherent Pertamax Green 95 brand narrative one that consistently links the product to consumer values across all touchpoints means each promotional element operates in isolation.
+
+
+4.3.3
+
+
+Pertamina enjoys near-universal brand awareness in Indonesia, built on decades as the sole national fuel provider.
+The 6,000+ gas station network is a physical asset that no competitor can replicate. Each gas station functions simultaneously as a distribution point, brand billboard, and customer touchpoint. Frontline staff deliver strong interpersonal service, creating thousands of daily positive brand interactions.  Converting the distribution network from a passive asset into an active Pertamax Green 95 marketing platform would create a promotional reach advantage that no competitor can match.
+
+Table .
+4.4 SWOT Analysis
+The SWOT analysis integrates findings from the PESTEL, Porter’s Five Forces, and internal capability assessments to identify the strategic factors that will shape Pertamax Green 95’s marketing direction[10]. The analysis connects internal resources with external conditions to generate evidence-based strategic conclusions.
+4.4.1 Strengths Analysis
+Product Quality Leadership. Indonesia’s only RON 95 bioethanol-blended fuel with guaranteed nationwide distribution. The E5 specification is successfully deployed and E10 trials are underway, positioning Pertamina ahead of the regulatory curve.
+Production Technical Readiness. E5 operational since 2023; E10 trial-initiated November 2024. This readiness requires substantial capital investment (blending infrastructure, refinery modifications) that competitors cannot easily replicate.
+Distribution Dominance. 6,000+ gas station nationwide provides geographic coverage approximately 30 times larger than Shell’s ~200 stations. The network includes rural and intercity routes where competitors have zero presence.
+SOE Institutional Backing. Regulatory alignment with government biofuel policy ensures implicit political support, preferential financing access, and a guaranteed role in mandate implementation.
+Frontline Service Quality. Gas station staff deliver strong interpersonal service, creating positive daily brand interactions across thousands of touchpoints.
+Environmental Authenticity. The 5% bioethanol blend is verifiable and codified under ESDM Regulation 252/2023, providing a credibility foundation that third-party competitors’ marketing claims lack.
+4.4.2 Weaknesses Analysis
+Promotional System Failure. The Promotion dimension is the weakest across all 7Ps. Green message recall, social media effectiveness, and advertising reach all scores below acceptable thresholds. This is the root cause of low market awareness.
+Negative Word-of-Mouth Balance. More consumers express dissatisfaction or indifference than actively promote the product, creating a reputational headwind that constrains organic growth.
+Price-Value Perception Gap. Consumers do not perceive sufficient incremental value to justify the premium over lower-tier Pertamina fuels or non-Pertamina alternatives. Affordability concerns are particularly acute among middle-income consumers.
+Digital Process Gap. The MyPertamina app fails to deliver loyalty, green education, and engagement functions. This removes the most cost-effective channel for building customer relationships on a scale.
+Limited Product Availability. Pertamax Green 95 was available at only approximately 177 gas stations as of nov-2025, despite Pertamina’s 6,000+ gas station network, meaning the majority of consumers cannot physically access the product.
+Green Communication Deficit. Environmental claims lack transparent, independently verified lifecycle data. The absence of carbon-equivalent reduction per liter, comparative emissions data, or third-party certifications means the green positioning rests on assertion rather than evidence.
+4.4.3 Opportunities Analysis
+E10 Mandate (2027). Will transform Pertamax Green 95 from a voluntary premium product into a regulatory compliance fuel, creating guaranteed demand growth regardless of consumer preference evolution.
+Growing Environmental Consciousness. The 25–44 demographic is most receptive to green messaging. As social media-driven climate awareness expands, the addressable market for green fuel will broaden beyond early adopters.
+Middle-Class Income Growth. GDP per capita USD 4,960 with projected 5.1–5.2% growth expands consumers’ capacity to absorb fuel premiums.
+“Aware But Never Tried” Segment. A substantial portion of consumers know the product exists but have not been motivated to switch. This segment needs only trial incentives (samples, discounts) rather than costly awareness building.
+Higher-Compression Engine Fleet. Turbo/2,000cc+ vehicles are increasingly common in new sales, creating technical demand for RON 95 fuel independent of environmental positioning.
+Government Ethanol Investment. Presidential Decree 15/2024 and planned subsidies signal long-term feedstock support, potentially improving cost structure and pricing flexibility.
+4.4.4 Threats Analysis
+Electric Vehicle Substitution. Government target of 2 million EV two-wheelers and 600,000 EV cars by 2030; BYD and Wuling entering with affordable models; public transport and ride-hailing reducing per-capita fuel demand.
+Intensifying Competitor Marketing. Shell’s F1 brand equity and BP’s net-zero positioning compete directly for the premium green segment. Competitors with superior marketing capabilities can capture the target demographic that Pertamax Green 95 cannot reach.
+Bioethanol Feedstock Constraints. Domestic production (160,946 KL) vs. E10 mandate need (~4 billion L) implies massive supply gap, requiring either significant feedstock expansion or import dependency.
+Policy Uncertainty. E10 implementing regulation pending; 2010 bioethanol mandate discontinuation precedent creates regulatory risk that constrains long-term investment.
+Internal Cannibalization. Pertalite + Pertamax captures the majority of consumers; without communicated reasons to trade up, consumers lack motivation to switch to Pertamax Green 95.
+Macroeconomic Volatility. Rupiah depreciation increases petroleum costs; SOE pricing obligations limit strategic flexibility to adjust premiums in response to cost pressures.
+Table 4.4 and table 4.5 presents the integrated SWOT matrix, identifying interactions between internal capabilities and external conditions that define Pertamax Green 95’s strategic position.
+Table . Strengths-Weaknesses Matrix
+Table . Opportunities-Threats Matrix
+The strategic diagnosis is clear: Pertamax Green 95 possesses exceptional product and distribution assets but is critically impaired by marketing system failure. The S1+W1 combination (product excellence + promotional deficiency) creates a “best-kept-secret” syndrome where a technically superior product remains invisible to many consumers. The O1+T3 intersection (mandate opportunity + supply constraint) represents a production challenge that, if unaddressed, could undermine the regulatory window. The W2+T2+T5 alignment (negative advocacy + competitor strength + internal cannibalization) threatens to trap Pertamax Green 95 in a permanent niche position.
+	Building on the SWOT analysis above, the TOWS matrix translates internal strengths and weaknesses into actionable strategies by combining them with external opportunities and threats. Table 4.6 presents the integrated TOWS strategy combinations for Pertamax Green 95.
+Table . TOWS Strategy Matrix for Pertamax Green 95
+The TOWS matrix reveals four strategic pathways. The SO strategies leverage existing strengths against favorable external conditions, representing the highest-confidence interventions. The WO strategies address internal weaknesses by exploiting external opportunities, requiring greater organizational change. ST strategies use strengths defensively against competitive and regulatory threats, while WT strategies are risk-mitigation measures for the most vulnerable areas. The analysis indicates that promotional failure (W1) is the : without resolving it, SO strategies around product certification and distribution expansion will yield suboptimal returns because consumers will remain unaware of improved availability or product quality. Chapter 5 will translate this diagnosis into actionable marketing strategies leveraging the SO alignment to overcome the WT challenge
+
+
+Marketing Strategy Design for Pertamax Green 95
+This chapter designs the integrated marketing strategy for Pertamax Green 95 by translating the environmental diagnosis from Chapter 4 and the consumer evidence from Chapter 3 into actionable 7P interventions. The strategy formulation synthesizes 7Ps consumer survey data, PESTEL macro-environmental analysis, Porter’s Five Forces competitive assessment, and SWOT-TOWS diagnosis. Each strategy directly addresses the five problems identified in Section 3.4 and is cross-referenced with the four TOWS pathways from Section 4.4, ensuring that every recommendation is grounded in both consumer perception data and the structural realities of the Indonesian fuel market.
+5.1 STP Strategy
+The STP framework provides the foundational market architecture, while the 7Ps marketing mix delivers actionable tactical interventions. Each strategy directly addresses the five problems identified in Chapter 3, cross-referenced with the environmental assessment from Chapter 4. The Porter’s Five Forces find that buyer power is high due to low switching costs and price sensitivity elevates the importance of precise targeting over mass-market approaches.
+The survey data reveals favorable conditions for strategy implementation: Process (3.891) and People (3.814) represent genuine operational strengths that the company can leverage. The 63.7% environmental concern level (D7 high and very high) among respondents indicates a motivated market segment. 58.87% (C3-T1) requesting expanded distribution confirms latent demand constrained by supply-side availability rather than demand-side resistance. The strategic challenge is market activation, not market creation[21].
+5.1.1 Market Segmentation.
+Market segmentation divides the heterogeneous Indonesian fuel market into homogeneous subgroups based on measurable consumer characteristics. Four segmentation variables are applied: demographic (age, income), behavioral (usage status), and psychographic (environmental concern). Each segment satisfies the requirements of measurability, accessibility, substantiality, and actionability for effective market segmentation[20]. The segmentation is further validated against the competitive structure identified in Chapter 4, the high buyer power and low switching costs in the fuel retail market mean that segment-specific value propositions are essential.
+Segmentation Variable 1: Age Cohort
+Table . Segmentation Variable 1: Age Cohort
+The age distribution skews young (50.0% aged 18-34), reflecting the survey's online administration channel. Young professionals are the natural growth segment: they are digitally reachable, environmentally predisposed, and early in their fuel-brand relationship formation. This aligns with the social environment trend that identified the 25-44 cohort as increasingly attuned to sustainability messaging, and with the technological environment finding that these demographic averages 3.5 hours daily on social media, making them accessible through the digital promotion channels.
+Segmentation Variable 2: Income Level
+Table . Segmentation Variable 2: Income Level
+Income segmentation reveals the price-sensitivity gradient, where buyer power is amplified by the immediate visibility of price differences between fuel grades at every gas station. The 87.1% concentration in the 5-50M IDR bracket (66.9% in 10-50M) confirms that the target market is middle-class consumers who evaluate fuel purchases against explicit value criteria. This is consistent with the SWOT Weakness W3 (price perception gap) and the economic environment finding that SOE pricing obligations constrain premium product affordability. The budget-constrained segment (< 5M, 8.1%) is operationally non-viable at current pricing; they are excluded from targeting not by choice but by economic constraint.
+Segmentation Variable 3: Behavioral (Usage Status)
+Table . Segmentation Variable 3: Behavioral (Usage Status)
+The behavioral segmentation is the most strategically actionable because it directly maps the promotional deficiency diagnosed in Chapter 3.4. The 21.8% unaware segment validates Porter’s finding (Chapter 4.2.1) that competitive rivalry is intensified by weak brand differentiation: Pertamax Green 95 has not achieved sufficient market presence to enter the consideration set of nearly one-quarter of potential consumers. The 22.6% aware non-trier segment represents the highest-ROI conversion opportunity identified in the TOWS WO strategy: they have awareness but face trial barriers (price, availability, perceived risk), meaning digital targeting and trial incentives can convert them at lower cost than building awareness from zero.
+Segmentation Variable 4: Psychographic (Environmental Concern)
+Table . Segmentation Variable 4: Psychographic (Environmental Concern)
+The psychographic segmentation reveals the strongest predictor of Pertamax Green 95 adoption and directly supports the TOWS SO strategy. The Green-Considerate segment (37.1%) is the largest and most strategically important: 54.3% usage means 45.7% remain non-users despite high environmental concern. This “concerned but not converted” subgroup represents the highest targeting opportunity because they require only availability and evidence to switch, not fundamental attitude change. Their non-conversion validates the Porter’s finding (Chapter 4.2.4) that information asymmetry in fuel markets places the burden of value articulation entirely on the premium brand.
+Cross-tabulating the four segmentation variables yields four strategically distinct integrated segments:
+Green-Affluent Urban Professionals: Age 25-44, income 10-50M IDR, high environmental concern. Segment share 16.13% with current Pertamax Green 95 usage rate: 45%. Digital-native, socially engaged, quality-conscious. They combine purchasing power with green predisposition and represent the natural growth market, directly aligned with the TOWS WO strategy.
+Price-Sensitive Young Commuters: Age 18-34, income < 10M IDR, moderate environmental concern. Segment share 2.42% with current Pertamax Green 95 usage rate: 33.33%. Predominantly motorcycle users. Price incentives are required to activate this segment, consistent with SWOT Weakness W3 and the economic environment finding that fuel expenditure is a significant household budget item.
+Conservative Established Users: Age 35-54, income > 20M IDR, moderate environmental concern. Segment shares 5.65% with current Pertamax Green 95 usage rate: 57.14%. They require compelling differentiation evidence (performance data, mechanic testimonials) rather than price incentives, reflecting the Porter’s analysis that fuel is a credence good requiring third-party verification.
+Eco-Activist Early Adopters: All ages, very high environmental concern. Segment shares 26.61% with current Pertamax Green 95 usage rate: 42.42%, lower than expected given their environmental commitment, suggesting availability and awareness gaps even among the predisposed. This validates the SWOT Weakness W1 (promotional failure) and W2 (limited distribution).
+A substantial “Other/Unclassified” group falls outside these segments and is addressed through broad-based tactics rather than segment-specific interventions.
+5.1.2 Target Market Selection
+Target market selection applies four criteria: market potential, purchasing power, behavioral fit, and strategic compatibility. The competitive intensity from Porter’s Five Forces (high rivalry from Shell V-Power and internal cannibalization from Pertalite/Pertamax) means targeting must focus on segments where differentiated value can be most effectively communicated.
+Table . Target Market Selection Matrix
+The Green-Affluent Urban Professionals segment is selected as the primary target for four reasons:
+First, market potential: this segment comprises 16.1% of the sample. While numerically smaller than the Eco-Activist segment (26.6%), the Green-Affluent segment represents the intersection of purchasing power and green predisposition, the demographic sweet spot where willingness to pay meets environmental motivation. The 10-50M IDR bracket constitutes 66.9% of the total sample, indicating substantial market depth. This aligns with the economic environment finding (Chapter 4.1.2) that GDP growth and middle-class expansion elevate purchasing power, and with the TOWS WO strategy targeting consumers with both environmental motivation and capacity to absorb price premiums.
+Second, purchasing power: the 10-50M IDR income bracket has sufficient disposable income to absorb the Pertamax Green 95 price premium (approximately 10-15% above Pertamax).
+Third, behavioral fit: 45.0% of this segment (9 of 20) already uses Pertamax Green 95, indicating moderate product-market fit. The 55.0% non-user portion (11 of 20) represents the conversion opportunity; these consumers have income and environmental concern but face availability or awareness barriers. Closing this gap through targeted Place and Promotion interventions is the primary strategic objective.
+Fourth, strategic compatibility: this segment aligns with Pertamina’s ESG mission and the E10 mandate trajectory (Opportunity O1), supporting the TOWS SO strategy of building a premium user base before mass-market expansion.
+Table . Targeting Strategy: Differentiated Marketing
+The targeting strategy prioritises retention over acquisition: it is more cost-effective to increase purchase frequency among current users (54.0%) than to convert unaware non-users (21.8%). The aware non-trier segment (22.6%) is the highest conversion target because awareness is already established and only trial barriers remain, reflecting the TOWS WO strategy.
+5.1.3 Positioning
+Market positioning designs the offering and image to occupy a distinctive place in the target consumer's mind. For Pertamax Green 95, positioning must balance three value dimensions: functional performance (engine compatibility, RON 95 equivalence), environmental benefit (5% bioethanol, emission reduction), and national pride (Indonesian sugarcane farmers, energy independence). The competitive structure from Porter’s Five Forces constrains the approach: high rivalry, high buyer power, and the credence-good nature of fuel mean that positioning must be evidence-based rather than assertion-based, because consumers cannot directly verify fuel quality attributes.
+Positioning Statement: for environmentally conscious Indonesian vehicle owners aged 25-44 with household income above 10 million IDR, Pertamax Green 95 is the premium fuel that delivers certified RON 95 engine performance while reducing carbon emissions through 5% bioethanol content made from Indonesian sugarcane. Unlike conventional Pertamax or imported alternatives, Pertamax Green 95 offers independently verified environmental impact transparency combined with national agricultural community support.
+The positioning strategy employs brand equity pyramid[35], building both rational and emotional associations:
+Rational associations (performance credibility): Independent LEMIGAS certification of fuel efficiency equivalence to Pertamax Turbo; third-party emission reduction verification; mechanic and workshop endorsements. These address the P1.2 gap by providing credible performance evidence. and the Porter’s finding that consumers with high power and low switching costs require credible third-party verification before accepting premium fuel claims
+Emotional associations (environmental identity): Transparent "Green Impact Dashboard" showing per-fill-up CO2 reduction; Mojokerto farmer storytelling, converting the 63.7% environmental concern level into purchase motivation through identity alignment, supported by the social environment trend (Chapter 4.1.3).
+Value associations (national pride + economic rationality) include the “Made with Indonesian sugarcane” origin narrative, directly supporting the TOWS SO strategy of leveraging national agricultural support as a differentiator that Shell V-Power cannot replicate. These provide non-environmental purchase justifications for consumers less motivated by green positioning.
+
+Figure .Perceptual Positioning Map for Pertamax Green 95
+On a two-dimensional perceptual map (Price vs. Environmental Credibility), Pertamax Green 95 occupies a unique position: it matches Pertamax Turbo on performance at a comparable price while offering environmental differentiation that non-Pertamina brands (Shell V-Power)  due to Pertamax Green 95's Indonesian bioethanol content. Its competitive advantage is the uncontested “green premium” position, the only certified bioethanol fuel at a mid-market price point, validated by SWOT Strength S6 (regulation-backed environmental authenticity under ESDM Regulation 252/2023) and the legal environment finding (Chapter 4.1.6) that E5 blending is codified.
+The positioning message follows a three-tier hierarchy: (1) Primary: “Same performance, cleaner burn, Indonesian-made” for mass media; (2) Secondary: “Independently certified, emission-reducing, farmer-supporting” for digital and point-of-purchase; (3) Tertiary: Technical specifications and LEMIGAS certification numbers for B2B communication.
+
+
+
+
+
+
+5.2 7P Marketing Mix Strategy
+The 7P marketing mix strategy for Pertamax Green 95 is formulated in direct response to the empirical findings presented in Chapters 3 and 4. Each strategic recommendation is grounded in specific survey data (n = 124), respondent behavior, statistical scores, and the environmental analysis from PESTEL, Porter’s Five Forces, and SWOT-TOWS. The overall 7Ps mean score of 3.449 (Moderate) reflects a marketing system with genuine operational strengths, Process (P6 = 3.869) and Physical Evidence (P7 = 3.851) classified as Good, alongside critical vulnerabilities in Promotion (P4 = 2.848, Needs Improvement), Price (P2 = 3.079, Moderate), and Place (P3 = 3.356, Moderate). The 1.021-point gap between the highest-performing dimension (Process) and the lowest (Promotion) reveals not product failure but a marketing activation failure. The strategic challenge is not market creation but market activation, converting latent demand into realized purchase behavior.
+The five prioritized problems from Section 3.4 map onto the 7P subsections as follows: Problem 1 (Promotional Failure, P4 = 2.848) and TOWS WO are addressed in Section 5.2.4; Problem 2 (Price-Value Asymmetry, P2.3 = 2.637) and TOWS ST in Section 5.2.2; Problem 3 (Distribution Deficiency, P3.1 = 2.210) and TOWS SO in Section 5.2.3. Problems 4 and 5 are addressed across Sections 5.2.4, 5.2.6, and 5.2.1. This dual-evidence structure ensures every strategy is justified by both consumer perception data and competitive-environmental analysis.
+5.2.1 Product Strategy
+
+
+
+
+
+Strategic Recommendation
+The product strategy should pursue two complementary objectives: (1) resolving the functional performance credibility gap through independently verified performance evidence, and (2) enhancing product clarity through portfolio positioning and vehicle-segment communication.
+First, Pertamina should commission and publicly release an independent performance comparison study by LEMIGAS or a certified automotive testing laboratory, quantifying fuel efficiency equivalence or superiority relative to Pertamax RON 92, carbon monoxide and hydrocarbon emission reductions per liter consumed, and engine cleanliness data under standard test conditions. This directly implements the TOWS ST strategy of using certification to differentiate against Shell V-Power marketing: independent verification provides rational brand associations that complement the emotional green identity, creating defensible differentiation in a market where high buyer power demands evidence-based positioning.
+Second, Pertamina should  The current generic messaging does not differentiate between car users (47.6%) and motorcycle users (29.0%), despite these segments having meaningfully different engine specifications and performance concerns. This counters the SWOT Threat T5 (internal cannibalisation from Pertalite) by making Pertamax Green 95 economically accessible and technically credible to the motorcycle segment.
+Implementation Plan
+In the short term (0-6 months), Pertamina should formally engage LEMIGAS to conduct a standardized fuel performance comparison study across at least three vehicle categories (key vehicle segments). In parallel, the marketing team should develop a simplified "Green Performance Sheet" in Bahasa Indonesia, presenting LEMIGAS-validated findings in consumer-accessible language for point-of-purchase deployment. Within 6-12 months, vehicle-segment content should be integrated into the MyPertamina application, with content auto-targeted to users based on their registered vehicle type. From 12-24 months, Pertamina should pursue co-endorsement agreements with motorcycle and car manufacturers whose models are formally compatible with E5 specification, providing credibility signals that third-party validation cannot replicate.
+
+
+
+
+
+
+5.2.2 Price Strategy
+
+
+
+
+
+
+
+Strategic Recommendation
+The price strategy should pursue a value-based communication architecture that repositions the consumer's reference point from subsidized alternatives to the RON 95+ premium segment. Three tactical instruments are recommended.
+First, Pertamina should formalize and communicate a "Green Value Guarantee": for every liter of Pertamax Green 95 purchased, the MyPertamina application should display the equivalent carbon emission reduction achieved, the contribution to domestic bioethanol farmer income, and the cumulative fuel savings relative to a lower-octane alternative over the vehicle's annual mileage. This transforms an abstract price premium into a visible, accumulating value portfolio that Monroe's (2003) framework identifies as directly increasing the perceived benefit component of the value ratio.
+Second, a structured trial incentive program should be implemented targeting the 22.6% aware non-trier segment. The incentive design, informed by C2-T2 responses (37.9% requesting price discounts or trials), should offer a first-fill subsidy of 10-15% via MyPertamina credit, redeemable on subsequent purchases to create habit formation rather than one-time trial, aligning with the TOWS WO strategy. Respondent R54 specifically stated: "Just give me a first-time free promo or 10% discount. I'll try and maybe continue," while R5 noted the appeal of "a reward points program redeemable for free fuel." These consumer-articulated preference signals provide direct guidance for incentive structure design.
+Third, for the Price-Sensitive Young Commuter segment (predominantly motorcycle users in the sub-10 million IDR bracket), a motorcycle-specific bundled pricing option should be explored: a monthly Pertamax Green 95 volume commitment at a fixed pre-purchase price, providing price certainty and a modest volume discount. This addresses the "regular use would be tough" concern directly by eliminating per-fill price variability, countering SWOT Threat T5 (internal cannibalisation from Pertalite).
+Implementation Plan
+In the short term (0-3 months), the MyPertamina application should be updated to display a real-time Green Impact Dashboard per transaction, showing CO2 reduction and farmer income contribution metrics. The first-fill incentive program requires a MyPertamina-integrated voucher mechanism, achievable within the existing app architecture. The motorcycle bundled pricing pilot should be tested in Surabaya (high motorcycle density) over a three-month period before broader rollout. From 6-12 months, the Green Value Guarantee communication should be extended to gas station signage and pump-side displays, ensuring the value proposition is visible at the point of purchase for non-app users.
+
+
+
+
+
+
+5.2.3 Place Strategy
+
+
+
+
+
+
+
+Strategic Recommendation
+The place strategy requires a two-phase acceleration: densification within existing markets and controlled geographic expansion beyond Java.
+Phase 1 (0-12 months): Network Densification with Data-Driven Prioritization. Within existing Java coverage, Pertamina should apply a GPS-traffic analytics model to identify the highest-traffic gas station in each city district and prioritize Pertamax Green 95 installation at these locations. Multiple respondents specifically suggested this approach: R7 recommended "Use GPS data and traffic patterns to prioritize which gas stations should sell Pertamax Green 95," and R42 noted the same. The 30% coverage target (~1,950 gas station) must be validated against bioethanol supply capacity through contingency agreements with secondary producers and the ESDM-authorised US ethanol import provision, implementing the TOWS WT strategy of developing supply chain resilience.
+Phase 2 (12-36 months): Geographic Expansion Beyond Java. The absence of Pertamax Green 95 in Bali (a high-income tourism market), Sumatera (Medan being a key city), and Sulawesi (Makassar as a growth market) represents an untapped demand pool. The city distribution data (D8) confirms respondents from these regions are present in the survey (Bali: 5 respondents, Makassar: 2 respondents, Medan: 4 respondents), indicating consumer awareness exists beyond Java but supply is absent. The initial pilot in non-Java markets should target Denpasar Bali (highest-income profile outside Java) and Medan Sumatra (largest non-Java urban market) with minimum 5 gas stations each before broader rollout, aligned with the E10 mandate timeline (TOWS SO: leveraging network dominance for market capture).
+Additionally, the MyPertamina application must be upgraded to include a dedicated Pertamax Green 95 gas station locator with real-time stock status, enabling consumers to pre-plan refueling without off-route deviation. This directly addresses the barrier expressed by R8: "Must go off-route to refill. Inefficient for my routine." The digital purchase ease score (P3.5 = 3.202, Moderate) confirms this is an underperforming channel dimension with clear improvement potential.
+Implementation Plan
+Organizational requirements include formation of a dedicated Pertamax Green 95 Distribution Acceleration Task Force with authority to override standard gas station capex approval timelines. The bioethanol supply constraint (PT Enero capacity of 30,000 KL/year vs. potential demand at 1,950 gas station) must be addressed in parallel: Pertamina should activate contingency supply agreements with secondary bioethanol producers and explore the Ministry of ESDM's authorized US ethanol import provision as a bridge supply while domestic sugarcane cultivation scales. The MyPertamina locator feature requires a 3–4-month development sprint within existing app architecture.
+
+
+
+
+
+
+5.2.4 Promotion Strategy.
+
+
+
+
+
+
+
+Strategic Recommendation
+The promotion strategy should be rebuilt around three coordinated pillars: digital content leadership, influencer and community activation, and point-of-purchase conversion.
+Pillar 1: Digital Content Leadership. Pertamina should develop a dedicated Pertamax Green 95 digital content program producing monthly content for Instagram (static infographics, story sequences), YouTube (90-second documentary-format videos), and TikTok (30-second content designed for organic sharing). Content categories should include: (a) the "Green Impact Series" visualizing real-time emission reduction data in consumer-accessible language, (b) the "Mojokerto Farmer Series" documenting the Indonesian sugarcane supply chain to create local pride and narrative differentiation that Shell V-Power cannot authentically replicate, (c) the "Engine Truth Series" featuring certified mechanic endorsements of E5 compatibility across vehicle types, directly addressing P1.2 and the engine safety concern expressed by R122. The farmer narrative (requested by 14.5% of respondents, C3-T4) is an uncontested differentiation opportunity implementing the TOWS SO strategy: no competitor can authentically claim Indonesian agricultural support.
+Pillar 2: Influencer and Automotive Community Activation. Pertamina should establish a Pertamax Green 95 Ambassador Program with 20-30 automotive and sustainability content creators across YouTube and TikTok with combined reach of minimum 5 million followers. Crucially, ambassador selection should prioritize automotive credibility (mechanic endorsers, automotive review channels) over pure lifestyle influencers, addressing the credence-good information asymmetry[56] that makes third-party expert endorsement more persuasive than brand-originated claims. Car and motorcycle club partnerships (respondent C3-T5 suggestion from R41) should be formalized through mass trial events where club members can test Pertamax Green 95 with before-and-after fuel efficiency measurement, generating authentic performance testimonials.
+Pillar 3: Point-of-Purchase Conversion. The  identified in Section 3.4 (low media visibility P4.1 = 2.113 combined with weak gas station signage P7.4 = 3.258) requires coordinated intervention at gas station level. Even at gas station that do not yet stock Pertamax Green 95, Pertamina should install Pertamax Green 95 awareness panels that communicate product benefits and direct consumers to the nearest Pertamax Green 95 gas
+Implementation Plan
+The digital content program requires an initial 3-month content planning and production sprint before launch. The MyPertamina app should be updated with push notification capability targeting non-Pertamax Green 95 users who refuel at participating gas stations, delivering contextual promotional messages . Ambassador program negotiation and content calendar development should run concurrently concurrently. gas station awareness panel installation should proceed in phases beginning with the 177 currently stocking Pertamax Green 95, then expanding to the 500 highest traffic Pertamina gas stations.
+
+
+
+
+
+
+5.2.5 People Strategy
+
+
+
+
+
+
+
+Strategic Recommendation
+The People strategy should pursue a structured Pertamax Green 95 Ambassador Certification program for frontline staff at all 177 currently stocking gas station, with phased rollout as distribution expands. The certification program should cover four knowledge modules: (1) product specification and differentiation from Pertamax RON 92 and Pertamax Turbo, (2) vehicle compatibility information for cars and motorcycles including manufacturer endorsement list, (3) environmental benefit communication including simplified CO2 reduction and farmer income support narrative, and (4) objection handling for the five most common consumer concerns identified from C1 barrier responses: price premium, availability, engine compatibility, performance uncertainty, and brand comparison with Shell V-Power.
+Staff who complete certification and achieve a minimum score should receive a Pertamax Green 95 Ambassador designation with a visible gas station badge and a modest performance incentive linked to Pertamax Green 95 sales volume at their gas station. The incentive structure addresses the current absence of performance-based metrics for green fuel sales, which Previous research identify as a barrier to active product engagement by frontline personnel[31]. Complaint handling improvement (targeting P5.4 from 3.347 toward 3.7) requires a standardized escalation protocol routing technical questions to designated product specialists.
+Implementation Plan
+The certification program can be delivered through Pertamina's existing e-learning platform with a 4-module online course (estimated 3-4 hours completion) followed by an in-gas station practical assessment. Curriculum development requires a 2-month preparation phase involving the marketing, operations, and HSE teams. Rollout should begin at the 177 Pertamax Green 95 gas station in month 3, with mandatory completion for all pump attendants and cashiers within 90 days of rollout. Ambassador badge and incentive mechanism require HR policy update, achievable within existing performance management frameworks. Monthly spot-checks by area supervisors should verify knowledge retention and active advocacy behavior.
+
+
+
+
+
+
+5.2.6 Process Strategy
+
+
+
+
+
+
+
+Strategic Recommendation
+The process strategy should pursue two enhancements: digital process augmentation for pre-purchase and post-purchase touchpoints, and Pertamax Green 95-specific process differentiation at the gas station level.
+For digital process augmentation, the MyPertamina application should implement four features: (1) a dedicated Pertamax Green 95 gas station locator with real-time availability status, directly addressing the P3.1 availability gap from the digital access dimension; (2) push notification alerts to users who frequently refuel at non-Pertamax Green 95 gas stations when a Pertamax Green 95 gas station is within 2 kilometers of their current location; (3) a post-purchase Green Impact Receipt delivered via app notification within 5 minutes of each Pertamax Green 95 transaction, displaying the individual carbon reduction achieved, cumulative environmental impact since first Pertamax Green 95 purchase, and a personalized message linking the purchase to the Mojokerto farmer community; (4) a monthly Green Journey summary that gamifies the environmental contribution, displaying progress toward CO2 reduction milestones and comparing the user's green fuel adoption rate to the community average. Respondent R113 explicitly requested "a pre-order or Pertamax Green 95 nozzle reservation feature via app for efficiency," suggesting that even committed users see process improvement opportunities in the digital channel.
+For gas station-level process differentiation, Pertamax Green 95 dispensers should be visually distinguished from conventional fuel dispensers through green nozzle handle identification and a brief 30-second animated screen display during fueling that shows the real-time environmental contribution of the current transaction. This converts the fueling process from a neutral transactional event into a positive green identity reinforcement moment, consistent with Bitner's (1992) service environment branding principles.
+Implementation Plan
+The MyPertamina feature development requires a phased technical roadmap: Pertamax Green 95 locator and push notifications in Phase 1, Green Impact Receipt in Phase 2, and Green Journey gamification in Phase 3. The post-purchase communication requires back-end integration between the MyPertamina transaction system and an environmental impact calculation module using the LEMIGAS-verified carbon reduction figure.
+
+
+
+
+
+
+5.2.7 Physical Evidence Strategy
+
+
+
+
+
+
+
+Strategic Recommendation
+The physical evidence strategy should establish a Green Zone concept at Pertamina gas station, creating a visually distinctive and informationally rich environment around the Pertamax Green 95 dispenser that functions simultaneously as a differentiation signal, consumer education platform, and brand credibility cue.
+The Green Zone should comprise five standardized elements deployed at all 177 current Pertamax Green 95 gas station and at all new gas stations as distribution expands: (1) a distinctive green pump handle cover and nozzle color coding that immediately identifies the Pertamax Green 95 dispenser from adjacent conventional fuel dispensers; (2) a backlit gas station-level canopy panel measuring 1.2m x 0.8m displaying the Pertamax Green 95 value proposition in three lines: performance equivalence to RON 95, carbon reduction per liter (LEMIGAS-verified figure), and the Mojokerto farmer origin story compressed to a single evocative tagline; (3) a QR code on the dispenser linking to the full Pertamax Green 95 product page on MyPertamina, enabling consumers to access detailed information ; (4) a floor decal at the Pertamax Green 95 pump lane marking the "Green Lane" and reinforcing the spatial differentiation from conventional fuel lanes; and (5) a A3-format "Green Impact Poster" positioned at the cashier window, displaying cumulative gas station-level Pertamax Green 95 sales impact in KL, equivalent CO2 reduction, and farmer income contribution, updated monthly by gas station management.
+Beyond stocking gas stations, awareness panels at the 500 highest-traffic non-stocking gas station convert the full network into a promotional channel, directly leveraging SWOT S3 (distribution as competitive advantage).
+Implementation Plan
+The Green Zone concept requires a standardized design specification development followed by vendor procurement and installation rollout over 3-4 months. Total investment for the current 177-gas station network is estimated at IDR 885 million to IDR 1.42 billion, modest against the product's strategic importance. The awareness panels for non-stocking gas stations represent a lower-cost alternative (estimated IDR 1-2 million per panel), with the 500-gas station rollout investable within a single fiscal quarter's marketing budget.
+The monthly "Green Impact Poster" update requires a standardized reporting template distributed to gas station managers, integrated with the existing regional sales dashboard. The design of all physical evidence elements should be developed by a design agency with explicit environmental branding experience, ensuring the visual identity is credible to environmentally conscious consumers rather than appearing as greenwash aesthetics.
+
+
+
+
+
+
+Table . 7 Integrated 7P Marketing Mix Strategy Summary for Pertamax Green 95
+Priority rankings align with Section 3.4 problem prioritisation and Section 4.4 TOWS strategic mapping. 12-Month Projections represent directional estimates based on industry benchmarks for analogous green product launches in comparable emerging markets.
+Integration and Coherence of the 7P Strategy
+The seven strategy components are designed as an integrated system rather than independent interventions, with each element justified by both Chapter 3 consumer evidence and Chapter 4 environmental analysis. The critical dependency structure operates as follows. Promotion (P4) is the foundational prerequisite: without it, improvements in Place, Product, and Price cannot generate trial among unaware consumers. This is validated by the survey finding that 44.4% are unaware or untried and by the Porter’s analysis that high rivalry from Shell V-Power requires visible promotional presence to enter the consideration set. Place (P3) expansion is the necessary condition for converting promotional awareness into purchase opportunity, but it is supply-constrained by the bioethanol feedstock gap (SWOT T3). Product (P1) and Price (P2) together determine the value calculus at the moment of trial decision, addressing the Porter’s finding that high buyer power causes consumers to default to lowest-price alternatives when differentiation is not communicated. People (P5), Process (P6), and Physical Evidence (P7) collectively determine the service encounter quality and post-purchase loyalty reinforcement, leveraging operational strengths (SWOT S3, S5) that competitors cannot easily replicate.
+This dependency structure implies sequenced implementation: Promotion and Place should be initiated simultaneously in Q1, as both address foundational access and awareness barriers. Product and Price improvements should proceed in parallel, as performance evidence strengthens the value communication that price strategy requires. People training and Process enhancement can run concurrently from months 2-6, operating at the service encounter level and requiring distribution infrastructure to be in place first. Physical Evidence improvements begin immediately at current Pertamax Green 95 gas station while awaiting distribution expansion rollout.
+The composite expected outcome of the integrated 7P strategy, if implemented with organisational commitment and adequate resource allocation, is a 12-month improvement in the overall 7Ps mean score from 3.449 (Moderate) toward 3.65-3.70 (Good), a Composite Loyalty Index improvement from 3.552 toward 3.80, and an NPS improvement from -12.1% toward positive territory, converting the current detractor-dominant consumer base into a passive-to-promoter majority as availability, awareness, and value evidence accumulate. These outcomes collectively position Pertamax Green 95 ahead of the E10 mandate trajectory, ensuring that Pertamina commands the consumer awareness, distribution infrastructure, and brand equity required to lead rather than react to the market transition, while building digital and loyalty capabilities that mitigate the EV substitution risk identified in the technological environment analysis.
+
+
+
+
+Marketing Strategy Implementation Guarantees
+The 7P marketing mix strategies proposed in Chapter 5 are designed to address the five prioritized problems identified in Chapter 3. However, the successful execution of these strategies depends on adequate organizational, human, financial, and technological support. This chapter establishes four implementation guarantee systems necessary to ensure that the Chapter 5 strategies are
+6.1 Management System Guarantees
+The current organizational structure of Pertamina distributes Pertamax Green 95 responsibilities across multiple departments, Commercial Marketing, Retail Operations, Supply Chain, Digital Technology, and Human Resources, with no dedicated coordination mechanism. This fragmentation has resulted in distribution expansion to 177 gas station without proportional marketing investment, and a decline in per-outlet daily sales from 406 liters to 292 liters. Standard SOE governance timelines also delay time-sensitive marketing initiatives, particularly the digital content program and influencer partnerships requiring rapid contract execution.
+To address these coordination deficiencies, Pertamina should establish a Pertamax Green 95 Marketing Strategy Implementation Committee at the VP Commercial level, with cross-functional membership from the five relevant divisions. The committee’s mandate is to coordinate the simultaneous execution of the 7P strategies, ensuring that distribution expansion, promotional activation, staff certification, and app development proceed on an integrated timeline rather than in departmental sequence. Commercial Marketing should serve as secretariat, responsible for agenda preparation, action item tracking, and cross-departmental communication.
+A quarterly Pertamax Green 95 Performance Review should track the 7P KPI projections from Table 5.7 against actual market results, with focus on advertisement visibility (P4.1), availability at visited gas stations (P3.1), and the Composite Loyalty Index (3.552 baseline)  Regional SA managers should submit bi-monthly Pertamax Green 95 sales and gas station performance reports covering gas station-level sales volume, stockout incidents, Green Zone compliance, staff certification status, and customer feedback.
+To accelerate distribution expansion, the committee should secure a pre-approved Pertamax Green 95 Distribution Acceleration Pathway that grants fast-track gas station installation approval for gas stations meeting GPS-traffic priority criteria, minimum daily traffic count, proximity to high-income residential or commercial districts, and technical readiness of existing fuel infrastructure bypassing standard multi-tier infrastructure review. This mechanism is essential for achieving the 30% network penetration target (approximately 1,950 gas station) within 24 months.
+Through coordinated governance, distribution expansion, content production, staff training, and app development will proceed as  rather than as isolated initiatives, directly addressing the root cause of the operational-promotional imbalance identified in Chapter 3.
+6.2 Human Resource Guarantees.
+The current training infrastructure does not include dedicated Pertamax Green 95 product modules; training is delivered ad hoc, and no performance incentive exists for green fuel sales. Staff competence (P5.1 = 3.589) trails professionalism (P5.3 = 4.121) by 0.532 points, and 9.7% of respondents explicitly requested active staff advocacy. Executing the digital content and influencer dimensions of the Promotion strategy also requires specialized capability in content production, social media management, and creator partnerships that does not currently exist within Commercial Marketing.
+
+
+A Pertamax Green 95 Sales Incentive Mechanism should link a portion of certified staff compensation to Pertamax Green 95 volume at their gas station.
+Separately, Commercial Marketing should recruit a Pertamax Green 95 Digital Marketing Unit of three to five professionals with expertise in content creation, social media management, influencer partnership management, and campaign analytics. This unit will execute the Instagram, YouTube, and TikTok content program, the influencer Ambassador Program (20–30 automotive and sustainability creators), and the digital performance dashboard. Recruitment should be completed within the first six months of strategy implementation, with the unit reporting to the Implementation Committee.
+The Digital Marketing Unit directly enables the critical Promotion intervention, whose resolution will generate  across all seven 7P elements.
+6.3 Financial Guarantees.
+Each Chapter 5 initiative must currently compete through standard budget approval cycles against higher-volume products. Green Zone installation across 177 gas station alone requires IDR 885 million to IDR 1.42 billion. The first-fill subsidy program (10–15% MyPertamina voucher) requires advance credit provisioning. Distribution expansion to 1,950 gas station involves gas station conversion capex and supply chain investment, including contingency bioethanol supply agreements to address PT Enero’s current 30,000 KL/year capacity constraint. As an SOE, Pertamina’s RKAP cycle requires commitments 9–12 months in advance, making mid-cycle budget acquisition structurally difficult.
+Pertamina should pre-allocate a dedicated Pertamax Green 95 marketing and distribution budget line within the annual RKAP, separating Pertamax Green 95 investment from the general fuel retail marketing envelope. The budget should cover three categories: operational marketing expenditure (digital content, influencer program, awareness panels, staff training), capital investment (Green Zone installation, app development, gas station conversion), and promotional credit provisioning (,
+Investment sequencing should align with the strategy dependency structure: Promotion and Physical Evidence investments should receive first-priority disbursement in Q1 as these address the most severe bottleneck (P4 = 2.848) at relatively low unit cost. Place expansion capex should be phased against demonstrated per-outlet demand improvement, protecting capital efficiency. Product research investment (LEMIGAS performance study) should be confirmed in Q1 given its enabling role for pricing and promotional communication.
+Pertamina should also pursue external funding support through BPDP-KS bioethanol promotion grants and ESDM Ministry funding available for domestic bioethanol retail market development under the E5 mandate framework. Co-investment from PT Enero as the bioethanol supply partner, motivated by demand volume growth, should be explored for joint promotional activities such as the Mojokerto farmer storytelling content series.
+A monthly budget utilization and ROI tracking report should monitor cost per new MyPertamina Pertamax Green 95 user acquired, cost per additional KL sold, and CLI improvement trajectory against the 3.552 baseline. This ensures fiscal discipline while providing the evidence base for budget escalation requests as adoption metrics improve.
+6.4 Information Technology Guarantees
+Four Chapter 5 strategies have significant digital technology dependencies that currently block execution. The Place strategy requires a real-time Pertamax Green 95 gas station locator in MyPertamina. The Price strategy requires a Green Impact Dashboard per transaction. The Process strategy requires post-purchase Green Impact Receipts and gamification features. The Promotion strategy requires digital marketing analytics across Instagram, YouTube, and TikTok. The current MyPertamina app utility score (P6.4 = 3.581) is the weakest Process item, and respondents explicitly requested features including gas station locator, nozzle pre-reservation, and environmental impact tracking.
+The Digital and Technology division should execute a phased MyPertamina Pertamax Green 95 Development Roadmap across 12 months. Phase 1 (months 1–3) should deliver the Pertamax Green 95 gas station locator with real-time stock status and push notifications alerting non-users when they refuel within 2 kilometers of a stocking gas station, directly addressing the lowest survey item (P3.1 = 2.210) by removing the off-route deterrence consumers reported. Phase 2 (months 3–6) should deliver the Green Impact Receipt displaying per-transaction CO2 reduction and farmer income support, using LEMIGAS-verified carbon reduction data to ensure environmental claims are scientifically defensible. Phase 3 (months 6–12) should deliver the Green Journey gamification system with monthly summaries, community comparison benchmarks, and milestone-based rewards, targeting the repurchase intention gap (B3 = 3.427 versus B1 = 3.677).
+Concurrently, the Digital Marketing Unit should deploy a social media analytics platform monitoring brand sentiment across Instagram, YouTube, and TikTok, tracking content reach, engagement rates, and gas station visit attribution through MyPertamina geolocation data. This enables continuous optimization of content investment toward the highest-performing platforms and formats.
+The MyPertamina enhancements address the satisfaction-repurchase gap by strengthening post-purchase engagement, reduce the physical availability barrier by making Pertamax Green 95 locations discoverable before purchase decisions are made, and provide the data infrastructure necessary for the Price strategy’s value communication. The analytics platform transforms the Promotion strategy from a broadcast investment into a performance-managed channel with real-time optimization capability.
+Table . Chapter 6 Implementation Guarantee Summary
+The four implementation guarantee systems in this chapter function as structural prerequisites for the Chapter 5 strategies rather than supplementary additions. Management governance eliminates the coordination failures that have historically allowed distribution to outpace marketing investment. Human resource development converts operational professionalism into active product advocacy. Financial guarantees ensure that Promotion, the most critical and most underfunded dimension, receives investment proportional to its strategic priority. Information technology transforms the MyPertamina platform from a transactional utility into a loyalty-building and market activation engine. Together, these guarantees create the organizational conditions under which the integrated 7P strategy can move Pertamax Green 95 from early-stage market development toward the sustained consumer adoption that Indonesia’s energy transition mission requires.
+
+Research Conclusions and Future Prospects
+7.1 Main Research Conclusions
+This thesis examined the marketing strategy of Pertamax Green 95 in the Indonesian market through environmental analysis (PESTEL, Porter’s Five Forces, SWOT), consumer survey research (n = 124), and strategy design (STP and 7Ps). The objective of the research was to diagnose the marketing failures underlying the product’s weak market acceptance after 28 months of availability, and to design an evidence-based marketing strategy.
+The macro-environmental analysis confirmed favorable structural conditions for green fuel marketing. Presidential Regulation No. 66/2018 mandates bioethanol blending as part of the national energy mix, the Net Zero Emission 2060 target creates long-term policy support, and biofuel programs generated US$3.68 billion in foreign exchange savings in the first half of 2025 alone. However, the micro-environment revealed intensifying competitive pressure: non-Pertamina brands increased their share of non-subsidized fuel from 11% in 2024 to 15% in 2025. The SWOT analysis confirmed that Pertamina’s 6,000+-gas station network and brand recognition are core strengths, but promotional underinvestment and distribution gaps are critical weaknesses that competitors are exploiting. The favorable macro-environment creates a strategic window, but without corrective marketing action, Pertamina risks ceding the green premium segment to non-Pertamina brands with stronger consumer engagement.
+The survey analysis revealed that Pertamax Green 95’s core problem is marketing activation failure, not product failure. The overall 7Ps mean score of 3.449 (Moderate) conceals a profound asymmetry: Process (P6 = 3.869) and Physical Evidence (P7 = 3.851) rank as Good, while Promotion (P4 = 2.848) is the sole dimension classified as Needs Improvement. Five interrelated problems were identified: promotional failure and brand invisibility (P4.1 = 2.113, the lowest of 32 items, with 44.4% of respondents unaware or untried); price-value perception asymmetry (P2.3 = 2.637); distribution coverage deficiency (P3.1 = 2.210, with 60.5% citing availability as the primary barrier); digital marketing underutilization; and green value proposition communication failure (39.5% of respondents explicitly requesting environmental evidence). Promotional deficiency operates as the foundational bottleneck: without awareness, distribution expansion cannot generate trial, and price incentives cannot stimulate demand.
+The STP analysis identified four integrated segments. The Green-Affluent Urban Professionals segment (age 25–44, income 10–50 million IDR, high environmental concern, 16.1% share) was selected as the primary target due to its intersection of purchasing power and green predisposition. The targeting strategy prioritizes retention of current users (54.0%) over acquisition of unaware non-users (21.8%), with aware non-triers (22.6%) representing the highest-ROI conversion opportunity. Market positioning centers on the uncontested “green premium” space: certified RON 95 performance with verified environmental benefits at a mid-market price, differentiated by the Indonesian bioethanol content and Mojokerto farmer community narrative that no competitor can .
+The integrated 7P strategy was designed as a coordinated execution system. Promotion strategy, the highest-priority intervention, rebuilds around digital content leadership (Instagram, YouTube, TikTok), an influencer Ambassador Program (20–30 creators), and point-of-purchase awareness panels at 500 non-stocking gas station. Place strategy targets 30% network penetration (approximately 1,950 gas station) within 24 months with phased expansion beyond Java. Price strategy employs a Green Value Guarantee via MyPertamina, first-fill trial incentives (10–15% voucher), and bundled pricing for price-sensitive segments. Product strategy commissions a LEMIGAS-validated performance study to close the engine perception gap (P1.2 = 3.177). People strategy deploys the Pertamax Green 95 Ambassador Certification program for frontline staff. Process strategy enhances MyPertamina with a Green Impact Receipt and gamification. Physical Evidence strategy establishes the Green Zone concept at all Pertamax Green 95 gas station.
+
+The strategy is projected to improve the overall 7Ps mean score from 3.449 toward 3.65–3.70 over 12 months, raise the Composite Loyalty Index from 3.552 toward 3.80, and move NPS from −12.1% toward positive territory. The strategy contributes to customer acquisition by resolving awareness and availability barriers blocking 44.4% of consumers; to customer satisfaction by closing the 0.250-point satisfaction-repurchase gap; to brand positioning by establishing Pertamax Green 95’s unique green premium identity; to market competitiveness by matching non-Pertamina brands’ digital presence; and to long-term sustainable development by building the awareness, distribution, and brand equity required for Pertamina to lead Indonesia’s E5-to-E10 bioethanol transition.
+7.2 Future Prospects
+With the government’s E10 bioethanol mandate targeted for 2027 and bioethanol consumption projected to grow toward 52.3 billion liters by 2050, Pertamina has a time-sensitive opportunity to transition Pertamax Green 95 from a niche offering into the leading brand in the non-subsidized retail fuel market. Realizing this transition requires addressing structural constraints in parallel with marketing execution: accelerating bioethanol supply chain development with bioethanol supplier and government agricultural agencies, expanding distribution infrastructure to outer-island markets, and building dedicated digital marketing capability within the commercial organization.
+Driven by Indonesia’s energy transition mission, the progressive E10 mandate trajectory, and the growing environmental consciousness of the urban middle-class consumer segment, Pertamax Green 95 is well-positioned to become a foundational case study in green fuel adoption across Southeast Asia. Its unique combination of domestic bioethanol origin, Mojokerto farmer community narrative, government policy alignment, and LEMIGAS-certified environmental credentials provides competitive differentiation that foreign-brand competitors cannot . Future research should expand geographic and sample coverage to outer-island markets, adopt longitudinal designs to track adoption behavior as the Chapter 5 strategies are implemented, and apply structural equation modeling to validate the causal relationships between 7P dimensions and customer loyalty identified in this study. Comparative research across the Philippines, Vietnam, and Thailand would further assess whether the marketing activation failure pattern identified here generalizes to biofuel products in other price-sensitive emerging markets, contributing to the cross-national green marketing theory. Pertamina must continuously evaluate market conditions, adjusting and optimizing its
+References
+[1]	Ministry of Energy and Mineral Resources. Indonesia’s energy transition outlook 2024: Pathways to net-zero emissions 2060[J]. 2024.
+[2]	Ahmad N, Khaerudin K, Jupriyanto J, et al. Contribution of B35 biodiesel to Indonesia’s renewable energy target and challenges for B40 implementation[J]. MOTIVECTION: Journal of Mechanical, Electrical and Industrial Engineering, 2025, 7(3): 291-302. DOI:10.46574/motivection.v7i3.473.
+[3]	Pertamina. Pertamina sustainability report 2024: Net zero emission 2060 roadmap[EB]. (2025). https://www.pertamina.com.
+[4]	Pertamina Patra Niaga. Peluncuran Pertamax Green 95 di Jawa Tengah[R]. (2025-a). https://www.patraniaga.co.id.
+[5]	Kompas. Pertamax Green 95, langkah Pertamina kurangi ketergantungan bahan bakar fosil[EB]. (2025-11-08). https://money.kompas.com.
+[6]	Bloomberg Technoz. Detail lengkap kuota dan kebutuhan BBM SPBU swasta Shell, BP, Vivo, dan Mobil[M]. Bloomberg Technoz, 2025. https://www.bloombergtechnoz.com/detail-news/85734.
+[7]	Pertamina Patra Niaga. Kehadiran Pertamax Green 95 jadi bukti dukungan Pertamina Patra Niaga dalam transisi energi[R]. (2025-b). https://www.patraniaga.co.id.
+[8]	Natsir M N I. Green marketing and sustainability policies: Impact on consumer behaviour in developed and developing nations[C]//In Proceedings of the 9th International Conference on Accounting, Management, and Economics 2024 (ICAME 2024). Atlantis Press, 2025. DOI:10.2991/978-94-6463-758-8_208.
+[9]	Dangelico R M, Vocalelli D. “Green Marketing”: An analysis of definitions, strategy steps, and tools through a systematic review of the literature[J]. Journal of Cleaner Production, 2017, 165: 1263-1279. DOI:10.1016/j.jclepro.2017.07.184.
+[10]	D’Oria L, Crook T R, Ketchen D J, et al. The Evolution of Resource-Based Inquiry: A Review and Meta-Analytic Integration of the Strategic Resources–Actions–Performance Pathway[J]. Journal of Management, 2021, 47(6): 1383-1429. DOI:10.1177/0149206321994182.
+[11]	Khanra S, Kaur P, Joseph R P, et al. A resource‐based view of green innovation as a strategic firm resource: Present status and future directions[J]. Business Strategy and the Environment, 2022, 31(4): 1395-1413. DOI:10.1002/bse.2961.
+[12]	Rafiq M, Ahmed P K. Using the 7Ps as a generic marketing mix: an exploratory surveyof UK and European marketing academics[J]. Marketing Intelligence & Planning, 1995, 13(9): 4-15. DOI:10.1108/02634509510097793.
+[13]	Fauzi F, Dimawarnita D, Lopez-Sanchez M. Unlocking circular economy and green innovation pathways for sustainable biofuel: A global bibliometric analysis with insights from Indonesia’s B40 transition[J]. Frontiers in Environmental Science, 2024, 12: 1668947. DOI:10.3389/fenvs.2024.1668947.
+[14]	Suryadi. Developing a marketing strategy for methanol in Indonesia’s biodiesel industry: A case study of PT Pertamina Patra Niaga[D]. Institut Teknologi Bandung, 2025. https://digilib.itb.ac.id.
+[15]	de Souza L C A, Szklo A, Borba B S M C. The Pro-Alcool program revisited: Lessons from four decades of ethanol fuel use in Brazil[J]. Energy Policy, 2022, 163: 112820. DOI:10.1016/j.enpol.2022.112820.
+[16]	Stolf R, Oliveira A P R D. THE SUCCESS OF THE BRAZILIAN ALCOHOL PROGRAM (PROÁLCOOL) - A DECADE-BY-DECADE BRIEF HISTORY OF ETHANOL IN BRAZIL[J]. Engenharia Agrícola, 2020, 40(2): 243-248. DOI:10.1590/1809-4430-eng.agric.v40n2p243-248/2020.
+[17]	Harring N, Jönsson E, Matti S, et al. Cross-national analysis of attitudes towards fossil fuel subsidy removal[J]. Nature Climate Change, 2023, 13(3): 244-249. DOI:10.1038/s41558-023-01597-5.
+[18]	Lu J, Ren L, Zhang C, et al. The effect of economic responsibility on green marketing and consumer behavior[J]. Corporate Social Responsibility and Environmental Management, 2020, 27(4): 1779-1790. DOI:10.1002/csr.1925.
+[19]	Fatma M, Rahman Z. CSR and customer behavioral responses: The mediating role of customer motivations[J]. Journal of Consumer Marketing, 2020, 37(6): 641-652. DOI:10.1108/JCM-08-2019-3363.
+[20]	Kotler P, Keller K L. Marketing management[M]. 15 版. Pearson, 2016.
+[21]	Porter M E. Competitive advantage: Creating and sustaining superior performance[M]. Free Press, 1985.
+[22]	Nath P, Siepong A. Green marketing capability: A configuration approach towards sustainable development[J]. Journal of Cleaner Production, 2022, 354: 131727. DOI:10.1016/j.jclepro.2022.131727.
+[23]	Christen T, Hess M, Grichnik D, et al. Value-based pricing in digital platforms: A machine learning approach to signaling beyond core product attributes in cross-platform settings[J]. Journal of Business Research, 2022, 152: 82-92. DOI:10.1016/j.jbusres.2022.07.042.
+[24]	Berry L L. Relationship marketing of services: Perspectives from 1983 and 2000[J]. Journal of Relationship Marketing, 2002, 1(1): 59-77.
+[25]	Tuncer I, Unusan C, Cobanoglu C. Service Quality, Perceived Value and Customer Satisfaction on Behavioral Intention in Restaurants: An Integrated Structural Model[J]. Journal of Quality Assurance in Hospitality & Tourism, 2021, 22(4): 447-475. DOI:10.1080/1528008X.2020.1802390.
+[26]	Johnson G, Whittington R, Scholes K, et al. Exploring strategy: Text and cases[M]. 12 版. Pearson Education, 2020.
+[27]	PwC. Global consumer insights survey 2024: Sustainability and purchasing decisions. PricewaterhouseCoopers[J]. 2024.
+[28]	Pertamina Patra Niaga. Annual report 2024: Delivering energy, sustaining the future[R]. (2024). https://www.patraniaga.co.id.
+[29]	Booms B H, Bitner M J. Marketing Strategies and Organizational Structures for Service Firms[M]. 1981.
+[30]	PT Pertamina Patra Niaga. Pertamax Green 95 Product Information[EB]. (2025)[2025-11-15]. https://pertaminapatraniaga.com/page/pertamax-green-95.
+[31]	Sinurat A, Hendriyani C. MyPertamina application to improve customer loyalty in the digital era[J]. Journal of Digital Business, 2022, 3(1): 78-92.
+[32]	PT Kadence International. Customer satisfaction and loyalty survey 2023: PT Pertamina Patra Niaga[R]. 2024.
+[33]	Widodo A, Wahid N A. Mediating role of environmental attitude between consumers’ satisfaction and repeat purchase of eco-friendly petrol in Indonesia[J]. Jurnal Manajemen Indonesia, 2023, 23(2): 168-175.
+[34]	Sekaran U. Research methods for business: A skill building approach[M]. John Wiley & Sons, 2016.
+[35]	Keller K L. Conceptualizing, Measuring, and Managing Customer-Based Brand Equity[J]. Journal of Marketing, 1993, 57(1): 1-22. DOI:10.1177/002224299305700101.
+[36]	Do Q H, Vu T. Understanding consumer satisfaction with railway transportation service: An application of 7Ps marketing mix[J]. Management Science Letters, 2020, 10(6): 1341-1350.
+[37]	Monroe K B. Pricing: Making profitable decisions[M]. McGraw-Hill, 1990.
+[38]	Coughlan A T. Marketing Channels[M]. Pearson/Prentice Hall, 2006. https://books.google.co.jp/books?id=RKIVSAAACAAJ.
+[39]	Aaker D A. Managing Brand Equity[M]. Free Press, 1991. https://books.google.co.jp/books?id=FkO5AAAAIAAJ.
+[40]	Zeithaml V A, Bitner M J, Gremler D D. Services Marketing: Integrating Customer Focus Across the Firm[M]. McGraw-Hill Education, 2017. https://books.google.co.jp/books?id=7_LssgEACAAJ.
+[41]	Akroush M N. The 7Ps classification of the services marketing mix revisited: an empirical assessment of their generalisability, applicability and effect on performance-evidence from Jordan’s Services Organisations[J]. Jordan Journal of Business Administration, 2011, 7(1): 116-147.
+[42]	Bitner M J. Servicescapes: The Impact of Physical Surroundings on Customers and Employees[J]. Journal of Marketing, 1992, 56(2): 57-71. DOI:10.1177/002224299205600205.
+[43]	Fornell C, Johnson M D, Anderson E W, et al. The American Customer Satisfaction Index: Nature, Purpose, and Findings[J]. Journal of Marketing, 1996, 60(4): 7-18. DOI:10.1177/002224299606000403.
+[44]	Reichheld F F. The one number you need to grow[J]. Harvard business review, 2003, 81(12): 46-55.
+[45]	Keiningham T, Cooil B, Andreassen T, et al. A Longitudinal Examination of Net Promoter and Firm Revenue Growth[J]. Journal of Marketing American Marketing Association ISSN, 2007, 71: 39-51. DOI:10.1509/jmkg.71.3.39.
+[46]	Braun V, Clarke V. Using thematic analysis in psychology[J]. Qualitative Research in Psychology, 2006, 3(2): 77-101. DOI:10.1191/1478088706qp063oa.
+[47]	Chaffey D, Ellis-Chadwick F. Digital marketing[M]. Pearson uk, 2019.
+[48]	Digital 2024: Indonesia[EB]. (2024-02-21)[2026-06-04]. https://datareportal.com/reports/digital-2024-indonesia.
+[49]	Government of Indonesia. Presidential Decree No. 15 of 2024 on sugarcane plantation expansion for bioethanol production. State Secretariat of the Republic of Indonesia[R]. 2024.
+[50]	Statistics Indonesia (BPS). Economic growth 2024[R]. (2025). https://www.bps.go.id/pressrelease.html.
+[51]	Ministry of Energy and Mineral Resources. Data kuota dan realisasi impor BBM non-subsidi SPBU swasta 2025 [Non-subsidized fuel import quota and realization data for private SPBU 2025][EB]. (2025-10-01). https://www.esdm.go.id.
+[52]	Antara. Indonesia saves US$40.7 billion from biodiesel program in 2020-2025[EB]. (2025-01-14). https://www.antaranews.com/news/2025/01/14/indonesia-saves-us407-billion-from-biodiesel-program-in-2020-2025.
+[53]	USDA Foreign Agricultural Service. Indonesia biofuels annual 2024 (Report No. ID2024-0128). U.S. Department of Agriculture[J]. 2025. https://www.fas.usda.gov/data/indonesia-biofuels-annual-2024.
+[54]	Republic of Indonesia. National Energy General Plan (RUEN) Presidential Regulation No. 22 of 2017. State Secretariat of the Republic of Indonesia[R]. 2017.
+[55]	Darby M R, Karni E. Free competition and the optimal amount of fraud[J]. Journal of Law and Economics, 1973, 16(1): 67-88. DOI:10.1086/466757.
+[56]	Khan K U, Atlas F, Arshad M Z, et al. Signaling Green: Impact of Green Product Attributes on Consumers Trust and the Mediating Role of Green Marketing[J]. Frontiers in Psychology, 2022, 13: 790272. DOI:10.3389/fpsyg.2022.790272.
+[57]	Barney J. Firm resources and sustained competitive advantage[J]. Journal of Management, 1991, 17(1): 99-120. DOI:10.1177/014920639101700108.
+[58]	Nguyen [First name/initials], [Additional authors]. Willingness to Pay for Green or Sustainable Products in ASEAN: A Contingent Valuation Approach[J]. [Journal to be confirmed], 2021.
+
+
+
+
+
+
+Appendix 1 Questionnaire Survey
+SECTION A: 7Ps CORE QUESTIONS
+Please rate your level of agreement with the following statements regarding Pertamax Green 95. If you have not used Pertamax Green 95, please answer based on your perceptions and expectations.
+Scale: 1 = Strongly Disagree  |  2 = Disagree  |  3 = Neutral  |  4 = Agree  |  5 = Strongly Agree
+A1. PRODUCT (P1)
+A2. PRICE (P2)
+A3. PLACE (P3)
+A4. PROMOTION (P4)
+A5. PEOPLE (P5)
+A6. PROCESS (P6)
+A7. PHYSICAL EVIDENCE (P7)
+SECTION B: OVERALL SATISFACTION AND LOYALTY
+B1. Overall, how satisfied are you with Pertamax Green 95 as a fuel product?
+☐Very dissatisfied (1)    ☐Dissatisfied (2)    ☐Neutral (3)    ☐Satisfied (4)    ☐Very satisfied (5)
+B2. How likely are you to recommend Pertamax Green 95 to friends, family, or colleagues?
+(0 = Not at all likely, 10 = Extremely likely)
+B3. How likely are you to continue purchasing Pertamax Green 95 as your primary fuel?
+☐Very unlikely (1)    ☐Unlikely (2)    ☐Neutral (3)    ☐Likely (4)    ☐Very likely (5)
+SECTION C: OPEN-ENDED STRATEGIC QUESTIONS
+Please describe your answers in your own words in the spaces provided below.
+C1. What is the single biggest barrier that prevents you (or would prevent you) from regularly purchasing Pertamax Green 95?
+C2. What would most effectively convince you to choose Pertamax Green 95 over conventional Pertamax or competitor fuels?
+C3. What specific improvements would you suggest for how Pertamina markets and sells Pertamax Green 95?
+SECTION D: DEMOGRAPHIC AND PSYCHOGRAPHIC SCREENING
+Please answer the following questions about yourself and your fuel purchasing behavior.
+D1. What is your age?
+D2. What is your approximate monthly household income (in IDR)?
+D3. What type of vehicle do you primarily use?
+D4. How frequently do you refuel?
+D5. Which fuel type do you currently use most frequently?
+D6. Are you aware of Pertamax Green 95?
+D7. How would you rate your personal concern about environmental issues (climate change, air pollution, carbon emissions)?
+D8. In which city do you primarily refuel?

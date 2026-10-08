@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bakanohito Pricing — Transparent, developer-friendly pricing for Local AI Gateway, Prompt Orchestrator, and Eval Platform. Start free, scale with confidence.">
+  <title>Pricing — Bakanohito</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-bg: #ffffff;
+      --color-text: #171717;
+      --color-text-secondary: #4d4d4d;
+      --color-text-muted: #666666;
+      --color-border: rgba(0, 0, 0, 0.08);
+      --color-border-strong: #ebebeb;
+      --color-accent: #0a72ef;
+      --color-accent-hover: #0058c7;
+      --color-surface: #fafafa;
+      --color-surface-hover: #f0f0f0;
+      --shadow-border: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      --shadow-card: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px, rgba(0, 0, 0, 0.04) 0px 8px 8px -8px, #fafafa 0px 0px 0px 1px;
+      --shadow-hover: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.06) 0px 4px 8px, rgba(0, 0, 0, 0.06) 0px 16px 16px -16px, #fafafa 0px 0px 0px 1px;
+      --focus-ring: hsla(212, 100%, 48%, 1);
+      --radius-sm: 4px;
+      --radius-md: 6px;
+      --radius-lg: 8px;
+      --radius-xl: 12px;
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 24px;
+      --space-6: 32px;
+      --space-7: 48px;
+      --space-8: 64px;
+      --space-9: 96px;
+      --container-max: 1200px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-bg: #08090a;
+        --color-text: #f7f8f8;
+        --color-text-secondary: #d0d6e0;
+        --color-text-muted: #8a8f98;
+        --color-border: rgba(255, 255, 255, 0.08);
+        --color-border-strong: #23252a;
+        --color-accent: #7170ff;
+        --color-accent-hover: #828fff;
+        --color-surface: #0f1011;
+        --color-surface-hover: #1a1c1f;
+        --shadow-border: rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+        --shadow-card: rgba(0, 0, 0, 0.4) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+        --shadow-hover: rgba(0, 0, 0, 0.4) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 4px 12px, rgba(0, 0, 0, 0.3) 0px 16px 24px -16px;
+        --focus-ring: hsla(212, 100%, 48%, 1);
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Geist', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-feature-settings: "liga" 1;
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    a { color: var(--color-accent); text-decoration: none; font-weight: 500; transition: color 0.15s ease; }
+    a:hover { color: var(--color-accent-hover); text-decoration: underline; }
+    .container { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--space-4); }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); font-family: inherit; font-size: 14px; font-weight: 500; line-height: 1.43; padding: 8px 16px; border-radius: var(--radius-md); border: none; cursor: pointer; transition: all 0.15s ease; text-decoration: none; }
+    .btn:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+    .btn-primary { background-color: var(--color-text); color: var(--color-bg); }
+    .btn-primary:hover { background-color: #000; text-decoration: none; }
+    .btn-secondary { background-color: var(--color-bg); color: var(--color-text); box-shadow: var(--shadow-border); }
+    .btn-secondary:hover { background-color: var(--color-surface); text-decoration: none; }
+    .btn-ghost { background-color: transparent; color: var(--color-text); }
+    .btn-ghost:hover { background-color: var(--color-surface); text-decoration: none; }
+    .badge { display: inline-flex; align-items: center; padding: 0 10px; height: 24px; border-radius: 9999px; font-size: 12px; font-weight: 500; line-height: 1; background-color: #ebf5ff; color: #0068d6; }
+    @media (prefers-color-scheme: dark) { .badge { background-color: rgba(113, 112, 255, 0.15); color: #a5a4ff; } }
+    header { position: sticky; top: 0; z-index: 100; background-color: var(--color-bg); border-bottom: 1px solid var(--color-border-strong); }
+    .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { display: flex; align-items: center; gap: var(--space-2); font-size: 20px; font-weight: 600; letter-spacing: -0.4px; color: var(--color-text); text-decoration: none; }
+    .logo:hover { text-decoration: none; }
+    .logo svg { width: 32px; height: 32px; }
+    .nav-links { display: flex; align-items: center; gap: var(--space-6); }
+    .nav-links a { font-size: 14px; font-weight: 500; color: var(--color-text-secondary); text-decoration: none; }
+    .nav-links a:hover { color: var(--color-text); text-decoration: none; }
+    .nav-links a.active { color: var(--color-text); font-weight: 600; }
+    .page-hero { padding: var(--space-9) 0 var(--space-8); text-align: center; }
+    .page-hero .badge { margin-bottom: var(--space-4); }
+    .page-hero h1 { font-size: 48px; font-weight: 600; line-height: 1.0; letter-spacing: -2.4px; color: var(--color-text); margin-bottom: var(--space-4); max-width: 800px; margin-left: auto; margin-right: auto; }
+    .page-hero p { font-size: 20px; font-weight: 400; line-height: 1.8; color: var(--color-text-secondary); max-width: 640px; margin: 0 auto; }
+    .section { padding: var(--space-9) 0; }
+    .section-header { text-align: center; margin-bottom: var(--space-8); }
+    .section-header h2 { font-size: 40px; font-weight: 600; line-height: 1.2; letter-spacing: -2.4px; margin-bottom: var(--space-3); }
+    .section-header p { font-size: 18px; color: var(--color-text-secondary); max-width: 640px; margin: 0 auto; }
+    .billing-toggle { display: flex; align-items: center; justify-content: center; gap: var(--space-3); margin-bottom: var(--space-6); }
+    .billing-toggle label { display: flex; align-items: center; gap: var(--space-2); font-size: 14px; color: var(--color-text-secondary); cursor: pointer; }
+    .billing-toggle input { display: none; }
+    .billing-toggle .toggle-track { position: relative; width: 52px; height: 28px; border-radius: 9999px; background: var(--color-border-strong); transition: background 0.2s; }
+    .billing-toggle .toggle-thumb { position: absolute; top: 2px; left: 2px; width: 24px; height: 24px; border-radius: 50%; background: white; box-shadow: var(--shadow-card); transition: transform 0.2s ease; }
+    .billing-toggle input:checked + .toggle-track { background: var(--color-accent); }
+    .billing-toggle input:checked + .toggle-track .toggle-thumb { transform: translateX(24px); }
+    .billing-toggle .billing-label.annual { color: var(--color-accent); font-weight: 600; }
+    .billing-toggle .save-badge { font-size: 11px; font-weight: 600; color: #16a34a; background: #dcfce7; padding: 2px 8px; border-radius: 9999px; margin-left: var(--space-2); }
+    @media (prefers-color-scheme: dark) { .billing-toggle .save-badge { background: #14532d; color: #86efac; } }
+    .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-5); align-items: start; }
+    @media (max-width: 1024px) { .pricing-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; } }
+    .pricing-card { position: relative; background: var(--color-bg); border: 1px solid var(--color-border-strong); border-radius: var(--radius-xl); padding: var(--space-7); display: flex; flex-direction: column; transition: box-shadow 0.2s ease, border-color 0.2s ease; }
+    .pricing-card:hover { box-shadow: var(--shadow-hover); }
+    .pricing-card.featured { border-color: var(--color-accent); box-shadow: var(--shadow-hover); }
+    .pricing-card.featured::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--color-accent); border-radius: var(--radius-xl) var(--radius-xl) 0 0; }
+    .pricing-header { margin-bottom: var(--space-6); }
+    .pricing-name { font-size: 20px; font-weight: 600; letter-spacing: -0.8px; margin-bottom: var(--space-3); }
+    .pricing-price { display: flex; align-items: baseline; gap: var(--space-1); margin-bottom: var(--space-1); }
+    .pricing-amount { font-size: 48px; font-weight: 600; letter-spacing: -2.4px; font-family: 'Geist Mono', monospace; color: var(--color-text); }
+    .pricing-period { font-size: 16px; color: var(--color-text-muted); }
+    .pricing-description { font-size: 14px; color: var(--color-text-secondary); line-height: 1.6; }
+    .pricing-cta { margin-top: auto; }
+    .pricing-card .btn { width: 100%; }
+    .pricing-features { list-style: none; margin-bottom: var(--space-6); }
+    .pricing-features li { display: flex; align-items: flex-start; gap: var(--space-3); padding: var(--space-3) 0; border-bottom: 1px solid var(--color-border); font-size: 14px; line-height: 1.5; }
+    .pricing-features li:last-child { border-bottom: none; }
+    .pricing-features .check { flex-shrink: 0; width: 20px; height: 20px; border-radius: 4px; background: var(--color-accent); display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+    .pricing-features .check svg { width: 12px; height: 12px; stroke: white; }
+    .pricing-features .unavailable { color: var(--color-text-muted); }
+    .pricing-features .unavailable .check { background: var(--color-border-strong); opacity: 0.5; }
+    .enterprise-section { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-xl); padding: var(--space-8); text-align: center; margin-top: var(--space-8); }
+    .enterprise-section h3 { font-size: 32px; font-weight: 600; line-height: 1.2; letter-spacing: -1.6px; margin-bottom: var(--space-3); }
+    .enterprise-section p { font-size: 18px; color: var(--color-text-secondary); max-width: 640px; margin: 0 auto var(--space-6); }
+    .comparison-section { overflow-x: auto; }
+    .comparison-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    .comparison-table th { text-align: left; padding: var(--space-4) var(--space-3); font-weight: 600; color: var(--color-text); border-bottom: 1px solid var(--color-border-strong); white-space: nowrap; }
+    .comparison-table td { padding: var(--space-3); border-bottom: 1px solid var(--color-border); color: var(--color-text-secondary); white-space: nowrap; }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table td:first-child { font-weight: 500; color: var(--color-text); }
+    .comparison-table .check-cell { text-align: center; }
+    .comparison-table .check-cell svg { width: 18px; height: 18px; stroke: #16a34a; }
+    .comparison-table .cross-cell { text-align: center; color: var(--color-text-muted); }
+    .comparison-table .cross-cell svg { width: 18px; height: 18px; stroke: currentColor; }
+    .faq-section { max-width: 800px; margin: 0 auto; }
+    .faq-item { border-bottom: 1px solid var(--color-border-strong); padding: var(--space-5) 0; }
+    .faq-item:first-child { border-top: 1px solid var(--color-border-strong); }
+    .faq-question { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); cursor: pointer; font-size: 16px; font-weight: 500; color: var(--color-text); }
+    .faq-question:hover { color: var(--color-accent); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease, opacity 0.2s ease; opacity: 0; color: var(--color-text-secondary); line-height: 1.7; padding-top: var(--space-3); }
+    .faq-item.open .faq-answer { max-height: 500px; opacity: 1; }
+    .faq-toggle { flex-shrink: 0; width: 24px; height: 24px; transition: transform 0.2s ease; color: var(--color-text-muted); }
+    .faq-item.open .faq-toggle { transform: rotate(180deg); }
+    footer { padding: var(--space-8) 0; border-top: 1px solid var(--color-border-strong); background-color: var(--color-surface); }
+    .footer-content { display: flex; flex-direction: column; align-items: center; gap: var(--space-4); text-align: center; }
+    .footer-links { display: flex; gap: var(--space-6); }
+    .footer-links a { font-size: 14px; color: var(--color-text-muted); }
+    .footer-links a:hover { color: var(--color-text); }
+    .copyright { font-size: 14px; color: var(--color-text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#171717"/><circle cx="32" cy="32" r="28" stroke="#0a72ef" stroke-width="2" fill="none" opacity="0.3"/><g transform="translate(16, 16)"><circle cx="8" cy="8" r="3" fill="#0a72ef" opacity="0.9"/><circle cx="24" cy="8" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="20" r="3" fill="#0a72ef" opacity="0.8"/><circle cx="8" cy="32" r="3" fill="#0a72ef" opacity="0.6"/><circle cx="24" cy="32" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="44" r="3" fill="#0a72ef" opacity="0.9"/></g></svg>
+        Bakanohito
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="changelog.html">Changelog</a>
+        <a href="pricing.html" class="active">Pricing</a>
+        <a href="index.html#contact" class="btn btn-primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge">Simple, Transparent Pricing</span>
+        <h1>Pricing</h1>
+        <p>Open-core products with managed cloud options. Start free, pay as you grow. No vendor lock-in — self-host forever.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Product Plans</h2>
+          <p>Each product is independently priced. Mix and match — only pay for what you use.</p>
+        </div>
+
+        <div class="billing-toggle">
+          <label>
+            <span class="billing-label monthly">Monthly</span>
+            <input type="checkbox" id="billing-toggle" checked>
+            <span class="toggle-track"><span class="toggle-thumb"></span></span>
+            <span class="billing-label annual">Annual <span class="save-badge">Save 20%</span></span>
+          </label>
+        </div>
+
+        <div class="pricing-grid" id="pricing-grid">
+          <!-- Cards rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="enterprise-section">
+          <h3>Enterprise</h3>
+          <p>Custom deployments, dedicated support, compliance, and volume discounts. We'll tailor a plan to your infrastructure and security requirements.</p>
+          <a href="index.html#contact" class="btn btn-primary">Contact Sales</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section comparison-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Feature Comparison</h2>
+          <p>Side-by-side comparison across all plans. Self-hosted plans include full source access.</p>
+        </div>
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Community</th>
+              <th>Pro</th>
+              <th>Enterprise</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Source Code Access</td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>Self-Hosted Deployment</td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>Managed Cloud Option</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>Multi-Model Support</td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>Model Router</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>OpenTelemetry Metrics</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>Visual Workflow Builder</td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>MCP Server Support</td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>GitOps Deployment</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>Regression Detection</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>Golden Datasets</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>SSO (SAML/OIDC)</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>RBAC</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>Audit Logs</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>SLA & Support</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>Dedicated Support Engineer</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+            <tr><td>Custom Contracts / DPA</td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="cross-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></td><td class="check-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-item" data-faq>
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I switch from self-hosted to cloud later?</span>
+            <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Your workflows, configs, and data are portable. Export from self-hosted and import to cloud (or vice versa) with a single CLI command. No vendor lock-in.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-faq>
+          <button class="faq-question" aria-expanded="false">
+            <span>What happens if I exceed my request limits?</span>
+            <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>On Pro cloud plans, we don't hard-cut — you'll get a notification at 80% and 100% usage. Overage is billed at $0.001/request. Enterprise plans have custom limits.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-faq>
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you offer discounts for startups, students, or non-profits?</span>
+            <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Verified startups (series A or earlier), students with .edu email, and registered non-profits get 50% off Pro plans for 12 months. <a href="index.html#contact">Contact us</a> with verification.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-faq>
+          <button class="faq-question" aria-expanded="false">
+            <span>Is there a free trial for Pro cloud plans?</span>
+            <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>14-day free trial on all Pro cloud plans. No credit card required. Self-hosted Community edition is free forever with no limits.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-faq>
+          <button class="faq-question" aria-expanded="false">
+            <span>What payment methods do you accept?</span>
+            <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Credit cards (Stripe), wire transfer for annual Enterprise contracts, and purchase orders for qualified enterprises. Invoiced annually for Enterprise.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-faq>
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I run the Community edition in production?</span>
+            <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. Community edition is production-ready — it's what we ran at Pertamina before Pro features existed. You get the same core runtime, just without managed cloud, advanced routing, and enterprise features.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-faq>
+          <button class="faq-question" aria-expanded="false">
+            <span>How does the Model Router work? Is it trained on my data?</span>
+            <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>The router uses rule-based classification (task type, latency budget, cost ceiling) + optional lightweight classifier you can train on your own traces. Your data never leaves your infrastructure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--color-surface); text-align: center; max-width: 640px; margin: 0 auto;">
+      <h2 style="font-size: 40px; font-weight: 600; line-height: 1.2; letter-spacing: -2.4px; margin-bottom: var(--space-3);">Ready to Start?</h2>
+      <p style="font-size: 18px; color: var(--color-text-secondary); margin-bottom: var(--space-6);">Deploy Community edition in minutes, or start a 14-day Pro trial.</p>
+      <div style="display: flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap;">
+        <a href="https://github.com/bakanohito/gateway" target="_blank" rel="noopener" class="btn btn-primary">Get Community Free</a>
+        <a href="index.html#contact" class="btn btn-secondary">Start Pro Trial</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#171717"/><circle cx="32" cy="32" r="28" stroke="#0a72ef" stroke-width="2" fill="none" opacity="0.3"/><g transform="translate(16, 16)"><circle cx="8" cy="8" r="3" fill="#0a72ef" opacity="0.9"/><circle cx="24" cy="8" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="20" r="3" fill="#0a72ef" opacity="0.8"/><circle cx="8" cy="32" r="3" fill="#0a72ef" opacity="0.6"/><circle cx="24" cy="32" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="44" r="3" fill="#0a72ef" opacity="0.9"/></g></svg>
+        Bakanohito
+      </a>
+      <nav class="footer-links">
+        <a href="https://github.com/bakanohito" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://twitter.com/bakanohito" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://linkedin.com/company/bakanohito" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hello@bakanohito.my.id">Email</a>
+      </nav>
+      <p class="copyright">© 2025 Bakanohito Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Pricing data
+    const plans = {
+      gateway: {
+        name: 'Local AI Gateway',
+        community: { price: 0, period: '/month', features: ['OpenAI-compatible API', 'Ollama + llama.cpp backends', 'Model management (pull/list/remove)', 'Request logging + basic auth', 'Prometheus metrics', 'Docker + static binaries', 'Community support (GitHub)'] },
+        pro: { price: 49, period: '/month', featured: true, features: ['Everything in Community', 'vLLM + TGI backends', 'Model Router (auto-selection)', 'OpenTelemetry (traces/metrics/logs)', 'API Keys v2 (scoped, rotation)', '99.9% SLA', 'Email support (24h SLA)'] },
+        enterprise: { price: 'Custom', period: '', features: ['Everything in Pro', 'VPC / on-prem deployment', 'SSO (SAML/OIDC) + RBAC', 'Audit logs + compliance reports', 'Dedicated support engineer', 'Custom contracts / DPA', 'Training & onboarding'] }
+      },
+      orchestrator: {
+        name: 'Prompt Orchestrator',
+        community: { price: 0, period: '/month', features: ['Visual workflow builder', 'Git-native workflows (TS/YAML)', 'Local runtime + server mode', 'Built-in test runner', 'VS Code extension', '12 built-in templates', 'Community support'] },
+        pro: { price: 79, period: '/month', featured: true, features: ['Everything in Community', 'MCP Server integration', 'TypeScript SDK', 'Visual debugger (time-travel)', 'GitOps deployment (ArgoCD/Flux)', 'Preview environments for PRs', 'Conditional nodes (if/else/switch)', 'Priority email support (12h SLA)'] },
+        enterprise: { price: 'Custom', period: '', features: ['Everything in Pro', 'SSO + RBAC for workspaces', 'Private template registry', 'Workflow approval gates', 'Advanced secrets management', 'Dedicated support engineer', 'Custom node development'] }
+      },
+      eval: {
+        name: 'Eval Platform',
+        community: { price: 0, period: '/month', features: ['Local evaluation runner', 'Custom evaluators (Python/TS)', 'JSON/CSV dataset import', 'Basic pass/fail reporting', 'CLI + GitHub Action', 'Community support'] },
+        pro: { price: 99, period: '/month', featured: true, features: ['Everything in Community', 'Regression detection (statistical)', 'Golden datasets (versioned)', 'Human annotation UI', 'Inter-annotator agreement (κ)', 'Slack/PagerDuty alerts', 'CI/CD gate (<code>--gate</code> flag)', 'Dashboard + history (cloud)', 'Email support (24h SLA)'] },
+        enterprise: { price: 'Custom', period: '', features: ['Everything in Pro', 'Private evaluator registry', 'Custom statistical tests', 'Data residency controls', 'SOC 2 / ISO 27001 artifacts', 'Dedicated support engineer', 'On-prem dashboard option'] }
+      }
+    };
+
+    const grid = document.getElementById('pricing-grid');
+    const billingToggle = document.getElementById('billing-toggle');
+    let annual = true;
+
+    function renderPlans() {
+      const products = ['gateway', 'orchestrator', 'eval'];
+      grid.innerHTML = products.map(key => {
+        const p = plans[key];
+        const c = p.community;
+        const pr = p.pro;
+        const e = p.enterprise;
+        return `
+          <article class="pricing-card${pr.featured ? ' featured' : ''}" data-product="${key}">
+            <div class="pricing-header">
+              <h3 class="pricing-name">${p.name}</h3>
+              <div class="pricing-price">
+                <span class="pricing-amount" data-monthly="${c.price}" data-annual="${Math.round(c.price * 12 * 0.8)}">$${c.price}</span>
+                <span class="pricing-period" data-monthly="${c.period}" data-annual="/year">${c.period}</span>
+              </div>
+              <p class="pricing-description">${p.name === 'Local AI Gateway' ? 'Unified API for local LLMs' : p.name === 'Prompt Orchestrator' ? 'Visual AI workflow builder' : 'Continuous LLM quality assurance'}</p>
+            </div>
+            <ul class="pricing-features">
+              ${c.features.map(f => `<li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>${f}</li>`).join('')}
+            </ul>
+            <div class="pricing-cta">
+              <a href="${pr.featured ? 'index.html#contact' : 'https://github.com/bakanohito/' + key}" class="btn ${pr.featured ? 'btn-primary' : 'btn-secondary'}" target="${pr.featured ? '_self' : '_blank'}" rel="${pr.featured ? '' : 'noopener'}">${pr.featured ? 'Start Free Trial' : 'Get Started Free'}</a>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    billingToggle.addEventListener('change', () => {
+      annual = billingToggle.checked;
+      document.querySelectorAll('.pricing-card').forEach(card => {
+        const product = card.dataset.product;
+        const p = plans[product];
+        const amountEl = card.querySelector('.pricing-amount');
+        const periodEl = card.querySelector('.pricing-period');
+        if (annual) {
+          amountEl.textContent = '$' + (amountEl.dataset.annual || '0');
+          periodEl.textContent = periodEl.dataset.annual;
+        } else {
+          amountEl.textContent = '$' + (amountEl.dataset.monthly || '0');
+          periodEl.textContent = periodEl.dataset.monthly;
+        }
+      });
+    });
+
+    // FAQ accordion
+    document.querySelectorAll('[data-faq] .faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('[data-faq]');
+        const isOpen = item.classList.toggle('open');
+        btn.setAttribute('aria-expanded', isOpen);
+      });
+    });
+
+    renderPlans();
+  </script>
+</body>
+</html>

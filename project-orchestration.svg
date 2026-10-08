@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1011;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#191a1b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#de1d8d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff5b4f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="edgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#de1d8d;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#5e6ad2;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0a72ef;stop-opacity:0.4" />
+    </linearGradient>
+    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="400" height="240" fill="url(#bgGrad)" rx="12"/>
+  <rect x="4" y="4" width="392" height="232" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="8"/>
+  
+  <!-- Canvas background grid -->
+  <g stroke="rgba(255,255,255,0.02)" stroke-width="1">
+    <line x1="20" y1="20" x2="380" y2="20"/>
+    <line x1="20" y1="50" x2="380" y2="50"/>
+    <line x1="20" y1="80" x2="380" y2="80"/>
+    <line x1="20" y1="110" x2="380" y2="110"/>
+    <line x1="20" y1="140" x2="380" y2="140"/>
+    <line x1="20" y1="170" x2="380" y2="170"/>
+    <line x1="20" y1="200" x2="380" y2="200"/>
+    <line x1="20" y1="20" x2="20" y2="220"/>
+    <line x1="80" y1="20" x2="80" y2="220"/>
+    <line x1="140" y1="20" x2="140" y2="220"/>
+    <line x1="200" y1="20" x2="200" y2="220"/>
+    <line x1="260" y1="20" x2="260" y2="220"/>
+    <line x1="320" y1="20" x2="320" y2="220"/>
+    <line x1="380" y1="20" x2="380" y2="220"/>
+  </g>
+  
+  <!-- Workflow nodes and edges -->
+  <g filter="url(#nodeGlow)">
+    <!-- Input node -->
+    <ellipse cx="60" cy="60" rx="45" ry="25" fill="rgba(222,29,141,0.15)" stroke="url(#nodeGrad)" stroke-width="2" rx="45" ry="25"/>
+    <text x="60" y="55" font-family="'Geist', sans-serif" font-size="11" font-weight="600" fill="#de1d8d" text-anchor="middle">INPUT</text>
+    <text x="60" y="72" font-family="'Geist Mono', monospace" font-size="9" fill="#8a8f98" text-anchor="middle">User Query</text>
+    
+    <!-- Processing nodes -->
+    <ellipse cx="200" cy="40" rx="55" ry="25" fill="rgba(94,106,210,0.15)" stroke="#5e6ad2" stroke-width="2" rx="55" ry="25"/>
+    <text x="200" y="35" font-family="'Geist', sans-serif" font-size="11" font-weight="600" fill="#5e6ad2" text-anchor="middle">ROUTER</text>
+    <text x="200" y="52" font-family="'Geist Mono', monospace" font-size="9" fill="#8a8f98" text-anchor="middle">Intent Classification</text>
+    
+    <ellipse cx="340" cy="60" rx="45" ry="25" fill="rgba(10,114,239,0.15)" stroke="#0a72ef" stroke-width="2" rx="45" ry="25"/>
+    <text x="340" y="55" font-family="'Geist', sans-serif" font-size="11" font-weight="600" fill="#0a72ef" text-anchor="middle">TOOLS</text>
+    <text x="340" y="72" font-family="'Geist Mono', monospace" font-size="9" fill="#8a8f98" text-anchor="middle">Function Calls</text>
+    
+    <ellipse cx="200" cy="140" rx="55" ry="25" fill="rgba(16,185,129,0.15)" stroke="#10b981" stroke-width="2" rx="55" ry="25"/>
+    <text x="200" y="135" font-family="'Geist', sans-serif" font-size="11" font-weight="600" fill="#10b981" text-anchor="middle">AGGREGATE</text>
+    <text x="200" y="152" font-family="'Geist Mono', monospace" font-size="9" fill="#8a8f98" text-anchor="middle">Synthesize Results</text>
+    
+    <!-- Output node -->
+    <ellipse cx="60" cy="180" rx="45" ry="25" fill="rgba(255,91,79,0.15)" stroke="#ff5b4f" stroke-width="2" rx="45" ry="25"/>
+    <text x="60" y="175" font-family="'Geist', sans-serif" font-size="11" font-weight="600" fill="#ff5b4f" text-anchor="middle">OUTPUT</text>
+    <text x="60" y="192" font-family="'Geist Mono', monospace" font-size="9" fill="#8a8f98" text-anchor="middle">Final Response</text>
+    
+    <!-- Evaluation node -->
+    <ellipse cx="340" cy="180" rx="45" ry="25" fill="rgba(254,188,46,0.15)" stroke="#febc2e" stroke-width="2" rx="45" ry="25"/>
+    <text x="340" y="175" font-family="'Geist', sans-serif" font-size="11" font-weight="600" fill="#febc2e" text-anchor="middle">EVAL</text>
+    <text x="340" y="192" font-family="'Geist Mono', monospace" font-size="9" fill="#8a8f98" text-anchor="middle">Quality Check</text>
+  </g>
+  
+  <!-- Edges connecting nodes -->
+  <g stroke="url(#edgeGrad)" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M105 60 Q150 50 145 40" marker-end="url(#arrowhead)"/>
+    <path d="M255 40 Q295 50 295 60" marker-end="url(#arrowhead)"/>
+    <path d="M200 65 Q200 90 200 115" marker-end="url(#arrowhead)"/>
+    <path d="M105 180 Q150 150 145 115" marker-end="url(#arrowhead)"/>
+    <path d="M105 85 Q150 120 200 140" marker-end="url(#arrowhead)"/>
+    <path d="M255 165 Q295 170 295 180" marker-end="url(#arrowhead)"/>
+    <path d="M340 85 Q295 120 200 140" marker-end="url(#arrowhead)"/>
+    <path d="M340 155 Q295 150 200 140" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="url(#edgeGrad)"/>
+    </marker>
+  </defs>
+  
+  <!-- Version badge -->
+  <rect x="20" y="200" width="80" height="24" rx="4" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="60" y="217" font-family="'Geist Mono', monospace" font-size="9" fill="#62666d" text-anchor="middle">v2.3.1</text>
+  
+  <rect x="300" y="200" width="80" height="24" rx="4" fill="rgba(222,29,141,0.15)" stroke="#de1d8d" stroke-width="1"/>
+  <text x="340" y="217" font-family="'Geist Mono', monospace" font-size="9" fill="#de1d8d" text-anchor="middle">LIVE</text>
+</svg>

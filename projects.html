@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bakanohito Projects — AI developer infrastructure projects since 2023. Local AI Gateway, Prompt Orchestrator, Eval Platform.">
+  <title>Projects — Bakanohito</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-bg: #ffffff;
+      --color-text: #171717;
+      --color-text-secondary: #4d4d4d;
+      --color-text-muted: #666666;
+      --color-border: rgba(0, 0, 0, 0.08);
+      --color-border-strong: #ebebeb;
+      --color-accent: #0a72ef;
+      --color-accent-hover: #0058c7;
+      --color-surface: #fafafa;
+      --shadow-border: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      --shadow-card: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px, rgba(0, 0, 0, 0.04) 0px 8px 8px -8px, #fafafa 0px 0px 0px 1px;
+      --shadow-hover: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.06) 0px 4px 8px, rgba(0, 0, 0, 0.06) 0px 16px 16px -16px, #fafafa 0px 0px 0px 1px;
+      --focus-ring: hsla(212, 100%, 48%, 1);
+      --radius-sm: 4px;
+      --radius-md: 6px;
+      --radius-lg: 8px;
+      --radius-xl: 12px;
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 24px;
+      --space-6: 32px;
+      --space-7: 48px;
+      --space-8: 64px;
+      --space-9: 96px;
+      --container-max: 1200px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-bg: #08090a;
+        --color-text: #f7f8f8;
+        --color-text-secondary: #d0d6e0;
+        --color-text-muted: #8a8f98;
+        --color-border: rgba(255, 255, 255, 0.08);
+        --color-border-strong: #23252a;
+        --color-accent: #7170ff;
+        --color-accent-hover: #828fff;
+        --color-surface: #0f1011;
+        --shadow-border: rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+        --shadow-card: rgba(0, 0, 0, 0.4) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+        --shadow-hover: rgba(0, 0, 0, 0.4) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 4px 12px, rgba(0, 0, 0, 0.3) 0px 16px 24px -16px;
+        --focus-ring: hsla(212, 100%, 48%, 1);
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Geist', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-feature-settings: "liga" 1;
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    a { color: var(--color-accent); text-decoration: none; font-weight: 500; transition: color 0.15s ease; }
+    a:hover { color: var(--color-accent-hover); text-decoration: underline; }
+    .container { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--space-4); }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); font-family: inherit; font-size: 14px; font-weight: 500; line-height: 1.43; padding: 8px 16px; border-radius: var(--radius-md); border: none; cursor: pointer; transition: all 0.15s ease; text-decoration: none; }
+    .btn:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+    .btn-primary { background-color: var(--color-text); color: var(--color-bg); }
+    .btn-primary:hover { background-color: #000; text-decoration: none; }
+    .btn-secondary { background-color: var(--color-bg); color: var(--color-text); box-shadow: var(--shadow-border); }
+    .btn-secondary:hover { background-color: var(--color-surface); text-decoration: none; }
+    .badge { display: inline-flex; align-items: center; padding: 0 10px; height: 24px; border-radius: 9999px; font-size: 12px; font-weight: 500; line-height: 1; background-color: #ebf5ff; color: #0068d6; }
+    @media (prefers-color-scheme: dark) { .badge { background-color: rgba(113, 112, 255, 0.15); color: #a5a4ff; } }
+    header { position: sticky; top: 0; z-index: 100; background-color: var(--color-bg); border-bottom: 1px solid var(--color-border-strong); }
+    .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { display: flex; align-items: center; gap: var(--space-2); font-size: 20px; font-weight: 600; letter-spacing: -0.4px; color: var(--color-text); text-decoration: none; }
+    .logo:hover { text-decoration: none; }
+    .logo svg { width: 32px; height: 32px; }
+    .nav-links { display: flex; align-items: center; gap: var(--space-6); }
+    .nav-links a { font-size: 14px; font-weight: 500; color: var(--color-text-secondary); text-decoration: none; }
+    .nav-links a:hover { color: var(--color-text); text-decoration: none; }
+    .nav-links a.active { color: var(--color-text); font-weight: 600; }
+    .page-hero { padding: var(--space-9) 0 var(--space-8); text-align: center; }
+    .page-hero .badge { margin-bottom: var(--space-4); }
+    .page-hero h1 { font-size: 48px; font-weight: 600; line-height: 1.0; letter-spacing: -2.4px; color: var(--color-text); margin-bottom: var(--space-4); max-width: 800px; margin-left: auto; margin-right: auto; }
+    .page-hero p { font-size: 20px; font-weight: 400; line-height: 1.8; color: var(--color-text-secondary); max-width: 640px; margin: 0 auto; }
+    .section { padding: var(--space-9) 0; border-top: 1px solid var(--color-border-strong); }
+    .section:first-of-type { border-top: none; }
+    .project-card { display: grid; grid-template-columns: 320px 1fr; gap: var(--space-7); align-items: start; margin-bottom: var(--space-9); }
+    .project-card:nth-child(even) { direction: rtl; }
+    .project-card:nth-child(even) > * { direction: ltr; }
+    @media (max-width: 1024px) { .project-card { grid-template-columns: 1fr; } .project-card:nth-child(even) { direction: ltr; } }
+    .project-image { border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-card); background: var(--color-surface); position: relative; }
+    .project-image img { display: block; width: 100%; height: auto; }
+    .project-image .status-badge { position: absolute; top: var(--space-4); right: var(--space-4); padding: 4px 12px; border-radius: 9999px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; background: #16a34a; color: white; }
+    .project-header { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-4); margin-bottom: var(--space-4); }
+    .project-meta { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-bottom: var(--space-4); }
+    .project-tag { padding: 4px 10px; border-radius: 9999px; font-size: 12px; font-weight: 500; background: var(--color-surface); color: var(--color-text-secondary); border: 1px solid var(--color-border-strong); }
+    .project-tag.primary { background: #ebf5ff; color: #0068d6; border-color: #0068d6; }
+    @media (prefers-color-scheme: dark) { .project-tag.primary { background: rgba(113, 112, 255, 0.15); color: #a5a4ff; border-color: #7170ff; } }
+    .project-links { display: flex; gap: var(--space-3); margin-top: var(--space-5); flex-wrap: wrap; }
+    .project-links .btn { font-size: 13px; padding: 6px 14px; }
+    .features-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-3); margin-top: var(--space-5); }
+    .features-list li { display: flex; align-items: flex-start; gap: var(--space-3); padding: var(--space-3); background: var(--color-surface); border-radius: var(--radius-md); border: 1px solid var(--color-border-strong); }
+    .features-list .check { width: 20px; height: 20px; border-radius: var(--radius-sm); background: var(--color-accent); color: white; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+    .features-list .check svg { width: 12px; height: 12px; }
+    .features-list .text strong { display: block; font-size: 14px; font-weight: 600; color: var(--color-text); margin-bottom: 2px; }
+    .features-list .text span { font-size: 13px; color: var(--color-text-muted); }
+    .metrics-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-4); margin-top: var(--space-5); padding-top: var(--space-5); border-top: 1px solid var(--color-border-strong); }
+    @media (max-width: 768px) { .metrics-row { grid-template-columns: repeat(2, 1fr); } }
+    .metric { text-align: center; }
+    .metric-value { font-size: 28px; font-weight: 600; line-height: 1.1; letter-spacing: -1.2px; color: var(--color-text); }
+    .metric-label { font-size: 12px; font-weight: 500; color: var(--color-text-muted); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+    footer { padding: var(--space-8) 0; border-top: 1px solid var(--color-border-strong); background-color: var(--color-surface); }
+    .footer-content { display: flex; flex-direction: column; align-items: center; gap: var(--space-4); text-align: center; }
+    .footer-links { display: flex; gap: var(--space-6); }
+    .footer-links a { font-size: 14px; color: var(--color-text-muted); }
+    .footer-links a:hover { color: var(--color-text); }
+    .copyright { font-size: 14px; color: var(--color-text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#171717"/><circle cx="32" cy="32" r="28" stroke="#0a72ef" stroke-width="2" fill="none" opacity="0.3"/><g transform="translate(16, 16)"><circle cx="8" cy="8" r="3" fill="#0a72ef" opacity="0.9"/><circle cx="24" cy="8" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="20" r="3" fill="#0a72ef" opacity="0.8"/><circle cx="8" cy="32" r="3" fill="#0a72ef" opacity="0.6"/><circle cx="24" cy="32" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="44" r="3" fill="#0a72ef" opacity="0.9"/></g></svg>
+        Bakanohito
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="about.html">About</a>
+        <a href="changelog.html">Changelog</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="index.html#contact" class="btn btn-primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge">Since 2023</span>
+        <h1>Projects & Products</h1>
+        <p>Production-grade AI infrastructure built and deployed since 2023. Open-core, local-first, standards-compliant.</p>
+      </div>
+    </section>
+
+    <!-- Project 1: Local AI Gateway -->
+    <section class="section">
+      <div class="container">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/project-gateway.svg" alt="Local AI Gateway - Terminal interface showing model loading and API endpoints" width="400" height="300">
+            <span class="status-badge">Production</span>
+          </div>
+          <div>
+            <div class="project-header">
+              <div>
+                <span class="badge">v2.3.0 • Released Q3 2023</span>
+              </div>
+            </div>
+            <h2 style="font-size: 36px; font-weight: 600; line-height: 1.1; letter-spacing: -1.8px; margin-bottom: var(--space-3);">Local AI Gateway</h2>
+            <p style="font-size: 18px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: var(--space-4);">Unified gateway for running local LLMs with OpenAI-compatible API. Supports Ollama, llama.cpp, vLLM, and custom GGUF models. Deploy on-prem or in your VPC.</p>
+            <div class="project-meta">
+              <span class="project-tag primary">Open-Core (MIT)</span>
+              <span class="project-tag">Rust + TypeScript</span>
+              <span class="project-tag">Docker / Binary</span>
+              <span class="project-tag">OpenAI API Compatible</span>
+            </div>
+            <ul class="features-list">
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>Multi-Model Support</strong><span>Ollama, llama.cpp, vLLM, TGI, custom GGUF/Safetensors</span></div></li>
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>OpenAI-Compatible</strong><span>Drop-in replacement for OpenAI SDK — works with Vercel AI SDK, LangChain, 100+ tools</span></div></li>
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>Model Routing</strong><span>Intelligent routing by task, cost, latency — automatic fallback chains</span></div></li>
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>Auth & Observability</strong><span>API keys, rate limiting, request logging, OpenTelemetry metrics</span></div></li>
+            </ul>
+            <div class="metrics-row">
+              <div class="metric"><div class="metric-value">2.3s</div><div class="metric-label">Cold Start</div></div>
+              <div class="metric"><div class="metric-value">128k</div><div class="metric-label">Context Window</div></div>
+              <div class="metric"><div class="metric-value">3</div><div class="metric-label">Enterprise Deployments</div></div>
+              <div class="metric"><div class="metric-value">100%</div><div class="metric-label">Uptime SLA</div></div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/bakanohito/gateway" target="_blank" rel="noopener" class="btn btn-secondary">View on GitHub</a>
+              <a href="https://docs.bakanohito.my.id/gateway" target="_blank" rel="noopener" class="btn btn-secondary">Documentation</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Project 2: Prompt Orchestrator -->
+    <section class="section">
+      <div class="container">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/project-orchestration.svg" alt="Prompt Orchestrator - Visual workflow builder with connected nodes for classify, retrieve, generate" width="400" height="300">
+            <span class="status-badge">Production</span>
+          </div>
+          <div>
+            <div class="project-header">
+              <div>
+                <span class="badge">v1.4.0 • Released Q1 2024</span>
+              </div>
+            </div>
+            <h2 style="font-size: 36px; font-weight: 600; line-height: 1.1; letter-spacing: -1.8px; margin-bottom: var(--space-3);">Prompt Orchestrator</h2>
+            <p style="font-size: 18px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: var(--space-4);">Visual workflow builder for chaining prompts, tools, and model calls. Version control, testing, and observability built-in. Define complex AI workflows as code.</p>
+            <div class="project-meta">
+              <span class="project-tag primary">Open-Core (MIT)</span>
+              <span class="project-tag">TypeScript + React</span>
+              <span class="project-tag">Git-Based Versioning</span>
+              <span class="project-tag">MCP Compatible</span>
+            </div>
+            <ul class="features-list">
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>Visual Flow Builder</strong><span>Drag-and-drop canvas for prompt chains, conditionals, loops, parallel execution</span></div></li>
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>Git-Native</strong><span>Workflows as YAML/TypeScript — diff, review, branch, merge like code</span></div></li>
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>Built-in Testing</strong><span>Unit tests for prompts, regression suites, golden file comparison</span></div></li>
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>MCP Integration</strong><span>Call external tools (filesystem, search, databases) via Model Context Protocol</span></div></li>
+            </ul>
+            <div class="metrics-row">
+              <div class="metric"><div class="metric-value">12</div><div class="metric-label">Avg Steps/Flow</div></div>
+              <div class="metric"><div class="metric-value">3</div><div class="metric-label">Models/Workflow</div></div>
+              <div class="metric"><div class="metric-value">2</div><div class="metric-label">Fintech Deployments</div></div>
+              <div class="metric"><div class="metric-value">99.9%</div><div class="metric-label">Execution Success</div></div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/bakanohito/orchestrator" target="_blank" rel="noopener" class="btn btn-secondary">View on GitHub</a>
+              <a href="https://docs.bakanohito.my.id/orchestrator" target="_blank" rel="noopener" class="btn btn-secondary">Documentation</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Project 3: Eval & Observability -->
+    <section class="section">
+      <div class="container">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/project-eval.svg" alt="Eval Platform - Dashboard showing pass rate trend, latency, cost metrics over 20 runs" width="400" height="300">
+            <span class="status-badge">Beta</span>
+          </div>
+          <div>
+            <div class="project-header">
+              <div>
+                <span class="badge">v0.9.0 • Released Q3 2024</span>
+              </div>
+            </div>
+            <h2 style="font-size: 36px; font-weight: 600; line-height: 1.1; letter-spacing: -1.8px; margin-bottom: var(--space-3);">Eval & Observability Platform</h2>
+            <p style="font-size: 18px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: var(--space-4);">Automated evaluation pipelines for LLM outputs. Track quality, latency, and cost across development and production. Regression detection, golden datasets, and cost optimization.</p>
+            <div class="project-meta">
+              <span class="project-tag primary">Open-Core (MIT)</span>
+              <span class="project-tag">Python + TypeScript</span>
+              <span class="project-tag">OpenTelemetry Native</span>
+              <span class="project-tag">CI/CD Integration</span>
+            </div>
+            <ul class="features-list">
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>Automated Eval Runs</strong><span>Trigger on PR, schedule, or API — 1,200+ test cases across 20+ eval runs</span></div></li>
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>Multi-Dimensional Metrics</strong><span>Correctness, faithfulness, relevance, toxicity, latency, cost per run</span></div></li>
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>Regression Detection</strong><span>Statistical significance testing, alerting on quality/cost regressions</span></div></li>
+              <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><div class="text"><strong>Golden Datasets</strong><span>Versioned test sets, human-in-the-loop annotation, dataset diffing</span></div></li>
+            </ul>
+            <div class="metrics-row">
+              <div class="metric"><div class="metric-value">94.2%</div><div class="metric-label">Pass Rate</div></div>
+              <div class="metric"><div class="metric-value">1.2s</div><div class="metric-label">Avg Latency</div></div>
+              <div class="metric"><div class="metric-value">$0.003</div><div class="metric-label">Cost/Run</div></div>
+              <div class="metric"><div class="metric-value">1,247</div><div class="metric-label">Test Cases</div></div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/bakanohito/eval" target="_blank" rel="noopener" class="btn btn-secondary">View on GitHub</a>
+              <a href="https://docs.bakanohito.my.id/eval" target="_blank" rel="noopener" class="btn btn-secondary">Documentation</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Project 4: Enterprise Deployments (Case Studies) -->
+    <section class="section" style="background: var(--color-surface);">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Case Studies</span>
+          <h2>Production Deployments</h2>
+          <p>Real workloads, measurable impact.</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>Pertamina — Internal AI Platform</h3>
+            <p style="margin-bottom: var(--space-4);">Deployed Local AI Gateway across Technology Innovation division. 200+ engineers, 15+ models, 50k requests/day.</p>
+            <div style="display: flex; gap: var(--space-4); flex-wrap: wrap; font-size: 14px;">
+              <span style="color: var(--color-accent); font-weight: 500;">67%</span><span style="color: var(--color-text-muted);">reduction in API costs vs cloud</span>
+            </div>
+            <div style="display: flex; gap: var(--space-4); flex-wrap: wrap; margin-top: var(--space-2); font-size: 14px;">
+              <span style="color: var(--color-accent); font-weight: 500;">2.3s</span><span style="color: var(--color-text-muted);">avg response time</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Regional Bank — Document Processing</h3>
+            <p style="margin-bottom: var(--space-4);">Prompt Orchestrator for loan document extraction. 12-step workflow, 3 models, 99.9% success rate, SOC 2 compliant.</p>
+            <div style="display: flex; gap: var(--space-4); flex-wrap: wrap; font-size: 14px;">
+              <span style="color: var(--color-accent); font-weight: 500;">40%</span><span style="color: var(--color-text-muted);">faster processing</span>
+            </div>
+            <div style="display: flex; gap: var(--space-4); flex-wrap: wrap; margin-top: var(--space-2); font-size: 14px;">
+              <span style="color: var(--color-accent); font-weight: 500;">0</span><span style="color: var(--color-text-muted);">data egress incidents</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Fintech Startup — Customer Support AI</h3>
+            <p style="margin-bottom: var(--space-4);">Eval Platform for support bot quality. 1,247 test cases, automated regression detection, 67% hallucination reduction.</p>
+            <div style="display: flex; gap: var(--space-4); flex-wrap: wrap; font-size: 14px;">
+              <span style="color: var(--color-accent); font-weight: 500;">67%</span><span style="color: var(--color-text-muted);">hallucination reduction</span>
+            </div>
+            <div style="display: flex; gap: var(--space-4); flex-wrap: wrap; margin-top: var(--space-2); font-size: 14px;">
+              <span style="color: var(--color-accent); font-weight: 500;">$0.003</span><span style="color: var(--color-text-muted);">cost per eval run</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>E-commerce Platform — Product Catalog AI</h3>
+            <p style="margin-bottom: var(--space-4);">Orchestrator + Gateway for product description generation. Multi-model routing (GPT-4o, Llama-3.1-70B), 10M+ SKUs processed.</p>
+            <div style="display: flex; gap: var(--space-4); flex-wrap: wrap; font-size: 14px;">
+              <span style="color: var(--color-accent); font-weight: 500;">10M+</span><span style="color: var(--color-text-muted);">SKUs processed</span>
+            </div>
+            <div style="display: flex; gap: var(--space-4); flex-wrap: wrap; margin-top: var(--space-2); font-size: 14px;">
+              <span style="color: var(--color-accent); font-weight: 500;">3</span><span style="color: var(--color-text-muted);">models in rotation</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="text-align: center; max-width: 640px; margin: 0 auto;">
+      <h2 style="font-size: 40px; font-weight: 600; line-height: 1.2; letter-spacing: -2.4px; margin-bottom: var(--space-3);">Want to See More?</h2>
+      <p style="font-size: 18px; color: var(--color-text-secondary); margin-bottom: var(--space-6);">All our core products are open-core. Explore the code, try the demos, or talk to us about a deployment.</p>
+      <div style="display: flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap;">
+        <a href="https://github.com/bakanohito" target="_blank" rel="noopener" class="btn btn-primary">GitHub Organization</a>
+        <a href="index.html#contact" class="btn btn-secondary">Start a Project</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#171717"/><circle cx="32" cy="32" r="28" stroke="#0a72ef" stroke-width="2" fill="none" opacity="0.3"/><g transform="translate(16, 16)"><circle cx="8" cy="8" r="3" fill="#0a72ef" opacity="0.9"/><circle cx="24" cy="8" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="20" r="3" fill="#0a72ef" opacity="0.8"/><circle cx="8" cy="32" r="3" fill="#0a72ef" opacity="0.6"/><circle cx="24" cy="32" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="44" r="3" fill="#0a72ef" opacity="0.9"/></g></svg>
+        Bakanohito
+      </a>
+      <nav class="footer-links">
+        <a href="https://github.com/bakanohito" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://twitter.com/bakanohito" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://linkedin.com/company/bakanohito" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hello@bakanohito.my.id">Email</a>
+      </nav>
+      <p class="copyright">© 2025 Bakanohito Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

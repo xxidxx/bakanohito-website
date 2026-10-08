@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1011;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#191a1b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0a72ef;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5e6ad2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="successGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#27a644;stop-opacity:1" />
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="400" height="240" fill="url(#bgGrad)" rx="12"/>
+  <rect x="4" y="4" width="392" height="232" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="8"/>
+  
+  <!-- Terminal window simulation -->
+  <rect x="24" y="24" width="352" height="192" fill="#08090a" rx="8"/>
+  <rect x="24" y="24" width="352" height="36" fill="#0f1011" rx="8"/>
+  <circle cx="42" cy="42" r="6" fill="#ff5f57"/>
+  <circle cx="60" cy="42" r="6" fill="#febc2e"/>
+  <circle cx="78" cy="42" r="6" fill="#28ca42"/>
+  
+  <!-- Terminal content -->
+  <text x="40" y="90" font-family="'Geist Mono', monospace" font-size="13" fill="#f7f8f8">$ bakanohito gateway start --model llama-3.1-70b</text>
+  <text x="40" y="115" font-family="'Geist Mono', monospace" font-size="13" fill="#8a8f98">✓ Loading model weights... (42.3 GB)</text>
+  <text x="40" y="135" font-family="'Geist Mono', monospace" font-size="13" fill="#8a8f98">✓ Quantization: Q4_K_M</text>
+  <text x="40" y="155" font-family="'Geist Mono', monospace" font-size="13" fill="#10b981">✓ API server running on http://localhost:11434</text>
+  <text x="40" y="175" font-family="'Geist Mono', monospace" font-size="13" fill="#8a8f98">✓ OpenAI-compatible endpoint: /v1/chat/completions</text>
+  
+  <!-- Status indicators -->
+  <rect x="280" y="155" width="80" height="28" rx="14" fill="rgba(16,185,129,0.15)" stroke="#10b981" stroke-width="1"/>
+  <text x="320" y="173" font-family="'Geist', sans-serif" font-size="11" font-weight="500" fill="#10b981" text-anchor="middle">ACTIVE</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="360" cy="50" r="30" fill="url(#accentGrad)" opacity="0.03"/>
+  <circle cx="360" cy="50" r="20" fill="url(#accentGrad)" opacity="0.05"/>
+  <circle cx="360" cy="50" r="10" fill="url(#accentGrad)" opacity="0.08"/>
+</svg>

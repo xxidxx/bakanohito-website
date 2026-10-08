@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Bakanohito — AI developer infrastructure company founded in 2023. Building tools for modern engineering teams.">
+  <title>About — Bakanohito</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-bg: #ffffff;
+      --color-text: #171717;
+      --color-text-secondary: #4d4d4d;
+      --color-text-muted: #666666;
+      --color-border: rgba(0, 0, 0, 0.08);
+      --color-border-strong: #ebebeb;
+      --color-accent: #0a72ef;
+      --color-accent-hover: #0058c7;
+      --color-surface: #fafafa;
+      --shadow-border: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      --shadow-card: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px, rgba(0, 0, 0, 0.04) 0px 8px 8px -8px, #fafafa 0px 0px 0px 1px;
+      --shadow-hover: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.06) 0px 4px 8px, rgba(0, 0, 0, 0.06) 0px 16px 16px -16px, #fafafa 0px 0px 0px 1px;
+      --focus-ring: hsla(212, 100%, 48%, 1);
+      --radius-sm: 4px;
+      --radius-md: 6px;
+      --radius-lg: 8px;
+      --radius-xl: 12px;
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 24px;
+      --space-6: 32px;
+      --space-7: 48px;
+      --space-8: 64px;
+      --space-9: 96px;
+      --container-max: 1200px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-bg: #08090a;
+        --color-text: #f7f8f8;
+        --color-text-secondary: #d0d6e0;
+        --color-text-muted: #8a8f98;
+        --color-border: rgba(255, 255, 255, 0.08);
+        --color-border-strong: #23252a;
+        --color-accent: #7170ff;
+        --color-accent-hover: #828fff;
+        --color-surface: #0f1011;
+        --shadow-border: rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+        --shadow-card: rgba(0, 0, 0, 0.4) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+        --shadow-hover: rgba(0, 0, 0, 0.4) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 4px 12px, rgba(0, 0, 0, 0.3) 0px 16px 24px -16px;
+        --focus-ring: hsla(212, 100%, 48%, 1);
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Geist', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-feature-settings: "liga" 1;
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    a { color: var(--color-accent); text-decoration: none; font-weight: 500; transition: color 0.15s ease; }
+    a:hover { color: var(--color-accent-hover); text-decoration: underline; }
+    .container { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--space-4); }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); font-family: inherit; font-size: 14px; font-weight: 500; line-height: 1.43; padding: 8px 16px; border-radius: var(--radius-md); border: none; cursor: pointer; transition: all 0.15s ease; text-decoration: none; }
+    .btn:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+    .btn-primary { background-color: var(--color-text); color: var(--color-bg); }
+    .btn-primary:hover { background-color: #000; text-decoration: none; }
+    .btn-secondary { background-color: var(--color-bg); color: var(--color-text); box-shadow: var(--shadow-border); }
+    .btn-secondary:hover { background-color: var(--color-surface); text-decoration: none; }
+    .badge { display: inline-flex; align-items: center; padding: 0 10px; height: 24px; border-radius: 9999px; font-size: 12px; font-weight: 500; line-height: 1; background-color: #ebf5ff; color: #0068d6; }
+    @media (prefers-color-scheme: dark) { .badge { background-color: rgba(113, 112, 255, 0.15); color: #a5a4ff; } }
+    header { position: sticky; top: 0; z-index: 100; background-color: var(--color-bg); border-bottom: 1px solid var(--color-border-strong); }
+    .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { display: flex; align-items: center; gap: var(--space-2); font-size: 20px; font-weight: 600; letter-spacing: -0.4px; color: var(--color-text); text-decoration: none; }
+    .logo:hover { text-decoration: none; }
+    .logo svg { width: 32px; height: 32px; }
+    .nav-links { display: flex; align-items: center; gap: var(--space-6); }
+    .nav-links a { font-size: 14px; font-weight: 500; color: var(--color-text-secondary); text-decoration: none; }
+    .nav-links a:hover { color: var(--color-text); text-decoration: none; }
+    .nav-links a.active { color: var(--color-text); font-weight: 600; }
+    .page-hero { padding: var(--space-9) 0 var(--space-8); text-align: center; }
+    .page-hero .badge { margin-bottom: var(--space-4); }
+    .page-hero h1 { font-size: 48px; font-weight: 600; line-height: 1.0; letter-spacing: -2.4px; color: var(--color-text); margin-bottom: var(--space-4); max-width: 800px; margin-left: auto; margin-right: auto; }
+    .page-hero p { font-size: 20px; font-weight: 400; line-height: 1.8; color: var(--color-text-secondary); max-width: 640px; margin: 0 auto; }
+    .section { padding: var(--space-9) 0; border-top: 1px solid var(--color-border-strong); }
+    .section:first-of-type { border-top: none; }
+    .section-header { text-align: center; max-width: 640px; margin: 0 auto var(--space-7); }
+    .section-header .badge { margin-bottom: var(--space-3); }
+    .section-header h2 { font-size: 40px; font-weight: 600; line-height: 1.2; letter-spacing: -2.4px; color: var(--color-text); margin-bottom: var(--space-3); }
+    .section-header p { font-size: 18px; font-weight: 400; line-height: 1.6; color: var(--color-text-secondary); }
+    .grid { display: grid; gap: var(--space-5); }
+    .grid-2 { grid-template-columns: repeat(2, 1fr); }
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+    @media (max-width: 1024px) { .grid-3 { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 768px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } .page-hero h1 { font-size: 36px; letter-spacing: -1.8px; } .page-hero p { font-size: 18px; } .section-header h2 { font-size: 32px; letter-spacing: -1.92px; } }
+    .card { background-color: var(--color-bg); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); padding: var(--space-6); transition: box-shadow 0.2s ease, transform 0.2s ease; }
+    .card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+    .card h3 { font-size: 24px; font-weight: 600; line-height: 1.33; letter-spacing: -0.96px; color: var(--color-text); margin-bottom: var(--space-2); }
+    .card p { font-size: 16px; font-weight: 400; line-height: 1.56; color: var(--color-text-secondary); }
+    .timeline { position: relative; max-width: 800px; margin: 0 auto; }
+    .timeline::before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 1px; background: var(--color-border-strong); transform: translateX(-50%); }
+    @media (max-width: 768px) { .timeline::before { left: 24px; } }
+    .timeline-item { display: flex; margin-bottom: var(--space-7); position: relative; }
+    .timeline-item:last-child { margin-bottom: 0; }
+    @media (max-width: 768px) { .timeline-item { flex-direction: column; align-items: flex-start; padding-left: 48px; } }
+    .timeline-date { width: 50%; padding-right: var(--space-6); text-align: right; font-size: 14px; font-weight: 500; color: var(--color-accent); white-space: nowrap; }
+    @media (max-width: 768px) { .timeline-date { width: auto; padding-right: 0; text-align: left; margin-bottom: var(--space-2); } }
+    .timeline-marker { position: absolute; left: 50%; top: 4px; width: 16px; height: 16px; border-radius: 50%; background: var(--color-accent); border: 3px solid var(--color-bg); box-shadow: var(--shadow-border); transform: translateX(-50%); z-index: 1; }
+    @media (max-width: 768px) { .timeline-marker { left: 24px; transform: translateX(-50%); } }
+    .timeline-content { width: 50%; padding-left: var(--space-6); background: var(--color-bg); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); padding: var(--space-5); }
+    @media (max-width: 768px) { .timeline-content { width: 100%; padding-left: 0; } }
+    .timeline-content h4 { font-size: 18px; font-weight: 600; color: var(--color-text); margin-bottom: var(--space-2); }
+    .timeline-content p { font-size: 15px; color: var(--color-text-secondary); line-height: 1.6; }
+    .values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-5); }
+    .value-card { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-lg); padding: var(--space-6); text-align: center; }
+    .value-card .icon { width: 56px; height: 56px; border-radius: var(--radius-lg); background: var(--color-accent); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-4); color: white; }
+    .value-card h3 { font-size: 20px; font-weight: 600; letter-spacing: -0.8px; margin-bottom: var(--space-2); }
+    .value-card p { font-size: 15px; color: var(--color-text-secondary); line-height: 1.6; }
+    .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-5); }
+    .team-card { text-align: center; }
+    .team-avatar { width: 96px; height: 96px; border-radius: 50%; background: linear-gradient(135deg, var(--color-accent), #5e6ad2); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-4); font-size: 32px; font-weight: 600; color: white; }
+    .team-card h3 { font-size: 18px; font-weight: 600; margin-bottom: var(--space-1); }
+    .team-card .role { font-size: 14px; color: var(--color-text-muted); margin-bottom: var(--space-2); }
+    .team-card p { font-size: 14px; color: var(--color-text-secondary); }
+    .project-card { display: grid; grid-template-columns: 280px 1fr; gap: var(--space-6); align-items: start; }
+    @media (max-width: 768px) { .project-card { grid-template-columns: 1fr; } }
+    .project-image { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-card); background: var(--color-surface); }
+    .project-image img { display: block; width: 100%; height: auto; }
+    .project-meta { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: var(--space-4) 0; }
+    .project-tag { padding: 4px 10px; border-radius: 9999px; font-size: 12px; font-weight: 500; background: var(--color-surface); color: var(--color-text-secondary); border: 1px solid var(--color-border-strong); }
+    .project-links { display: flex; gap: var(--space-3); margin-top: var(--space-4); }
+    footer { padding: var(--space-8) 0; border-top: 1px solid var(--color-border-strong); background-color: var(--color-surface); }
+    .footer-content { display: flex; flex-direction: column; align-items: center; gap: var(--space-4); text-align: center; }
+    .footer-links { display: flex; gap: var(--space-6); }
+    .footer-links a { font-size: 14px; color: var(--color-text-muted); }
+    .footer-links a:hover { color: var(--color-text); }
+    .copyright { font-size: 14px; color: var(--color-text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#171717"/><circle cx="32" cy="32" r="28" stroke="#0a72ef" stroke-width="2" fill="none" opacity="0.3"/><g transform="translate(16, 16)"><circle cx="8" cy="8" r="3" fill="#0a72ef" opacity="0.9"/><circle cx="24" cy="8" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="20" r="3" fill="#0a72ef" opacity="0.8"/><circle cx="8" cy="32" r="3" fill="#0a72ef" opacity="0.6"/><circle cx="24" cy="32" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="44" r="3" fill="#0a72ef" opacity="0.9"/><path d="M11 8 L13 14 Q16 18 16 20 Q16 22 13 26 L11 32" stroke="#0a72ef" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/><path d="M21 8 L19 14 Q16 18 16 20 Q16 22 19 26 L21 32" stroke="#0a72ef" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/><path d="M8 11 L14 13 Q18 16 20 20 L20 24 Q18 28 14 30 L8 32" stroke="#0a72ef" stroke-width="1.5" fill="none" opacity="0.3" stroke-linecap="round"/><path d="M8 35 L14 37 Q18 40 20 44" stroke="#0a72ef" stroke-width="1.5" fill="none" opacity="0.3" stroke-linecap="round"/><path d="M20 35 L18 37 Q14 40 12 44" stroke="#0a72ef" stroke-width="1.5" fill="none" opacity="0.3" stroke-linecap="round"/><circle cx="16" cy="20" r="6" stroke="#0a72ef" stroke-width="1" fill="none" opacity="0.2"/></g><circle cx="50" cy="14" r="2" fill="#0a72ef" opacity="0.5"/><circle cx="54" cy="50" r="1.5" fill="#0a72ef" opacity="0.4"/><circle cx="10" cy="54" r="1.5" fill="#0a72ef" opacity="0.3"/></svg>
+        Bakanohito
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html" class="active">About</a>
+        <a href="changelog.html">Changelog</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="index.html#contact" class="btn btn-primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge">Since 2023</span>
+        <h1>Building AI Infrastructure for Developers</h1>
+        <p>Founded by engineers who've scaled AI systems at enterprise. We believe the best AI tools are built by developers, for developers.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Our Story</span>
+          <h2>From Internal Tools to Products</h2>
+          <p>What started as internal tooling for ML teams at Pertamina became a mission to democratize production-grade AI infrastructure.</p>
+        </div>
+        
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">Q1 2023</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h4>Company Founded</h4>
+              <p>Bakanohito Technologies established in Jakarta. Initial focus: internal LLM gateway for Pertamina's Technology Innovation & Implementation division.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Q3 2023</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h4>Local AI Gateway v1.0</h4>
+              <p>Released first production version supporting Ollama, llama.cpp, and custom GGUF models with OpenAI-compatible API. Deployed across 3 enterprise teams.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Q1 2024</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h4>Prompt Orchestrator Launch</h4>
+              <p>Visual workflow builder for prompt chains with version control, testing, and observability. Adopted by 2 fintech companies for production workloads.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Q3 2024</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h4>Eval & Observability Platform</h4>
+              <p>Automated evaluation pipelines with 1,200+ test cases, regression detection, and cost tracking. Reduced hallucination rate by 67% for pilot customers.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2025</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h4>Open-Core Transition</h4>
+              <p>Released core gateway and orchestrator under MIT license. Building community around local-first AI development. SOC 2 Type II audit initiated.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Principles</span>
+          <h2>How We Build</h2>
+          <p>Our engineering values shape every product decision.</p>
+        </div>
+        
+        <div class="values-grid">
+          <article class="value-card">
+            <div class="icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+            </div>
+            <h3>Local-First</h3>
+            <p>Develop with full fidelity on your machine. No cloud dependency for core workflows. Deploy anywhere when ready.</p>
+          </article>
+          <article class="value-card">
+            <div class="icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3>Standards-Compliant</h3>
+            <p>OpenAI API spec, MCP, OpenTelemetry. Build on open protocols so you're never locked into our ecosystem.</p>
+          </article>
+          <article class="value-card">
+            <div class="icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"></rect><path d="M8 21h8"></path><path d="M12 17v4"></path></svg>
+            </div>
+            <h3>Developer Experience</h3>
+            <p>CLI-first, great docs, typed SDKs, fast feedback loops. Tools that disappear so you can focus on your product.</p>
+          </article>
+          <article class="value-card">
+            <div class="icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="M9 12l2 2 4-4"></path></svg>
+            </div>
+            <h3>Security by Default</h3>
+            <p>Data never leaves your VPC. Audit logs, RBAC, SSO (SAML/OIDC), encryption at rest and in transit — included, not upsold.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Team</span>
+          <h2>Small Team, Deep Experience</h2>
+          <p>ML engineers and platform builders who've shipped AI at scale.</p>
+        </div>
+        
+        <div class="team-grid">
+          <article class="team-card">
+            <div class="team-avatar">AA</div>
+            <h3>Arif Andi</h3>
+            <div class="role">Founder & CEO</div>
+            <p>Ex-Pertamina Technology Innovation & Implementation. 8+ years scaling enterprise systems.</p>
+          </article>
+          <article class="team-card">
+            <div class="team-avatar">AR</div>
+            <h3>Aditya R.</h3>
+            <div class="role">Founding Engineer</div>
+            <p>Ex-Tokopedia ML Platform. Built recommendation systems serving 100M+ users. Open-source contributor (llama.cpp, Ollama).</p>
+          </article>
+          <article class="team-card">
+            <div class="team-avatar">SW</div>
+            <h3>Sarah W.</h3>
+            <div class="role">Founding Engineer</div>
+            <p>Ex-AI Research Lab. Published at NeurIML/ICLR. Specializes in LLM evaluation, RAG systems, and model optimization.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--color-surface);">
+      <div class="container" style="text-align: center; max-width: 640px;">
+        <h2 style="font-size: 40px; font-weight: 600; line-height: 1.2; letter-spacing: -2.4px; margin-bottom: var(--space-3);">Ready to Build With Us?</h2>
+        <p style="font-size: 18px; color: var(--color-text-secondary); margin-bottom: var(--space-6);">We're hiring founding engineers and design partners. Let's talk.</p>
+        <a href="index.html#contact" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#171717"/><circle cx="32" cy="32" r="28" stroke="#0a72ef" stroke-width="2" fill="none" opacity="0.3"/><g transform="translate(16, 16)"><circle cx="8" cy="8" r="3" fill="#0a72ef" opacity="0.9"/><circle cx="24" cy="8" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="20" r="3" fill="#0a72ef" opacity="0.8"/><circle cx="8" cy="32" r="3" fill="#0a72ef" opacity="0.6"/><circle cx="24" cy="32" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="44" r="3" fill="#0a72ef" opacity="0.9"/></g></svg>
+        Bakanohito
+      </a>
+      <nav class="footer-links">
+        <a href="https://github.com/bakanohito" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://twitter.com/bakanohito" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://linkedin.com/company/bakanohito" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hello@bakanohito.my.id">Email</a>
+      </nav>
+      <p class="copyright">© 2025 Bakanohito Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

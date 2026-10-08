@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bakanohito — AI-powered developer tools and infrastructure for modern engineering teams. Local AI Gateway, Prompt Orchestrator, Eval Platform.">
+  <title>Bakanohito — AI Developer Infrastructure</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-bg: #ffffff;
+      --color-text: #171717;
+      --color-text-secondary: #4d4d4d;
+      --color-text-muted: #666666;
+      --color-border: rgba(0, 0, 0, 0.08);
+      --color-border-strong: #ebebeb;
+      --color-accent: #0a72ef;
+      --color-accent-hover: #0058c7;
+      --color-surface: #fafafa;
+      --shadow-border: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      --shadow-card: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px, rgba(0, 0, 0, 0.04) 0px 8px 8px -8px, #fafafa 0px 0px 0px 1px;
+      --shadow-hover: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.06) 0px 4px 8px, rgba(0, 0, 0, 0.06) 0px 16px 16px -16px, #fafafa 0px 0px 0px 1px;
+      --focus-ring: hsla(212, 100%, 48%, 1);
+      --radius-sm: 4px;
+      --radius-md: 6px;
+      --radius-lg: 8px;
+      --radius-xl: 12px;
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 24px;
+      --space-6: 32px;
+      --space-7: 48px;
+      --space-8: 64px;
+      --space-9: 96px;
+      --container-max: 1200px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-bg: #08090a;
+        --color-text: #f7f8f8;
+        --color-text-secondary: #d0d6e0;
+        --color-text-muted: #8a8f98;
+        --color-border: rgba(255, 255, 255, 0.08);
+        --color-border-strong: #23252a;
+        --color-accent: #7170ff;
+        --color-accent-hover: #828fff;
+        --color-surface: #0f1011;
+        --shadow-border: rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+        --shadow-card: rgba(0, 0, 0, 0.4) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+        --shadow-hover: rgba(0, 0, 0, 0.4) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 4px 12px, rgba(0, 0, 0, 0.3) 0px 16px 24px -16px;
+        --focus-ring: hsla(212, 100%, 48%, 1);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Geist', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-feature-settings: "liga" 1;
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a {
+      color: var(--color-accent);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.15s ease;
+    }
+
+    a:hover {
+      color: var(--color-accent-hover);
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 var(--space-4);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2);
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.43;
+      padding: 8px 16px;
+      border-radius: var(--radius-md);
+      border: none;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      text-decoration: none;
+    }
+
+    .btn:focus-visible {
+      outline: 2px solid var(--focus-ring);
+      outline-offset: 2px;
+    }
+
+    .btn-primary {
+      background-color: var(--color-text);
+      color: var(--color-bg);
+    }
+
+    .btn-primary:hover {
+      background-color: #000;
+      text-decoration: none;
+    }
+
+    .btn-secondary {
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      box-shadow: var(--shadow-border);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--color-surface);
+      text-decoration: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0 10px;
+      height: 24px;
+      border-radius: 9999px;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1;
+      background-color: #ebf5ff;
+      color: #0068d6;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .badge {
+        background-color: rgba(113, 112, 255, 0.15);
+        color: #a5a4ff;
+      }
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: var(--color-bg);
+      border-bottom: 1px solid var(--color-border-strong);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: -0.4px;
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .logo:hover {
+      text-decoration: none;
+    }
+
+    .logo svg {
+      width: 32px;
+      height: 32px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: var(--space-6);
+    }
+
+    .nav-links a {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--color-text-secondary);
+      text-decoration: none;
+    }
+
+    .nav-links a:hover {
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: var(--space-9) 0 var(--space-8);
+      text-align: center;
+    }
+
+    .hero .badge {
+      margin-bottom: var(--space-4);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 1.0;
+      letter-spacing: -2.4px;
+      color: var(--color-text);
+      margin-bottom: var(--space-4);
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.8;
+      color: var(--color-text-secondary);
+      max-width: 640px;
+      margin: 0 auto var(--space-6);
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: var(--space-3);
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .section {
+      padding: var(--space-9) 0;
+      border-top: 1px solid var(--color-border-strong);
+    }
+
+    .section:first-of-type {
+      border-top: none;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 640px;
+      margin: 0 auto var(--space-7);
+    }
+
+    .section-header .badge {
+      margin-bottom: var(--space-3);
+    }
+
+    .section-header h2 {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 1.2;
+      letter-spacing: -2.4px;
+      color: var(--color-text);
+      margin-bottom: var(--space-3);
+    }
+
+    .section-header p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--color-text-secondary);
+    }
+
+    .grid {
+      display: grid;
+      gap: var(--space-5);
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 1024px) {
+      .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .grid-2,
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+      .hero h1 {
+        font-size: 36px;
+        letter-spacing: -1.8px;
+      }
+      .hero p {
+        font-size: 18px;
+      }
+      .section-header h2 {
+        font-size: 32px;
+        letter-spacing: -1.92px;
+      }
+    }
+
+    .card {
+      background-color: var(--color-bg);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-card);
+      padding: var(--space-6);
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    .card:hover {
+      box-shadow: var(--shadow-hover);
+      transform: translateY(-2px);
+    }
+
+    .card-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-md);
+      background-color: var(--color-surface);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: var(--space-4);
+      color: var(--color-accent);
+    }
+
+    .card h3 {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1.33;
+      letter-spacing: -0.96px;
+      color: var(--color-text);
+      margin-bottom: var(--space-2);
+    }
+
+    .card p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.56;
+      color: var(--color-text-secondary);
+    }
+
+    .feature-list {
+      list-style: none;
+    }
+
+    .feature-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      padding: var(--space-3) 0;
+      border-bottom: 1px solid var(--color-border-strong);
+    }
+
+    .feature-list li:last-child {
+      border-bottom: none;
+    }
+
+    .feature-list .check {
+      width: 20px;
+      height: 20px;
+      border-radius: var(--radius-sm);
+      background-color: var(--color-accent);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .feature-list .check svg {
+      width: 12px;
+      height: 12px;
+    }
+
+    .feature-list .text strong {
+      display: block;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--color-text);
+      margin-bottom: 2px;
+    }
+
+    .feature-list .text span {
+      font-size: 14px;
+      color: var(--color-text-muted);
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--space-5);
+      margin-top: var(--space-7);
+    }
+
+    @media (max-width: 768px) {
+      .stats {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .stat {
+      text-align: center;
+      padding: var(--space-5);
+    }
+
+    .stat-value {
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 1.0;
+      letter-spacing: -2.4px;
+      color: var(--color-text);
+    }
+
+    .stat-label {
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--color-text-muted);
+      margin-top: var(--space-2);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .contact-form {
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    .form-group {
+      margin-bottom: var(--space-4);
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--color-text);
+      margin-bottom: var(--space-2);
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      font-family: inherit;
+      font-size: 16px;
+      padding: 12px 14px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-border-strong);
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--color-accent);
+      box-shadow: 0 0 0 3px rgba(10, 114, 239, 0.2);
+    }
+
+    .form-group input::placeholder,
+    .form-group textarea::placeholder {
+      color: var(--color-text-muted);
+    }
+
+    .company-info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: var(--space-5);
+      margin-top: var(--space-7);
+    }
+
+    .info-card {
+      background-color: var(--color-surface);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      border: 1px solid var(--color-border-strong);
+    }
+
+    .info-card h4 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--color-text);
+      margin-bottom: var(--space-3);
+    }
+
+    .info-card p {
+      font-size: 14px;
+      color: var(--color-text-secondary);
+      line-height: 1.6;
+    }
+
+    .info-card a {
+      font-size: 14px;
+    }
+
+    footer {
+      padding: var(--space-8) 0;
+      border-top: 1px solid var(--color-border-strong);
+      background-color: var(--color-surface);
+    }
+
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-4);
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: var(--space-6);
+    }
+
+    .footer-links a {
+      font-size: 14px;
+      color: var(--color-text-muted);
+    }
+
+    .footer-links a:hover {
+      color: var(--color-text);
+    }
+
+    .copyright {
+      font-size: 14px;
+      color: var(--color-text-muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 64 64" fill="none">
+          <circle cx="32" cy="32" r="30" fill="#171717"/>
+          <circle cx="32" cy="32" r="28" stroke="#0a72ef" stroke-width="2" fill="none" opacity="0.3"/>
+          <g transform="translate(16, 16)">
+            <circle cx="8" cy="8" r="3" fill="#0a72ef" opacity="0.9"/>
+            <circle cx="24" cy="8" r="3" fill="#0a72ef" opacity="0.7"/>
+            <circle cx="16" cy="20" r="3" fill="#0a72ef" opacity="0.8"/>
+            <circle cx="8" cy="32" r="3" fill="#0a72ef" opacity="0.6"/>
+            <circle cx="24" cy="32" r="3" fill="#0a72ef" opacity="0.7"/>
+            <circle cx="16" cy="44" r="3" fill="#0a72ef" opacity="0.9"/>
+            <path d="M11 8 L13 14 Q16 18 16 20 Q16 22 13 26 L11 32" stroke="#0a72ef" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/>
+            <path d="M21 8 L19 14 Q16 18 16 20 Q16 22 19 26 L21 32" stroke="#0a72ef" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/>
+            <path d="M8 11 L14 13 Q18 16 20 20 L20 24 Q18 28 14 30 L8 32" stroke="#0a72ef" stroke-width="1.5" fill="none" opacity="0.3" stroke-linecap="round"/>
+            <path d="M8 35 L14 37 Q18 40 20 44" stroke="#0a72ef" stroke-width="1.5" fill="none" opacity="0.3" stroke-linecap="round"/>
+            <path d="M20 35 L18 37 Q14 40 12 44" stroke="#0a72ef" stroke-width="1.5" fill="none" opacity="0.3" stroke-linecap="round"/>
+            <circle cx="16" cy="20" r="6" stroke="#0a72ef" stroke-width="1" fill="none" opacity="0.2"/>
+          </g>
+          <circle cx="50" cy="14" r="2" fill="#0a72ef" opacity="0.5"/>
+          <circle cx="54" cy="50" r="1.5" fill="#0a72ef" opacity="0.4"/>
+          <circle cx="10" cy="54" r="1.5" fill="#0a72ef" opacity="0.3"/>
+        </svg>
+        Bakanohito
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="changelog.html">Changelog</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="badge">AI Developer Infrastructure · Since 2023</span>
+        <h1>Building the future of AI-powered development tools</h1>
+        <p>We create infrastructure and tooling that helps engineering teams ship faster, debug smarter, and scale AI workflows with confidence.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Start a Conversation</a>
+          <a href="projects.html" class="btn btn-secondary">Explore Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">What We Build</span>
+          <h2>Products & Infrastructure</h2>
+          <p>Developer-first tools designed for modern AI workflows — from local experimentation to production deployment.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M8 21h8"></path>
+                <path d="M12 17v4"></path>
+              </svg>
+            </div>
+            <h3>Local AI Gateway</h3>
+            <p>Run and manage local LLMs with a unified API. Supports Ollama, llama.cpp, and custom models with OpenAI-compatible endpoints.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+              </svg>
+            </div>
+            <h3>Prompt Orchestrator</h3>
+            <p>Visual workflow builder for chaining prompts, tools, and model calls. Version control, testing, and observability built-in.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+            </div>
+            <h3>Eval & Observability</h3>
+            <p>Automated evaluation pipelines for LLM outputs. Track quality, latency, and cost across development and production.</p>
+          </article>
+        </div>
+        <div style="text-align: center; margin-top: var(--space-6);">
+          <a href="projects.html" class="btn btn-secondary">View All Projects →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Why Bakanohito</span>
+          <h2>Built for Production</h2>
+          <p>Not another wrapper. Infrastructure-grade tooling with the ergonomics you expect.</p>
+        </div>
+        <ul class="feature-list">
+          <li>
+            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+            <div class="text">
+              <strong>OpenAI-Compatible APIs</strong>
+              <span>Drop-in replacement for existing OpenAI SDK code. Works with Vercel AI SDK, LangChain, and 100+ tools.</span>
+            </div>
+          </li>
+          <li>
+            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+            <div class="text">
+              <strong>Local-First, Cloud-Ready</strong>
+              <span>Develop locally with full fidelity. Deploy to your cloud (AWS, GCP, Azure) or ours with one config change.</span>
+            </div>
+          </li>
+          <li>
+            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+            <div class="text">
+              <strong>Enterprise Security</strong>
+              <span>SOC 2 Type II in progress. Data never leaves your VPC. Audit logs, RBAC, and SSO (SAML/OIDC) included.</span>
+            </div>
+          </li>
+          <li>
+            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+            <div class="text">
+              <strong>Model Agnostic</strong>
+              <span>Swap between GPT-4, Claude, Llama, Mistral, or custom fine-tunes without changing application code.</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--color-surface);">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Track Record</span>
+          <h2>Deployed in Production Since 2023</h2>
+          <p>Real workloads, measurable results across enterprise and startup environments.</p>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-value">200+</div>
+            <div class="stat-label">Engineers Served</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">50k</div>
+            <div class="stat-label">Requests/Day</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">67%</div>
+            <div class="stat-label">Cost Reduction</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">3</div>
+            <div class="stat-label">Enterprise Deployments</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Get in Touch</span>
+          <h2>Let's Build Together</h2>
+          <p>Whether you're evaluating for your team, have a technical question, or want to partner — we'd love to hear from you.</p>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/xaybqwq" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Work Email</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required>
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Company name">
+          </div>
+          <div class="form-group">
+            <label for="message">How can we help?</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your use case..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+        </form>
+        <p style="text-align: center; margin-top: var(--space-4); font-size: 14px; color: var(--color-text-muted);">
+          Or email directly: <a href="mailto:hello@bakanohito.my.id">hello@bakanohito.my.id</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#171717"/><circle cx="32" cy="32" r="28" stroke="#0a72ef" stroke-width="2" fill="none" opacity="0.3"/><g transform="translate(16, 16)"><circle cx="8" cy="8" r="3" fill="#0a72ef" opacity="0.9"/><circle cx="24" cy="8" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="20" r="3" fill="#0a72ef" opacity="0.8"/><circle cx="8" cy="32" r="3" fill="#0a72ef" opacity="0.6"/><circle cx="24" cy="32" r="3" fill="#0a72ef" opacity="0.7"/><circle cx="16" cy="44" r="3" fill="#0a72ef" opacity="0.9"/></g></svg>
+        Bakanohito
+      </a>
+      <nav class="footer-links">
+        <a href="https://github.com/bakanohito" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://twitter.com/bakanohito" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://linkedin.com/company/bakanohito" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hello@bakanohito.my.id">Email</a>
+      </nav>
+      <p class="copyright">© 2025 Bakanohito Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

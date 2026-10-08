@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#fafafa" stroke="#ebebeb" stroke-width="1"/>
+  
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e5e5e5" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#grid)"/>
+  
+  <!-- Terminal window mockup -->
+  <rect x="40" y="40" width="320" height="200" rx="8" fill="#171717"/>
+  <!-- Window chrome -->
+  <rect x="40" y="40" width="320" height="36" rx="8" fill="#1f1f1f"/>
+  <circle cx="56" cy="58" r="6" fill="#ff5b4f"/>
+  <circle cx="76" cy="58" r="6" fill="#ffbd2e"/>
+  <circle cx="96" cy="58" r="6" fill="#28ca42"/>
+  
+  <!-- Terminal content -->
+  <text x="60" y="100" font-family="Geist Mono, monospace" font-size="13" fill="#8a8a8a">$ bakanohito gateway start --model llama-3.1-70b</text>
+  <text x="60" y="125" font-family="Geist Mono, monospace" font-size="13" fill="#4ade80">✓ Model loaded: llama-3.1-70b-instruct (4-bit)</text>
+  <text x="60" y="145" font-family="Geist Mono, monospace" font-size="13" fill="#4ade80">✓ API server running on http://localhost:20128</text>
+  <text x="60" y="165" font-family="Geist Mono, monospace" font-size="13" fill="#4ade80">✓ OpenAI-compatible endpoints active</text>
+  <text x="60" y="185" font-family="Geist Mono, monospace" font-size="13" fill="#a5a5a5">⚡ Ready for requests — 2.3s cold start</text>
+  
+  <!-- Metrics cards -->
+  <rect x="40" y="255" width="95" height="30" rx="4" fill="#ffffff" stroke="#ebebeb" stroke-width="1"/>
+  <text x="87.5" y="275" font-family="Geist, sans-serif" font-size="11" font-weight="600" fill="#171717" text-anchor="middle">2.3s</text>
+  <text x="87.5" y="287" font-family="Geist, sans-serif" font-size="9" fill="#666666" text-anchor="middle">Cold start</text>
+  
+  <rect x="145" y="255" width="95" height="30" rx="4" fill="#ffffff" stroke="#ebebeb" stroke-width="1"/>
+  <text x="192.5" y="275" font-family="Geist, sans-serif" font-size="11" font-weight="600" fill="#171717" text-anchor="middle">128k</text>
+  <text x="192.5" y="287" font-family="Geist, sans-serif" font-size="9" fill="#666666" text-anchor="middle">Context window</text>
+  
+  <rect x="250" y="255" width="110" height="30" rx="4" fill="#ffffff" stroke="#ebebeb" stroke-width="1"/>
+  <text x="305" y="275" font-family="Geist, sans-serif" font-size="11" font-weight="600" fill="#171717" text-anchor="middle">OpenAI API</text>
+  <text x="305" y="287" font-family="Geist, sans-serif" font-size="9" fill="#666666" text-anchor="middle">Compatible</text>
+</svg>
